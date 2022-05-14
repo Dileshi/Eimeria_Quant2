@@ -1,0 +1,727 @@
+experiment,EH_ID,completed_mice,labels,Fecal_status,Mouse_status,Repeated_extract,dpi,E57_Sample_status,VJD_Sample_status,fecal_mass_for_extraction_in grams,Extraction_round_1,Extraction_round_2,Errors_during_extraction,Faeces_for_RNA-Extraction,Sample_location,Date_of_extraction,Executor,V_H20,Date&Time,DNA_Conc,Unit,A260,A280,260/280,260/230,Sample_type
+E57,LM0179,,E57aACD,,,,0,Found,Found,,,,,,Box_5_Row_4,,,,,,,,,,,
+E57,LM0179,,E57aMQS,,,,1,Found,Found,,,,,,Box_5_Row_4,,,,,,,,,,,
+E57,LM0179,,E57aHUY,,,,2,Found,Found,,,,,,Box_5_Row_4,,,,,,,,,,,
+E57,LM0179,,E57aHKT,,,,3,Found,Unknown,0.0109,with_beads,with_beads,,,Box_5_Row_4,05.04.2022_B1,Dileshi,,4/5/2022 3:49:42 PM,51,ng/µl,1.019,2.846,0.36,0.3,D
+E57,LM0179,,E57aELN,,,,4,Found,Found,0.0580,with_beads,with_beads,,,Box_5_Row_4,05.04.2022_B1,Dileshi,,4/5/2022 3:48:03 PM,-140.3,ng/µl,-2.805,0.757,-3.71,-0.8,D
+E57,LM0179,,E57aVXY,,,,5,Found,Found,0.0374,with_beads,with_beads,,,Box_5_Row_4,05.04.2022_B1,Dileshi,,4/5/2022 3:53:42 PM,-102.8,ng/µl,-2.055,1.153,-1.78,-0.41,D
+E57,LM0179,,E57aRVX,,,,6,Unknown,Found,0.0389,with_beads,with_beads,,,Box_5_Row_4,14.03.2022,Alexa,,3/14/2022 2:07:55 PM,33.9,ng/µl,0.677,0.39,1.74,1.05,D
+E57,LM0179,,E57aBEJ,,,,7,Found,Unknown,0.0248,with_beads,with_beads,,,Box_5_Row_4,21.03.2022,Alexa,,3/21/2022 1:21:52 PM,155.2,ng/µl,3.103,1.776,1.75,0.69,D
+E57,LM0179,,E57aOQZ,Diarrhea,,,8,Unknown,Unknown,,,,,,Box_5_Row_4,,,,,,,,,,,
+E57,LM0179,,E57aGTY,,,,9,Found,Found,0.0363,with_beads,with_beads,,,Box_5_Row_4,11.03.2022_B2,Dileshi,,3/11/2022 6:03:17 PM,198.2,ng/µl,3.965,2.19,1.81,2.13,D
+E57,LM0179,,E57aBLZ,,,,10,Found,Found,,,,,,Box_5_Row_4,,,,,,,,,,,
+E57,LM0179,,E57aCXY,,,,11,Found,Found,,,,,,Box_5_Row_4,,,,,,,,,,,
+E57,LM0180,XX,E57aBLX,,,,0,Found,Unknown,0.0568,with_beads,with_beads,,,Box_5_Row_3,19.04.2022_B1,Dileshi,,4/19/2022 12:37:20 PM,305.2,ng/µl,6.104,3.343,1.83,2.05,D
+E57,LM0180,XX,E57aDTY,,,,1,Found,Found,0.0694,with_beads,with_beads,,Available,Box_5_Row_3,19.04.2022_B1,Dileshi,,4/19/2022 12:40:26 PM,200.9,ng/µl,4.019,2.188,1.84,2,D
+E57,LM0180,XX,E57aMQT,,,,2,Found,Found,0.1058,with_beads,with_beads,,Available,Box_5_Row_3,10.04.2022_B1,Dileshi,,4/10/2022 5:19:00 PM,354.7,ng/µl,7.094,3.995,1.78,1.26,D
+E57,LM0180,XX,E57aMQT,,,,2,Found,Found,0.1058,with_beads,with_beads,,Available,Box_5_Row_3,10.04.2022_B1,Dileshi,,4/26/2022 7:52:23 PM,364.4,ng/µl,7.288,4.07,1.79,1.2,D
+E57,LM0180,XX,E57aCLZ,,,,3,Found,Unknown,0.0923,with_beads,with_beads,,Available,Box_5_Row_3,05.04.2022_B1,Dileshi,,4/5/2022 3:44:19 PM,178.6,ng/µl,3.572,4.234,0.84,0.28,D
+E57,LM0180,XX,E57aGLV,,,,4,Found,Found,0.1095,with_beads,with_beads,,Available,Box_5_Row_3,10.04.2022_B1,Dileshi,,4/10/2022 5:15:58 PM,232.8,ng/µl,4.657,2.575,1.81,1.92,D
+E57,LM0180,XX,E57aGLV,,,,4,Found,Found,0.1095,with_beads,with_beads,,Available,Box_5_Row_3,10.04.2022_B1,Dileshi,,4/26/2022 7:53:22 PM,225.9,ng/µl,4.517,2.489,1.81,1.8,D
+E57,LM0180,XX,E57aLMW,,,,5,Found,Found,0.0722,with_beads,with_beads,,Available,Box_5_Row_3,19.04.2022_B1,Dileshi,,4/19/2022 12:43:41 PM,341.7,ng/µl,6.833,3.702,1.85,2.15,D
+E57,LM0180,XX,E57aKWY,,,,6,Found,Found,0.1007,with_beads,with_beads,,Available,Box_5_Row_3,11.03.2022_B1,Dileshi,,3/11/2022 6:18:12 PM,119.6,ng/µl,2.392,1.288,1.86,1.95,D
+E57,LM0180,XX,E57aKWY,,,,6,Found,Found,0.1007,with_beads,with_beads,,Available,Box_5_Row_3,11.03.2022_B1,Dileshi,,4/26/2022 7:50:31 PM,143.9,ng/µl,2.879,1.563,1.84,1.59,D
+E57,LM0180,XX,E57aQRU,,,,7,Found,Unknown,0.1067,with_beads,with_beads,,Available,Box_5_Row_3,11.03.2022_B2,Dileshi,,3/11/2022 6:04:58 PM,112.9,ng/µl,2.258,1.249,1.81,1.4,D
+E57,LM0180,XX,E57aQRU,,,,7,Found,Unknown,0.1067,with_beads,with_beads,,Available,Box_5_Row_3,11.03.2022_B2,Dileshi,,4/26/2022 7:48:58 PM,139.7,ng/µl,2.795,1.523,1.83,1.73,D
+E57,LM0180,XX,E57aCGI,Soft,,,8,Unknown,Unknown,,,,,Available,Box_5_Row_3,,,,,,,,,,,
+E57,LM0180,XX,E57aQVZ,,,,9,Found,Found,0.0606,with_beads,with_beads,,Available,Box_5_Row_3,19.04.2022_B1,Dileshi,,4/19/2022 12:45:13 PM,226.4,ng/µl,4.528,2.448,1.85,2.42,D
+E57,LM0180,XX,E57aDPT,,,,10,Found,Found,0.0558,with_beads,with_beads,,Available,Box_5_Row_3,19.04.2022_B1,Dileshi,,4/19/2022 12:39:30 PM,294.7,ng/µl,5.893,3.186,1.85,2.24,D
+E57,LM0180,XX,E57aIJY,,,,11,Found,Found,0.0540,with_beads,with_beads,,Available,Box_5_Row_3,19.04.2022_B1,Dileshi,,4/19/2022 12:42:54 PM,344.3,ng/µl,6.887,3.738,1.84,2.14,D
+E57,LM0181,,E57aAWY,,,,0,Found,Found,,,,,,Box_5_Row_2,,,,,,,,,,,
+E57,LM0181,,E57aMQR,,,,1,Empty,Found,,,,,Available,Box_5_Row_2,,,,,,,,,,,
+E57,LM0181,,E57aIRX,,,,2,Found,Found,,,,,Available,Box_5_Row_2,,,,,,,,,,,
+E57,LM0181,,E57aQTW,,,,3,Empty,Unknown,,,,,Available,Box_5_Row_2,,,,,,,,,,,
+E57,LM0181,,E57aPSY,,,,4,Found,Found,0.0942,with_beads,with_beads,,,Box_5_Row_2,07.04.2022_B1,Dileshi,,4/7/2022 2:26:17 PM,259.2,ng/µl,5.184,3.021,1.72,1.47,D
+E57,LM0181,,E57aKMS,,,,5,Found,Found,0.0956,with_beads,with_beads,,,Box_5_Row_2,07.04.2022_B1,Dileshi,,4/7/2022 2:25:30 PM,325.2,ng/µl,6.503,3.755,1.73,2,D
+E57,LM0181,,E57aJLY,,,,6,Found,Found,0.0922,with_beads,with_beads,,,Box_5_Row_2,15.03.2022,Alexa,,3/15/2022 12:14:36 PM,176.1,ng/µl,3.522,1.923,1.83,1.76,D
+E57,LM0181,,E57aINV,,,,7,Found,Unknown,0.1143,with_beads,with_beads,,,Box_5_Row_2,15.03.2022,Alexa,,3/15/2022 12:14:36 PM,176.1,ng/µl,3.522,1.923,1.83,1.76,D
+E57,LM0181,,E57aLPT,,,,8,Unknown,Unknown,,,,,Available,Box_5_Row_2,,,,,,,,,,,
+E57,LM0181,,E57aHPU,,,,9,Found,Found,,,,,Available,Box_5_Row_2,,,,,,,,,,,
+E57,LM0181,,E57aBCS,,,,10,Empty,Found,,,,,,Box_5_Row_2,,,,,,,,,,,
+E57,LM0181,,E57aCGH,,,,11,Found,Found,,,,,Available,Box_5_Row_2,,,,,,,,,,,
+E57,LM0182,XX,E57aCLT,,,,0,Found,Found,0.0602,with_beads,with_beads,,,Box_5_Row_1,19.04.2022_B2,Dileshi,,4/19/2022 5:13:05 PM,197.9,ng/µl,3.958,2.142,1.85,2.23,D
+E57,LM0182,XX,E57aESV,,,,1,Empty,Found,0.0603,with_beads,with_beads,,,Box_5_Row_1,19.04.2022_B2,Dileshi,,4/19/2022 5:13:54 PM,209.6,ng/µl,4.193,2.35,1.78,1.62,D
+E57,LM0182,XX,E57aBOR,,,,2,Empty,Found,0.0741,with_beads,with_beads,,,Box_5_Row_1,19.04.2022_B2,Dileshi,,4/19/2022 5:12:11 PM,235.1,ng/µl,4.702,2.549,1.84,1.57,D
+E57,LM0182,XX,E57aHIS,,,,3,Found,Unknown,0.0162,with_beads,with_beads,,,Box_5_Row_1,23.04.2022_B1,Dileshi,,4/23/2022 4:43:18 PM,139.5,ng/µl,2.789,1.578,1.77,1.4,D
+E57,LM0182,XX,E57aABD,,,,4,Found,Found,0.0795,with_beads,with_beads,,Available,Box_5_Row_1,19.04.2022_B2,Dileshi,,4/19/2022 5:10:11 PM,202,ng/µl,4.04,2.182,1.85,2.08,D
+E57,LM0182,XX,E57aJMY,,,,5,Found,Found,0.0525,with_beads,with_beads,,Available,Box_5_Row_1,19.04.2022_B2,Dileshi,,4/19/2022 5:15:59 PM,185.6,ng/µl,3.711,2.058,1.8,1.87,D
+E57,LM0182,XX,E57aJRS,,,,6,Found,Found,0.1052,with_beads,with_beads,,Available,Box_5_Row_1,11.03.2022_B2,Dileshi,,3/11/2022 6:04:03 PM,112.9,ng/µl,2.259,1.265,1.79,1.54,D
+E57,LM0182,XX,E57aJRS,,,,6,Found,Found,0.1052,with_beads,with_beads,,Available,Box_5_Row_1,11.03.2022_B2,Dileshi,,4/26/2022 7:59:21 PM,134.2,ng/µl,2.685,1.471,1.83,1.93,D
+E57,LM0182,XX,E57aFSW,,,,7,Found,Unknown,0.0847,with_beads,with_beads,,,Box_5_Row_1,17.03.2022,Alexa,,4/26/2022 8:14:26 PM,82.6,ng/µl,1.652,0.88,1.88,2.13,D
+E57,LM0182,XX,E57aACW,,,,8,Found,Unknown,0.0340,with_beads,with_beads,,Available,Box_5_Row_1,11.03.2022_B1,Dileshi,,3/11/2022 6:13:17 PM,26.4,ng/µl,0.528,0.309,1.71,0.99,D
+E57,LM0182,XX,E57aACW,,,,8,Found,Unknown,0.0340,with_beads,with_beads,,Available,Box_5_Row_1,11.03.2022_B1,Dileshi,,4/26/2022 7:58:49 PM,52.2,ng/µl,1.044,0.584,1.79,1.52,D
+E57,LM0182,XX,E57aJSW,,,,9,Found,Found,0.0556,with_beads,with_beads,,Available,Box_5_Row_1,19.04.2022_B2,Dileshi,,4/19/2022 5:16:48 PM,237.8,ng/µl,4.757,2.605,1.83,2.02,D
+E57,LM0182,XX,E57aDMZ,,,,10,Found,Found,0.0470,with_beads,with_beads,,Available,Box_5_Row_1,20.04.2022_B1,Dileshi,,4/20/2022 2:00:46 PM,250.2,ng/µl,5.005,2.869,1.74,1.44,D
+E57,LM0182,XX,E57aHNX,,,,11,Found,Found,0.0650,with_beads,with_beads,,Available,Box_5_Row_1,20.04.2022_B1,Dileshi,,4/20/2022 2:04:08 PM,168.6,ng/µl,3.373,1.836,1.84,1.96,D
+E57,LM0183,,E57aCEK,,,,0,Found,Found,,,,,,Box_4_Row_5,,,,,,,,,,,
+E57,LM0183,,E57aPTZ,,,,1,Found,Found,,,,,,Box_4_Row_5,,,,,,,,,,,
+E57,LM0183,,E57aCLN,,,,2,Found,Found,,,,,,Box_4_Row_5,,,,,,,,,,,
+E57,LM0183,,E57aAVZ,,,,3,Found,Unknown,,,,,,Box_4_Row_5,,,,,,,,,,,
+E57,LM0183,,E57aDEO,,,,4,Found,Found,,,,,,Box_4_Row_5,,,,,,,,,,,
+E57,LM0183,,E57aEKQ,,,,5,Found,Found,,,,,Available,Box_4_Row_5,,,,,,,,,,,
+E57,LM0183,,E57aDSY,,,,6,Found,Found,0.0826,with_beads,with_beads,,,Box_4_Row_5,15.03.2022,Alexa,,3/15/2022 3:22:16 PM,81.3,ng/µl,1.626,0.862,1.89,3.65,D
+E57,LM0183,,E57aHJV,,,,7,Found,Unknown,0.0528,with_beads,with_beads,,,Box_4_Row_5,17.03.2022,Alexa,,3/17/2022 2:07:47 PM,162,ng/µl,3.24,1.797,1.8,1.49,D
+E57,LM0183,,E57aDIY,Soft,,,8,Unknown,Unknown,,,,,,Box_4_Row_5,,,,,,,,,,,
+E57,LM0183,,E57aCIX,,,,9,Unknown,Found,,,,,,Box_4_Row_5,,,,,,,,,,,
+E57,LM0183,,E57aABT,,,,10,Found,Found,,,,,,Box_4_Row_5,,,,,,,,,,,
+E57,LM0183,,E57aPWX,,,,11,Found,Found,,,,,,Box_4_Row_5,,,,,,,,,,,
+E57,LM0184,XX,E57aCUX,,,,0,Found,Found,0.0639,with_beads,with_beads,,,Box_4_Row_4,20.04.2022_B2,Dileshi,,4/20/2022 5:57:39 PM,220.7,ng/µl,4.413,2.447,1.8,1.9,D
+E57,LM0184,XX,E57aEKO,,,,1,Found,Found,0.0554,with_beads,with_beads,Step_7_round_2_supertant_lost,,Box_4_Row_4,21.04.2022_B1,Dileshi,,4/21/2022 12:29:07 PM,97.6,ng/µl,1.952,1.067,1.83,1.9,D
+E57,LM0184,XX,E57aETU,,,,2,Found,Found,0.0527,with_beads,with_beads,,,Box_4_Row_4,21.04.2022_B1,Dileshi,,4/21/2022 12:30:04 PM,251.9,ng/µl,5.037,2.751,1.83,1.61,D
+E57,LM0184,XX,E57aLPU,,,,3,Found,Unknown,0.0555,with_beads,with_beads,,,Box_4_Row_4,23.04.2022_B1,Dileshi,,4/23/2022 4:45:35 PM,50.7,ng/µl,1.014,0.586,1.73,1.1,D
+E57,LM0184,XX,E57aEHS,,,,4,Found,Found,0.0554,with_beads,with_beads,Step_7_round_2_supertant_lost,,Box_4_Row_4,21.04.2022_B1,Dileshi,,4/21/2022 12:28:13 PM,163.9,ng/µl,3.279,1.785,1.84,2.04,D
+E57,LM0184,XX,E57aOPZ,,,,5,Found,Found,0.0597,with_beads,with_beads,,,Box_4_Row_4,21.04.2022_B1,Dileshi,,4/21/2022 12:33:13 PM,225.9,ng/µl,4.517,2.487,1.82,1.65,D
+E57,LM0184,XX,E57aSYZ,,,,6,Empty,Found,0.0653,with_beads,with_beads,,Available,Box_4_Row_4,21.04.2022_B1,Dileshi,,4/21/2022 12:34:52 PM,248.9,ng/µl,4.979,2.712,1.84,2.25,D
+E57,LM0184,XX,E57aNRW,,,,7,Found,Unknown,0.0035,with_beads,with_beads,,Available,Box_4_Row_4,17.03.2022,Alexa,,3/17/2022 2:06:13 PM,24.7,ng/µl,0.494,0.27,1.83,0.6,D
+E57,LM0184,XX,E57aNRW,,,,7,Found,Unknown,0.0035,with_beads,with_beads,,Available,Box_4_Row_4,17.03.2022,Alexa,,4/26/2022 7:58:13 PM,23.7,ng/µl,0.475,0.278,1.71,0.55,D
+E57,LM0184,XX,E57aLSU,,,,8,Found,Unknown,0.0302,with_beads,with_beads,,Available,Box_4_Row_4,17.03.2022,Alexa,,3/17/2022 1:57:59 PM,124.7,ng/µl,2.495,1.358,1.84,2.12,D
+E57,LM0184,XX,E57aLSU,,,,8,Found,Unknown,0.0302,with_beads,with_beads,,Available,Box_4_Row_4,17.03.2022,Alexa,,4/26/2022 8:02:00 PM,134.1,ng/µl,2.681,1.48,1.81,1.94,D
+E57,LM0184,XX,E57aLSZ,,,,9,Found,Found,0.0618,with_beads,with_beads,,Available,Box_4_Row_4,21.04.2022_B1,Dileshi,,4/21/2022 12:31:34 PM,349.4,ng/µl,6.989,3.858,1.81,2.13,D
+E57,LM0184,XX,E57aBGM,,,,10,Found,Found,0.0525,with_beads,with_beads,,Available,Box_4_Row_4,21.04.2022_B1,Dileshi,,4/21/2022 12:27:05 PM,303.6,ng/µl,6.072,3.359,1.81,1.95,D
+E57,LM0184,XX,E57aKNT,,,,11,Found,Found,0.0506,with_beads,with_beads,,Available,Box_4_Row_4,20.04.2022_B2,Dileshi,,4/20/2022 6:00:22 PM,262.8,ng/µl,5.256,2.873,1.83,2.24,D
+E57,LM0185,XX,E57aCEG,,,,0,Found,Found,0.0867,with_beads,with_beads,,,Box_4_Row_3,10.04.2022_B1,Dileshi,,4/10/2022 5:13:03 PM,315.1,ng/µl,6.302,3.499,1.8,1.86,D
+E57,LM0185,XX,E57aCEG,,,,0,Found,Found,0.0867,with_beads,with_beads,,,Box_4_Row_3,10.04.2022_B1,Dileshi,,4/26/2022 7:55:31 PM,330.5,ng/µl,6.609,3.654,1.81,1.8,D
+E57,LM0185,XX,E57aMOV,,,,1,Found,Found,0.0477,with_beads,with_beads,,,Box_4_Row_3,20.04.2022_B2,Dileshi,,4/20/2022 6:01:11 PM,212.9,ng/µl,4.259,2.381,1.79,1.75,D
+E57,LM0185,XX,E57aIPY,,,,2,Found,Found,0.0752,with_beads,with_beads,,,Box_4_Row_3,20.04.2022_B1,Dileshi,,4/20/2022 2:06:03 PM,200.5,ng/µl,4.01,2.257,1.78,1.5,D
+E57,LM0185,XX,E57aIPT,,,,3,Found,Unknown,0.0884,with_beads,with_beads,,,Box_4_Row_3,10.04.2022_B1,Dileshi,,4/10/2022 5:17:30 PM,130.7,ng/µl,2.615,1.494,1.75,1.17,D
+E57,LM0185,XX,E57aIPT,,,,3,Found,Unknown,0.0884,with_beads,with_beads,,,Box_4_Row_3,10.04.2022_B1,Dileshi,,4/26/2022 7:51:02 PM,106.4,ng/µl,2.127,1.171,1.82,1.34,D
+E57,LM0185,XX,E57aBCE,,,,4,Found,Found,0.1047,with_beads,with_beads,,,Box_4_Row_3,10.04.2022_B1,Dileshi,,4/10/2022 5:12:12 PM,-30.8,ng/µl,-0.617,-0.342,1.81,0.89,D
+E57,LM0185,XX,E57aBCE2,,,Yes,4,Unknown,Found,0.0509,with_beads,with_beads,,,,20.04.2022_B2,Dileshi,,4/20/2022 5:52:54 PM,187.1,ng/µl,3.742,2.041,1.83,2.13,D
+E57,LM0185,XX,E57aCKR,,,,5,Found,Found,0.0609,with_beads,with_beads,,Available,Box_4_Row_3,20.04.2022_B2,Dileshi,,4/20/2022 5:54:32 PM,239.2,ng/µl,4.784,2.7,1.77,1.6,D
+E57,LM0185,XX,E57aEFU2,,,,6,Found,Found,0.0518,with_beads,with_beads,,Available,Box_4_Row_3,20.04.2022_B2,Dileshi,,4/20/2022 5:59:05 PM,131.2,ng/µl,2.625,1.482,1.77,1.28,D
+E57,LM0185,XX,E57aEFU,,,Yes,6,,,0.0813,with_beads,with_beads,,,,15.03.2022,Alexa,,3/15/2022 3:20:22 PM,46.7,ng/µl,0.934,0.489,1.91,14.78,D
+E57,LM0185,XX,E57aBIL,,,,7,Found,Unknown,0.1431,with_beads,with_beads,,,Box_4_Row_3,15.03.2022,Alexa,,4/26/2022 7:50:02 PM,275.1,ng/µl,5.501,3.021,1.82,2.06,D
+E57,LM0185,XX,E57aDMV,,,,8,Found,Found,0.0734,with_beads,with_beads,,,Box_4_Row_3,20.04.2022_B2,Dileshi,,3/21/2022 1:25:28 PM,27.2,ng/µl,0.544,0.288,1.89,-5.51,D
+E57,LM0185,XX,E57aDMV2,,,Yes,8,,,0.0329,with_beads,with_beads,,Available,,21.03.2022,Alexa,,4/20/2022 5:58:20 PM,149.3,ng/µl,2.985,1.674,1.78,1.55,D
+E57,LM0185,XX,E57aIKO,,,,9,Found,Found,0.0710,with_beads,with_beads,,,Box_4_Row_3,20.04.2022_B2,Dileshi,,4/20/2022 5:59:46 PM,279.1,ng/µl,5.582,3.149,1.77,1.67,D
+E57,LM0185,XX,E57aCHR,,,,10,Unknown,Found,0.0482,with_beads,with_beads,,,Box_4_Row_3,20.04.2022_B2,Dileshi,,4/20/2022 5:51:54 PM,261.7,ng/µl,5.235,2.9,1.8,1.97,D
+E57,LM0185,XX,E57aCKW,,,,11,Found,Found,0.0803,with_beads,with_beads,,Available,Box_4_Row_3,20.04.2022_B2,Dileshi,,4/20/2022 5:55:22 PM,248.8,ng/µl,4.976,2.768,1.8,1.76,D
+E57,LM0186,XX,E57aFPV,,,,0,Found,Found,0.0739,with_beads,with_beads,,Available,Box_4_Row_2,20.04.2022_B1,Dileshi,,4/20/2022 2:02:21 PM,262.8,ng/µl,5.255,2.909,1.81,1.75,D
+E57,LM0186,XX,E57aSUW,,,,1,Unknown,Found,0.0839,with_beads,with_beads,,Available,Box_4_Row_2,20.04.2022_B1,Dileshi,,4/20/2022 2:07:31 PM,41.1,ng/µl,0.822,0.45,1.83,1.58,D
+E57,LM0186,XX,E57aCDE,,,,2,Found,Found,0.0634,with_beads,with_beads,,Available,Box_4_Row_2,20.04.2022_B1,Dileshi,,4/20/2022 1:58:19 PM,150.6,ng/µl,3.013,1.626,1.85,2.18,D
+E57,LM0186,XX,E57aFJQ,,,,3,Found,Unknown,0.0590,with_beads,with_beads,,,Box_4_Row_2,23.04.2022_B1,Dileshi,,4/23/2022 4:42:34 PM,126.3,ng/µl,2.526,1.393,1.81,1.78,D
+E57,LM0186,XX,E57aCEW,,,,4,Found,Found,0.0373,with_beads,with_beads,,,Box_4_Row_2,20.04.2022_B1,Dileshi,,4/20/2022 1:59:49 PM,181.2,ng/µl,3.623,1.975,1.83,1.76,D
+E57,LM0186,XX,E57aBQY,,,,5,Found,Found,0.0520,with_beads,with_beads,,Available,Box_4_Row_2,20.04.2022_B1,Dileshi,,4/20/2022 1:56:11 PM,88,ng/µl,1.759,0.951,1.85,2.08,D
+E57,LM0186,XX,E57aEJM,,,,6,Found,Found,0.0938,with_beads,with_beads,,,Box_4_Row_2,18.03.2022,Alexa,,3/18/2022 1:02:31 PM,211.6,ng/µl,4.232,2.303,1.84,2.44,D
+E57,LM0186,XX,E57aBQZ,,,,7,Found,Unknown,0.1006,with_beads,with_beads,,,Box_4_Row_2,17.03.2022,Alexa,,4/26/2022 8:03:04 PM,199.8,ng/µl,3.997,2.195,1.82,1.53,D
+E57,LM0186,XX,E57aJPY,,,,8,Found,Unknown,0.0352,with_beads,with_beads,,,Box_4_Row_2,17.03.2022,Alexa,,4/26/2022 8:03:37 PM,41.4,ng/µl,0.828,0.464,1.79,1.33,D
+E57,LM0186,XX,E57aKQZ,,,,9,Found,Found,0.1045,with_beads,with_beads,,Available,Box_4_Row_2,17.03.2022,Alexa,,4/26/2022 8:02:34 PM,151.3,ng/µl,3.026,1.666,1.82,1.6,D
+E57,LM0186,XX,E57aFJK,,,,10,Found,Found,0.0630,with_beads,with_beads,,Available,Box_4_Row_2,20.04.2022_B1,Dileshi,,4/20/2022 2:01:39 PM,182.6,ng/µl,3.652,1.993,1.83,2.11,D
+E57,LM0186,XX,E57aHQT,,,,11,Empty,Found,0.0706,with_beads,with_beads,,,Box_4_Row_2,20.04.2022_B1,Dileshi,,4/20/2022 2:05:17 PM,268.4,ng/µl,5.367,2.94,1.83,2.08,D
+E57,LM0186,XX,E57aHQT,,,,11,Empty,Found,0.0706,with_beads,with_beads,,,Box_4_Row_2,20.04.2022_B1,Dileshi,,4/20/2022 2:05:17 PM,268.4,ng/µl,5.367,2.94,1.83,2.08,D
+E57,LM0187,,E57aFJS,,,,0,Found,Found,,,,,,Box_9_Row_2,,,,,,,,,,,
+E57,LM0187,,E57aENZ,,,,1,Found,Found,,,,,,Box_9_Row_2,,,,,,,,,,,
+E57,LM0187,,E57aNQS,,,,2,Found,Found,,,,,,Box_9_Row_2,,,,,,,,,,,
+E57,LM0187,,E57aMNV,,,,3,Found,Unknown,,,,,Available,Box_9_Row_2,,,,,,,,,,,
+E57,LM0187,,E57aEPU,,,,4,Found,Found,,,,,,Box_9_Row_2,,,,,,,,,,,
+E57,LM0187,,E57aMOU,,,,5,Found,Found,,,,,,Box_9_Row_2,,,,,,,,,,,
+E57,LM0187,,E57aFPR,,,,6,Unknown,Found,,,,,,Box_9_Row_2,,,,,,,,,,,
+E57,LM0187,,E57aAOP,,,,7,Found,Unknown,0.0459,with_beads,with_beads,,,Box_9_Row_2,15.03.2022,Alexa,,3/15/2022 12:09:24 PM,106.4,ng/µl,2.129,1.154,1.85,2.14,D
+E57,LM0187,,E57aAPW,,Sacrificed,,8,Empty,Unknown,,,,,Available,Box_9_Row_2,,,,,,,,,,,
+E57,LM0187,,E57aKPZ,Uvailable,Sacrificed,,9,Unknown,Unknown,,,,,,Box_9_Row_2,,,,,,,,,,,
+E57,LM0187,,E57aAKP,Uvailable,Sacrificed,,10,Unknown,Unknown,,,,,,Box_9_Row_2,,,,,,,,,,,
+E57,LM0187,,E57aCIZ,Uvailable,Sacrificed,,11,Unknown,Unknown,,,,,,Box_9_Row_2,,,,,,,,,,,
+E57,LM0188,XX,E57aCIW,,,,0,Found,Found,0.0840,with_beads,with_beads,,,Box_3_Row_5,10.04.2022_B1,Dileshi,,4/10/2022 5:14:11 PM,-33.4,ng/µl,-0.669,-0.342,1.95,1.04,D
+E57,LM0188,XX,E57aCIW2,,,Yes,0,Unknown,Found,0.0589,with_beads,with_beads,,,,22.04.2022_B1,Dileshi,,4/22/2022 5:26:10 PM,261.1,ng/µl,5.222,2.872,1.82,1.9,D
+E57,LM0188,XX,E57aBCR,,,,1,Found,Found,0.0504,with_beads,with_beads,,,Box_3_Row_5,22.04.2022_B1,Dileshi,,4/22/2022 5:24:37 PM,274.7,ng/µl,5.494,3.031,1.81,1.87,D
+E57,LM0188,XX,E57aFKW,,,,2,Found,Unknown,0.0662,with_beads,with_beads,,,Box_3_Row_5,23.04.2022_B2,Dileshi,,4/23/2022 8:22:53 PM,34.1,ng/µl,0.682,0.389,1.76,0.92,D
+E57,LM0188,XX,E57aDRY,,,,3,Found,Unknown,0.0690,with_beads,with_beads,,,Box_3_Row_5,23.04.2022_B2,Dileshi,,4/23/2022 8:20:53 PM,117.8,ng/µl,2.357,1.273,1.85,1.54,D
+E57,LM0188,XX,E57aDNX,,,,4,Found,Found,0.0745,with_beads,with_beads,,,Box_3_Row_5,22.04.2022_B1,Dileshi,,4/22/2022 5:27:40 PM,120.9,ng/µl,2.419,1.327,1.82,2.02,D
+E57,LM0188,XX,E57aAOV,,,,5,Found,Found,0.0731,with_beads,with_beads,,,Box_3_Row_5,10.03.2022_B1,Dileshi,,3/10/2022 3:24:35 PM,212.2,ng/µl,4.243,2.326,1.82,1.76,D
+E57,LM0188,XX,E57aAOV2,,,Yes,5,Unknown,Found,0.0532,with_beads,with_beads,,,,22.04.2022_B1,Dileshi,,4/22/2022 5:23:53 PM,217.6,ng/µl,4.351,2.398,1.81,1.92,D
+E57,LM0188,XX,E57aEOU,,,,6,Unknown,Found,0.0552,with_beads,with_beads,,,Box_3_Row_5,22.04.2022_B1,Dileshi,,4/22/2022 5:28:22 PM,137.8,ng/µl,2.756,1.521,1.81,1.41,D
+E57,LM0188,XX,E57aUVY,Soft,,,7,Found,Unknown,0.0207,with_beads,with_beads,,,Box_3_Row_5,21.03.2022,Alexa,,3/21/2022 1:19:18 PM,20.7,ng/µl,0.414,0.217,1.9,-3.71,D
+E57,LM0188,XX,E57aUVY,Soft,,,7,Found,Unknown,0.0207,with_beads,with_beads,,,Box_3_Row_5,21.03.2022,Alexa,,4/26/2022 7:43:36 PM,30.8,ng/µl,0.617,0.34,1.81,0.96,D
+E57,LM0188,XX,E57aDET,,,,8,Found,Unknown,0.0908,with_beads,with_beads,,,Box_3_Row_5,11.03.2022_B1,Dileshi,,3/11/2022 6:16:30 PM,216.5,ng/µl,4.33,2.482,1.74,1.37,D
+E57,LM0188,XX,E57aTWY,,,,9,Empty,Found,0.0316,with_beads,with_beads,,Available,Box_3_Row_5,22.04.2022_B1,Dileshi,,4/22/2022 5:29:48 PM,314.9,ng/µl,6.299,3.502,1.8,1.87,D
+E57,LM0188,XX,E57aCIP,,,,10,Found,Found,0.0640,with_beads,with_beads,,Available,Box_3_Row_5,22.04.2022_B2,Dileshi,,4/22/2022 8:21:10 PM,278.5,ng/µl,5.57,3.108,1.79,2.14,D
+E57,LM0188,XX,E57aIJT,,,,11,Found,Found,0.0805,with_beads,with_beads,,,Box_3_Row_5,22.04.2022_B2,Dileshi,,4/22/2022 8:26:07 PM,302.2,ng/µl,6.043,3.322,1.82,1.94,D
+E57,LM0189,,E57aIJW,,,,0,Found,Found,,,,,Available,Box_12unlabeled_Row_1,,,,,,,,,,,
+E57,LM0189,,E57aCJS,,,,1,Found,Found,,,,,Available,Box_12unlabeled_Row_1,,,,,,,,,,,
+E57,LM0189,,E57aDOV,,,,2,Found,Found,,,,,,Box_12unlabeled_Row_1,,,,3/11/2022 6:22:35 PM,339.9,ng/µl,6.797,3.834,1.77,1.81,D
+E57,LM0189,,E57aKSV,,,,3,Found,Unknown,,,,,Available,Box_12unlabeled_Row_1,,,,,,,,,,,
+E57,LM0189,,E57aAYZ,,,,4,Found,Found,,,,,Available,Box_12unlabeled_Row_1,,,,,,,,,,,
+E57,LM0189,,E57aCKY,,,,5,Found,Found,,,,,,Box_12unlabeled_Row_1,,,,,,,,,,,
+E57,LM0189,,E57aABV,,,,6,Found,Found,0.1047,with_beads,with_beads,,,Box_12unlabeled_Row_1,11.03.2022_B2,Dileshi,,3/11/2022 5:56:57 PM,143.5,ng/µl,2.871,1.541,1.86,2.2,D
+E57,LM0189,,E57aCHW,,,,7,Empty,Unknown,,,,,,Box_12unlabeled_Row_1,,,,,,,,,,,
+E57,LM0189,,E57aAOY,Low content,,,8,Empty,Unknown,,,,,,Box_12unlabeled_Row_1,,,,,,,,,,,
+E57,LM0189,,E57aKWX,,Sacrificed,,9,Unknown,Found,,,,,,Box_12unlabeled_Row_1,,,,,,,,,,,
+E57,LM0189,,E57aAOW,Uvailable,Sacrificed,,10,Unknown,Unknown,,,,,Available,Box_12unlabeled_Row_1,,,,,,,,,,,
+E57,LM0189,,E57aDGS,Uvailable,Sacrificed,,11,Unknown,Unknown,,,,,,Box_12unlabeled_Row_1,,,,,,,,,,,
+E57,LM0190,XX,E57aHOX,,,,0,Found,Found,0.0584,with_beads,with_beads,,,Box_4_Row_1,21.04.2022_B2,Dileshi,,4/21/2022 4:44:40 PM,226.3,ng/µl,4.527,2.459,1.84,2.04,D
+E57,LM0190,XX,E57aRSW,,,,1,Found,Found,0.0799,with_beads,with_beads,,,Box_4_Row_1,21.04.2022_B1,Dileshi,,4/21/2022 12:33:58 PM,246.2,ng/µl,4.925,2.755,1.79,1.73,D
+E57,LM0190,XX,E57aEKR,,,,2,Found,Unknown,0.0215,with_beads,with_beads,,,Box_4_Row_1,23.04.2022_B1,Dileshi,,4/23/2022 4:39:15 PM,37.1,ng/µl,0.742,0.414,1.79,1.41,D
+E57,LM0190,XX,E57aGQX,,,,3,Empty,Unknown,,,,,,Box_4_Row_1,,,,,,,,,,,
+E57,LM0190,XX,E57aVWX,,,,4,Found,Found,0.0650,with_beads,with_beads,,,Box_4_Row_1,10.04.2022_B1,Dileshi,,4/10/2022 5:19:48 PM,62.7,ng/µl,1.254,0.722,1.74,1.19,D
+E57,LM0190,XX,E57aVWX2,,,Yes,4,Found,Found,0.0652,with_beads,with_beads,,Available,,01.05.2022_B1,Dileshi,,5/1/2022 3:44:27 PM,140.5,ng/µl,2.81,1.5,1.87,2.45,D
+E57,LM0190,XX,E57aCEP,,,,5,Empty,Found,0.0525,with_beads,with_beads,,,Box_4_Row_1,21.04.2022_B2,Dileshi,,4/21/2022 4:40:27 PM,277.6,ng/µl,5.553,3.144,1.77,1.56,D
+E57,LM0190,XX,E57aNSZ,,,,6,Found,Found,0.0574,with_beads,with_beads,,,Box_4_Row_1,21.04.2022_B1,Dileshi,,3/21/2022 1:20:14 PM,20.3,ng/µl,0.405,0.214,1.89,-2.59,D
+E57,LM0190,XX,E57aNSZ2,,,Yes,,,,0.0286,with_beads,with_beads,,,,21.03.2022,Alexa,,4/21/2022 12:32:26 PM,243.3,ng/µl,4.865,2.724,1.79,1.69,D
+E57,LM0190,XX,E57aPWY,,,,7,Found,Unknown,0.0580,with_beads,with_beads,,,Box_4_Row_1,11.03.2022_B1,Dileshi,,3/11/2022 6:21:50 PM,88.9,ng/µl,1.779,1.019,1.75,0.97,D
+E57,LM0190,XX,E57aPWY,,,,7,Found,Unknown,0.0580,with_beads,with_beads,,,Box_4_Row_1,11.03.2022_B1,Dileshi,,4/26/2022 7:45:15 PM,62.5,ng/µl,1.25,0.684,1.83,1.25,D
+E57,LM0190,XX,E57aAIZ,,,,8,Found,Unknown,0.0100,with_beads,with_beads,,,Box_4_Row_1,21.03.2022,Alexa,,3/21/2022 1:26:47 PM,20.8,ng/µl,0.416,0.23,1.81,1.45,D
+E57,LM0190,XX,E57aAIZ,,,,8,Found,Unknown,0.0100,with_beads,with_beads,,,Box_4_Row_1,21.03.2022,Alexa,,4/26/2022 7:44:15 PM,23.9,ng/µl,0.477,0.269,1.77,0.58,D
+E57,LM0190,XX,E57aJNS,,,,9,Empty,Found,0.0642,with_beads,with_beads,,,Box_4_Row_1,21.04.2022_B1,Dileshi,,4/21/2022 12:30:51 PM,174.6,ng/µl,3.493,1.944,1.8,1.71,D
+E57,LM0190,XX,E57aLUW,,,,10,Found,Found,0.0461,with_beads,with_beads,,Available,Box_4_Row_1,21.04.2022_B2,Dileshi,,4/21/2022 4:47:14 PM,277.8,ng/µl,5.556,3.089,1.8,1.73,D
+E57,LM0190,XX,E57aFJO,,,,11,Found,Found,0.0913,with_beads,with_beads,,,Box_4_Row_1,10.04.2022_B1,Dileshi,,4/10/2022 5:15:04 PM,373.8,ng/µl,7.477,4.291,1.74,1.48,D
+E57,LM0191,XX,E57aHJX,,,,0,Found,Found,0.0536,with_beads,with_beads,,,Box_3_Row_4,30.04.2022_B1,Dileshi,,5/1/2022 3:31:07 PM,231,ng/µl,4.62,2.508,1.84,2.18,D
+E57,LM0191,XX,E57aINR,,,,1,Found,Found,0.0540,with_beads,with_beads,,,Box_3_Row_4,30.04.2022_B1,Dileshi,,5/1/2022 3:33:24 PM,196.9,ng/µl,3.937,2.169,1.82,1.8,D
+E57,LM0191,XX,E57aBNR,,,,2,Found,Unknown,0.0242,with_beads,with_beads,,,Box_3_Row_4,30.04.2022_B1,Dileshi,,5/1/2022 3:29:37 PM,7.9,ng/µl,0.158,0.071,2.23,0.32,D
+E57,LM0191,XX,E57aMRT,,,,3,Found,Unknown,0.0358,with_beads,with_beads,,Available,Box_3_Row_4,30.04.2022_B1,Dileshi,,5/1/2022 3:34:44 PM,48.6,ng/µl,0.973,0.514,1.89,1.59,D
+E57,LM0191,XX,E57aBHO,,,,4,Found,Found,0.0572,with_beads,with_beads,,Available,Box_3_Row_4,30.04.2022_B1,Dileshi,,5/1/2022 3:28:50 PM,201.6,ng/µl,4.032,2.217,1.82,1.19,D
+E57,LM0191,XX,E57aHLZ,,,,5,Found,Found,0.0460,with_beads,with_beads,,,Box_3_Row_4,30.04.2022_B1,Dileshi,,5/1/2022 3:31:58 PM,177.3,ng/µl,3.547,1.951,1.82,1.73,D
+E57,LM0191,XX,E57aAJO,,,,6,Unknown,Found,0.0483,with_beads,with_beads,,Available,Box_3_Row_4,30.04.2022_B1,Dileshi,,5/1/2022 3:25:26 PM,227.8,ng/µl,4.556,2.514,1.81,1.66,D
+E57,LM0191,XX,E57aDOZ,,,,7,Found,Found_as_poz,0.1078,with_beads,with_beads,,Available,Box_3_Row_4,11.03.2022_B1,Dileshi,,,,,,,,,
+E57,LM0191,XX,E57aHOP,,,,8,Found,Unknown,0.0252,with_beads,with_beads,,,Box_3_Row_4,17.03.2022,Alexa,,3/17/2022 1:50:13 PM,77.4,ng/µl,1.547,0.84,1.84,1.32,D
+E57,LM0191,XX,E57aHOP,,,,8,Found,Unknown,0.0252,with_beads,with_beads,,,Box_3_Row_4,17.03.2022,Alexa,,5/1/2022 3:27:29 PM,64.6,ng/µl,1.292,0.691,1.87,1.24,D
+E57,LM0191,XX,E57aFUY,,,,9,Found,Found,0.0343,with_beads,with_beads,,,Box_3_Row_4,30.04.2022_B1,Dileshi,,5/1/2022 3:32:48 PM,340.8,ng/µl,6.817,3.714,1.84,1.93,D
+E57,LM0191,XX,E57aBCY,,,,10,Empty,Found,0.0533,with_beads,with_beads,,Available,Box_3_Row_4,30.04.2022_B1,Dileshi,,5/1/2022 3:28:03 PM,50.5,ng/µl,1.01,0.525,1.92,2.74,D
+E57,LM0191,XX,E57aJLN,,,,11,Empty,Found,0.0612,with_beads,with_beads,,,Box_3_Row_4,30.04.2022_B1,Dileshi,,5/1/2022 3:34:03 PM,161.5,ng/µl,3.229,1.745,1.85,1.3,D
+E57,LM0192,XX,E57aGUX,,,,0,Found,Found,0.0408,with_beads,with_beads,,,Box_3_Row_3,01.05.2022_B1,Dileshi,,5/1/2022 3:42:04 PM,243.4,ng/µl,4.869,2.751,1.77,1.58,D
+E57,LM0192,XX,E57aBCJ,,,,1,Found,Found,0.0605,with_beads,with_beads,,Available,Box_3_Row_3,01.05.2022_B1,Dileshi,,5/1/2022 3:38:24 PM,233.8,ng/µl,4.676,2.581,1.81,1.9,D
+E57,LM0192,XX,E57aIVX,,,,2,Found,Unknown,,,,,Available,Box_3_Row_3,,,,,,,,,,,
+E57,LM0192,XX,E57aKNU,,,,3,Found,Unknown,0.0405,with_beads,with_beads,,,Box_3_Row_3,01.05.2022_B1,Dileshi,,5/1/2022 3:42:38 PM,66.1,ng/µl,1.321,0.713,1.85,1.92,D
+E57,LM0192,XX,E57aEHN,,,,4,Found,Found,0.0516,with_beads,with_beads,lost_50%_supertant_step_14,,Box_3_Row_3,01.05.2022_B1,Dileshi,,5/1/2022 3:39:43 PM,126.7,ng/µl,2.534,1.383,1.83,1.94,D
+E57,LM0192,XX,E57aEHX,,,,5,Found,Found,0.0628,with_beads,with_beads,,Available,Box_3_Row_3,01.05.2022_B1,Dileshi,,5/1/2022 3:40:22 PM,297.6,ng/µl,5.951,3.306,1.8,1.77,D
+E57,LM0192,XX,E57aDMO,,,,6,Found,Found,0.0122,with_beads,with_beads,,Available,Box_3_Row_3,11.03.2022_B2,Dileshi,,3/11/2022 6:02:24 PM,8.1,ng/µl,0.162,0.148,1.1,0.16,D
+E57,LM0192,XX,E57aDMO2,,,Yes,6,Found,Found,0.0342,with_beads,with_beads,,,,01.05.2022_B1,Dileshi,,5/1/2022 3:39:05 PM,202.2,ng/µl,4.043,2.193,1.84,2.1,D
+E57,LM0192,XX,E57aEMT,,,,7,Found,Unknown,0.0115,with_beads,with_beads,,Available,Box_3_Row_3,18.03.2022,Alexa,,3/18/2022 12:59:54 PM,72.8,ng/µl,1.455,0.765,1.9,5.17,D
+E57,LM0192,XX,E57aEMT,,,,7,Found,Unknown,0.0115,with_beads,with_beads,,Available,Box_3_Row_3,18.03.2022,Alexa,,5/1/2022 3:35:21 PM,78.6,ng/µl,1.573,0.85,1.85,1.91,D
+E57,LM0192,XX,E57aQSY,,,,8,Found,Unknown,0.0508,with_beads,with_beads,,,Box_3_Row_3,17.03.2022,Alexa,,3/17/2022 1:56:14 PM,31.5,ng/µl,0.63,0.349,1.81,1.13,D
+E57,LM0192,XX,E57aQSY,,,,8,Found,Unknown,0.0508,with_beads,with_beads,,,Box_3_Row_3,17.03.2022,Alexa,,5/1/2022 3:35:53 PM,20.3,ng/µl,0.407,0.197,2.07,1.54,D
+E57,LM0192,XX,E57aKPV,,,,9,Found,Found,0.0487,with_beads,with_beads,,,Box_3_Row_3,01.05.2022_B1,Dileshi,,5/1/2022 3:43:13 PM,149.9,ng/µl,2.997,1.638,1.83,2.01,D
+E57,LM0192,XX,E57aAGL,,,,10,Found,Found,0.0492,with_beads,with_beads,,,Box_3_Row_3,01.05.2022_B1,Dileshi,,5/1/2022 3:37:42 PM,268.8,ng/µl,5.376,2.959,1.82,2,D
+E57,LM0192,XX,E57aTWZ,,,,11,Found,Found,,,,,Available,Box_3_Row_3,,,,,,,,,,,
+E57,LM0193,,E57aGUW,,,,0,Found,Found,,,,,Available,Box_12unlabeled_Row_2,,,,,,,,,,,
+E57,LM0193,,E57aNRX,,,,1,Empty,Found,,,,,Available,Box_12unlabeled_Row_2,,,,,,,,,,,
+E57,LM0193,,E57aFKO,,,,2,Found,Unknown,,,,,Available,Box_12unlabeled_Row_2,,,,,,,,,,,
+E57,LM0193,,E57aAEN,,,,3,Found,Unknown,,,,,,Box_12unlabeled_Row_2,,,,,,,,,,,
+E57,LM0193,,E57aIVZ,,,,4,Found,Found,,,,,,Box_12unlabeled_Row_2,,,,,,,,,,,
+E57,LM0193,,E57aAGS,,,,5,Found,Found,,,,,Available,Box_12unlabeled_Row_2,,,,,,,,,,,
+E57,LM0193,,E57aDJP,,,,6,Found,Found,0.0251,with_beads,with_beads,,Available,Box_12unlabeled_Row_2,21.03.2022,Alexa,,3/21/2022 1:21:04 PM,42.1,ng/µl,0.843,0.451,1.87,1.41,D
+E57,LM0193,,E57aBDL,,,,7,Found,Unknown,0.0223,with_beads,with_beads,,,Box_12unlabeled_Row_2,18.03.2022,Alexa,,3/18/2022 12:58:43 PM,137.3,ng/µl,2.746,1.463,1.88,2.49,D
+E57,LM0193,,E57aHNZ,,Died,,8,Empty,Unknown,,,,,,Box_12unlabeled_Row_2,,,,,,,,,,,
+E57,LM0193,,E57aDTV,Uvailable,Died,,9,Unknown,Unknown,,,,,,Box_12unlabeled_Row_2,,,,,,,,,,,
+E57,LM0193,,E57aRTY,Uvailable,Died,,10,Unknown,Unknown,,,,,,Box_12unlabeled_Row_2,,,,,,,,,,,
+E57,LM0193,,E57aDGX,Uvailable,Died,,11,Unknown,Unknown,,,,,,Box_12unlabeled_Row_2,,,,,,,,,,,
+E57,LM0194,XX,E57aLNU,,,,0,Found,Found,0.0542,with_beads,with_beads,,,Box_3_Row_2,21.04.2022_B2,Dileshi,,3/24/2022 11:47:47 AM,84,ng/µl,1.68,0.888,1.89,4.35,D
+E57,LM0194,XX,E57aLNU2,,,Yes,0,,,0.1065,with_beads,with_beads,,Available,,24.03.2022,Alexa,,4/21/2022 4:46:16 PM,228.2,ng/µl,4.564,2.558,1.78,1.61,D
+E57,LM0194,XX,E57aNWZ,,,,1,Found,Found,0.0730,with_beads,with_beads,lost_supertant_of_round_2_step_14,Available,Box_3_Row_2,21.04.2022_B2,Dileshi,,4/21/2022 4:48:02 PM,95.7,ng/µl,1.914,1.043,1.83,2.05,D
+E57,LM0194,XX,E57aEIP,,,,2,Found,Unknown,0.0581,with_beads,with_beads,,,Box_3_Row_2,21.04.2022_B2,Dileshi,,4/21/2022 4:43:09 PM,180.8,ng/µl,3.615,1.966,1.84,1.64,D
+E57,LM0194,XX,E57aNQY,,,,3,Found,Unknown,0.0734,with_beads,with_beads,,,Box_3_Row_2,05.04.2022_B1,Dileshi,,4/5/2022 3:52:05 PM,-104.2,ng/µl,-2.084,1.146,-1.82,-1.37,D
+E57,LM0194,XX,E57aNQY,,,,3,Found,Unknown,0.0734,with_beads,with_beads,,,Box_3_Row_2,05.04.2022_B1,Dileshi,,4/26/2022 8:12:29 PM,119.8,ng/µl,2.397,1.305,1.84,1.19,D
+E57,LM0194,XX,E57aKNX,,,,4,Found,Found,0.0960,with_beads,with_beads,,,Box_3_Row_2,05.04.2022_B1,Dileshi,,4/5/2022 3:50:32 PM,62.4,ng/µl,1.247,2.944,0.42,0.53,D
+E57,LM0194,XX,E57aKNX2,,,Yes,4,Found,Found,0.0549,with_beads,with_beads,,,,21.04.2022_B2,Dileshi,,4/21/2022 4:45:24 PM,257.1,ng/µl,5.141,2.865,1.79,1.72,D
+E57,LM0194,XX,E57aJLQ,,,,5,Found,Found,0.0964,with_beads,with_beads,,,Box_3_Row_2,07.04.2022_B1,Dileshi,,4/7/2022 2:23:48 PM,117.7,ng/µl,2.353,1.44,1.63,1.46,D
+E57,LM0194,XX,E57aJLQ,,,,5,Found,Found,0.0964,with_beads,with_beads,,,Box_3_Row_2,07.04.2022_B1,Dileshi,,4/26/2022 8:11:27 PM,98.4,ng/µl,1.968,1.052,1.87,1.28,D
+E57,LM0194,XX,E57aAMY,,,,6,Found,Found,0.0852,with_beads,with_beads,,,Box_3_Row_2,11.03.2022_B2,Dileshi,,3/11/2022 5:57:52 PM,145.6,ng/µl,2.913,1.669,1.75,1.23,D
+E57,LM0194,XX,E57aAMY,,,,6,Found,Found,0.0852,with_beads,with_beads,,,Box_3_Row_2,11.03.2022_B2,Dileshi,,4/26/2022 7:47:25 PM,-10.1,ng/µl,-0.202,0.035,-5.81,-0.5,D
+E57,LM0194,XX,E57aAMY,,,,6,Found,Found,0.0852,with_beads,with_beads,,,Box_3_Row_2,11.03.2022_B2,Dileshi,,4/26/2022 7:47:53 PM,196.6,ng/µl,3.931,2.199,1.79,1.44,D
+E57,LM0194,XX,E57aAHU,,,,7,Found,Unknown,0.1136,with_beads,with_beads,,,Box_3_Row_2,15.03.2022,Alexa,,4/26/2022 8:07:25 PM,237.3,ng/µl,4.747,2.587,1.83,1.94,D
+E57,LM0194,XX,E57aDEY,,,,8,Found,Unknown,0.0416,with_beads,with_beads,,,Box_3_Row_2,18.03.2022,Alexa,,3/18/2022 12:57:16 PM,259.2,ng/µl,5.184,2.803,1.85,2.74,D
+E57,LM0194,XX,E57aDEY,,,,8,Found,Unknown,0.0416,with_beads,with_beads,,,Box_3_Row_2,18.03.2022,Alexa,,4/26/2022 8:09:25 PM,271.4,ng/µl,5.428,2.968,1.83,2.17,D
+E57,LM0194,XX,E57aRUV,,,,9,Found,Found,0.0242,with_beads,with_beads,,,Box_3_Row_2,21.04.2022_B2,Dileshi,,4/21/2022 4:49:39 PM,285.4,ng/µl,5.708,3.155,1.81,1.89,D
+E57,LM0194,XX,E57aEMX,,,,10,Found,Found,0.0515,with_beads,with_beads,,,Box_3_Row_2,21.04.2022_B2,Dileshi,,4/21/2022 4:43:55 PM,220.7,ng/µl,4.414,2.425,1.82,2.08,D
+E57,LM0194,XX,E57aCTZ,,,,11,Found,Found,0.0707,with_beads,with_beads,,,Box_3_Row_2,21.04.2022_B2,Dileshi,,4/21/2022 4:41:33 PM,212.8,ng/µl,4.256,2.374,1.79,1.63,D
+E57,LM0195,XX,E57aOPY,,,,0,Found,Found,0.0655,with_beads,with_beads,,,Box_3_Row_1,19.04.2022_B2,Dileshi,,4/19/2022 5:19:07 PM,156.8,ng/µl,3.136,1.697,1.85,2.11,D
+E57,LM0195,XX,E57aEQU,,,,1,Empty,Found,0.0684,with_beads,with_beads,,,Box_3_Row_1,19.04.2022_B1,Dileshi,,4/19/2022 12:41:28 PM,296.4,ng/µl,5.929,3.244,1.83,1.68,D
+E57,LM0195,XX,E57aGVZ,,,,2,Empty,Unknown,,,,,Available,Box_3_Row_1,,,,,,,,,,,
+E57,LM0195,XX,E57aEGS,,,,3,Found,Unknown,,,,,Available,Box_3_Row_1,,,,,,,,,,,
+E57,LM0195,XX,E57aJVY,,,,4,Found,Found,0.0528,with_beads,with_beads,,Available,Box_3_Row_1,19.04.2022_B2,Dileshi,,4/19/2022 5:17:37 PM,131.2,ng/µl,2.623,1.415,1.85,2.09,D
+E57,LM0195,XX,E57aPTV,,,,5,Empty,Found,0.0669,with_beads,with_beads,,Available,Box_3_Row_1,19.04.2022_B1,Dileshi,,4/19/2022 12:44:27 PM,196.5,ng/µl,3.93,2.159,1.82,1.79,D
+E57,LM0195,XX,E57aDGU,,,,6,Empty,Found,0.0620,with_beads,with_beads,,,Box_3_Row_1,19.04.2022_B1,Dileshi,,4/19/2022 12:38:35 PM,197.7,ng/µl,3.953,2.149,1.84,2.21,D
+E57,LM0195,XX,E57aKVY,,,,7,Empty,Unknown,,,,,,Box_3_Row_1,,,,,,,,,,,
+E57,LM0195,XX,E57aDPW,,,,8,Found,Unknown,0.0166,with_beads,with_beads,,,Box_3_Row_1,17.03.2022,Alexa,,4/26/2022 8:01:23 PM,30.1,ng/µl,0.601,0.343,1.75,1.27,D
+E57,LM0195,XX,E57aBGI,,,,9,Empty,Found,0.0680,with_beads,with_beads,,Available,Box_3_Row_1,19.04.2022_B2,Dileshi,,4/19/2022 5:11:19 PM,213.9,ng/µl,4.279,2.32,1.84,2.18,D
+E57,LM0195,XX,E57aFTX,,,,10,Found,Found,0.0628,with_beads,with_beads,,Available,Box_3_Row_1,19.04.2022_B2,Dileshi,,4/19/2022 5:14:40 PM,265.8,ng/µl,5.315,2.906,1.83,2.09,D
+E57,LM0195,XX,E57aIJR,,,,11,Found,Found,0.0544,with_beads,with_beads,,Available,Box_3_Row_1,19.04.2022_B1,Dileshi,,4/19/2022 12:42:13 PM,250.3,ng/µl,5.005,2.722,1.84,2.07,D
+E57,LM0196,,E57aCPW,,,,0,Found,Found,,,,,,Box_2_Row_5,,,,,,,,,,,
+E57,LM0196,,E57aMNP,,,,1,Found,Found,,,,,,Box_2_Row_5,,,,,,,,,,,
+E57,LM0196,,E57aFOW,,,,2,Found,Unknown,,,,,,Box_2_Row_5,,,,,,,,,,,
+E57,LM0196,,E57aGHX,,,,3,Found,Unknown,,,,,,Box_2_Row_5,,,,,,,,,,,
+E57,LM0196,,E57aEMV,,,,4,Found,Found,0.0151,with_beads,with_beads,,,Box_2_Row_5,07.04.2022_B1,Dileshi,,4/7/2022 2:20:45 PM,144.1,ng/µl,2.881,1.792,1.61,1.2,D
+E57,LM0196,,E57aFGP,,,,5,Empty,Found,,,,,,Box_2_Row_5,,,,,,,,,,,
+E57,LM0196,,E57aINP,,,,6,Empty,Found,,,,,,Box_2_Row_5,,,,,,,,,,,
+E57,LM0196,,E57aACH,,,,7,Found,Unknown,0.0011,with_beads,with_beads,,Available,Box_2_Row_5,21.03.2022,Alexa,,3/21/2022 1:26:08 PM,12.4,ng/µl,0.248,0.152,1.63,0.42,D
+E57,LM0196,,E57aDLZ,,,,8,Empty,Unknown,,,,,Available,Box_2_Row_5,,,,,,,,,,,
+E57,LM0196,,E57aKNY,,,,9,Empty,Found,,,,,,Box_2_Row_5,,,,,,,,,,,
+E57,LM0196,,E57aABN,,,,10,Found,Found,,,,,Available,Box_2_Row_5,,,,,,,,,,,
+E57,LM0196,,E57aBGT,,,,11,Found,Found,,,,,,Box_2_Row_5,,,,,,,,,,,
+E57,LM0197,XX,E57aLXZ,,,,0,Found,Found,0.0505,with_beads,with_beads,,,Box_2_Row_4,21.04.2022_B3,Dileshi,,4/21/2022 8:06:21 PM,274.3,ng/µl,5.485,3.007,1.82,1.87,D
+E57,LM0197,XX,E57aJOS,,,,1,Found,Found,0.0579,with_beads,with_beads,,Available,Box_2_Row_4,21.04.2022_B3,Dileshi,,4/21/2022 8:05:01 PM,230.2,ng/µl,4.603,2.548,1.81,1.79,D
+E57,LM0197,XX,E57aFKM,,,,2,Found,Unknown,0.0525,with_beads,with_beads,,,Box_2_Row_4,23.04.2022_B2,Dileshi,,4/23/2022 8:21:39 PM,122.7,ng/µl,2.454,1.332,1.84,1.5,D
+E57,LM0197,XX,E57aAFR,,,,3,Found,Unknown,0.0642,with_beads,with_beads,,,Box_2_Row_4,10.04.2022_B1,Dileshi,,4/10/2022 5:11:02 PM,60.1,ng/µl,1.202,0.67,1.79,1.93,D
+E57,LM0197,XX,E57aAFR,,,,3,Found,Unknown,0.0642,with_beads,with_beads,,,Box_2_Row_4,10.04.2022_B1,Dileshi,,4/26/2022 7:56:38 PM,63.4,ng/µl,1.269,0.713,1.78,1.38,D
+E57,LM0197,XX,E57aBFO,,,,4,Found,Found,0.0574,with_beads,with_beads,,,Box_2_Row_4,22.04.2022_B1,Dileshi,,4/22/2022 5:25:20 PM,249.7,ng/µl,4.994,2.837,1.76,1.54,D
+E57,LM0197,XX,E57aHJL,,,,5,Found,Found,0.0642,with_beads,with_beads,,,Box_2_Row_4,21.04.2022_B3,Dileshi,,4/21/2022 8:03:28 PM,122.4,ng/µl,2.449,1.355,1.81,1.18,D
+E57,LM0197,XX,E57aABU,,,,6,Found,Found,0.0303,with_beads,with_beads,,Available,Box_2_Row_4,11.03.2022_B2,Dileshi,,3/11/2022 5:55:03 PM,14.4,ng/µl,0.288,0.156,1.84,0.97,D
+E57,LM0197,XX,E57aABU2,,,Yes,6,Unknown,Found,0.0430,with_beads,with_beads,spillage_hence_30µl_available_for_step14,,,22.04.2022_B1,Dileshi,,4/22/2022 5:22:51 PM,61.2,ng/µl,1.225,0.706,1.74,1.23,D
+E57,LM0197,XX,E57aCNP,,,,7,Unknown,Unknown,0.0954,with_beads,with_beads,,Available,Box_2_Row_4,14.03.2022,Alexa,,3/14/2022 2:10:15 PM,192.7,ng/µl,3.853,2.099,1.84,2.07,D
+E57,LM0197,XX,E57aCNP,,,,7,Unknown,Unknown,0.0954,with_beads,with_beads,,Available,Box_2_Row_4,14.03.2022,Alexa,,4/26/2022 7:46:58 PM,201.3,ng/µl,4.025,2.196,1.83,1.94,D
+E57,LM0197,XX,E57aJKZ,,,,8,Found,Unknown,0.1021,with_beads,with_beads,,,Box_2_Row_4,18.03.2022,Alexa,,3/18/2022 1:01:19 PM,239.3,ng/µl,4.785,2.595,1.84,2.5,D
+E57,LM0197,XX,E57aJKZ,,,,8,Found,Unknown,0.1021,with_beads,with_beads,,,Box_2_Row_4,18.03.2022,Alexa,,4/26/2022 8:13:28 PM,244.1,ng/µl,4.883,2.671,1.83,2.02,D
+E57,LM0197,XX,E57aLTU,,,,9,Found,Found,0.0600,with_beads,with_beads,,,Box_2_Row_4,21.04.2022_B3,Dileshi,,4/21/2022 8:05:44 PM,355.5,ng/µl,7.109,3.996,1.78,1.74,D
+E57,LM0197,XX,E57aLYZ,,,,10,Found,Found,0.0460,with_beads,with_beads,,,Box_2_Row_4,22.04.2022_B1,Dileshi,,4/22/2022 5:29:05 PM,296.2,ng/µl,5.925,3.328,1.78,1.77,D
+E57,LM0197,XX,E57aCOV,,,,11,Found,Found,0.0765,with_beads,with_beads,,,Box_2_Row_4,22.04.2022_B1,Dileshi,,4/22/2022 5:26:56 PM,216,ng/µl,4.319,2.48,1.74,1.4,D
+E57,LM0198,XX,E57aCNS,,,,0,Found,Found,0.0557,with_beads,with_beads,,,Box_2_Row_3,22.04.2022_B2,Dileshi,,4/22/2022 8:22:01 PM,224,ng/µl,4.481,2.583,1.73,1.27,D
+E57,LM0198,XX,E57aCQT,,,,1,Unknown,Found,0.0524,with_beads,with_beads,,,Box_2_Row_3,22.04.2022_B2,Dileshi,,4/22/2022 8:22:39 PM,246.6,ng/µl,4.931,2.683,1.84,2.03,D
+E57,LM0198,XX,E57aOTV,,,,2,Found,Unknown,0.0434,with_beads,with_beads,,,Box_2_Row_3,23.04.2022_B2,Dileshi,,4/23/2022 8:27:42 PM,42.3,ng/µl,0.845,0.464,1.82,1.39,D
+E57,LM0198,XX,E57aOVY,,,,3,Found,Unknown,0.0219,with_beads,with_beads,,,Box_2_Row_3,05.04.2022_B1,Dileshi,,4/5/2022 3:52:57 PM,-123.2,ng/µl,-2.463,0.938,-2.63,-0.82,D
+E57,LM0198,XX,E57aOVY,,,,3,Found,Unknown,0.0219,with_beads,with_beads,,,Box_2_Row_3,05.04.2022_B1,Dileshi,,4/26/2022 8:11:56 PM,90.6,ng/µl,1.812,0.983,1.84,0.54,D
+E57,LM0198,XX,E57aDEZ,,,,4,Found,Found,0.0601,with_beads,with_beads,,,Box_2_Row_3,22.04.2022_B2,Dileshi,,4/22/2022 8:23:25 PM,202.8,ng/µl,4.056,2.183,1.86,2.07,D
+E57,LM0198,XX,E57aMTY,,,,5,Found,Found,0.1032,with_beads,with_beads,,,Box_2_Row_3,05.04.2022_B1,Dileshi,,4/5/2022 3:51:17 PM,46.5,ng/µl,0.929,2.811,0.33,0.36,D
+E57,LM0198,XX,E57aMTY2,,,Yes,5,Unknown,Found,0.0595,with_beads,with_beads,,,,22.04.2022_B2,Dileshi,,4/22/2022 8:28:08 PM,307.9,ng/µl,6.158,3.403,1.81,1.82,D
+E57,LM0198,XX,E57aTXY,,,,6,Found,Found,0.0469,with_beads,with_beads,,,Box_2_Row_3,11.03.2022_B1,Dileshi,,3/11/2022 6:23:19 PM,163.8,ng/µl,3.277,1.865,1.76,1.37,D
+E57,LM0198,XX,E57aTXY,,,,6,Found,Found,0.0469,with_beads,with_beads,,,Box_2_Row_3,11.03.2022_B1,Dileshi,,4/26/2022 7:49:32 PM,112.9,ng/µl,2.257,1.26,1.79,1.67,D
+E57,LM0198,XX,E57aJPV,,,,7,Found,Unknown,0.1046,with_beads,with_beads,,Available,Box_2_Row_3,17.03.2022,Alexa,,3/17/2022 1:54:05 PM,180.7,ng/µl,3.614,1.96,1.84,2.12,D
+E57,LM0198,XX,E57aJPV,,,,7,Found,Unknown,0.1046,with_beads,with_beads,,Available,Box_2_Row_3,17.03.2022,Alexa,,4/26/2022 8:10:53 PM,178.6,ng/µl,3.572,1.925,1.86,2.15,D
+E57,LM0198,XX,E57aAJQ,,,,8,Found,Unknown,0.0362,with_beads,with_beads,,Available,Box_2_Row_3,15.03.2022,Alexa,,4/26/2022 7:46:19 PM,59.3,ng/µl,1.186,0.67,1.77,1.44,D
+E57,LM0198,XX,E57aIKS,,,,9,Empty,Found,0.0754,with_beads,with_beads,,Available,Box_2_Row_3,22.04.2022_B2,Dileshi,,4/22/2022 8:26:49 PM,284.1,ng/µl,5.683,3.092,1.84,2.14,D
+E57,LM0198,XX,E57aRXZ,,,,10,Found,Found,0.1084,with_beads,with_beads,,,Box_2_Row_3,22.04.2022_B2,Dileshi,,4/22/2022 8:27:26 PM,254.1,ng/µl,5.082,2.867,1.77,1.42,D
+E57,LM0198,XX,E57aEHR,,,,11,Found,Found,0.0847,with_beads,with_beads,,,Box_2_Row_3,22.04.2022_B2,Dileshi,,4/22/2022 8:24:10 PM,257,ng/µl,5.139,2.782,1.85,2.18,D
+E57,LM0199,XX,E57aBHN,,,,0,Found,Found,0.0630,with_beads,with_beads,,Available,Box_2_Row_2,21.04.2022_B3,Dileshi,,4/21/2022 8:00:26 PM,17.2,ng/µl,0.343,0.192,1.78,0.8,D
+E57,LM0199,XX,E57aBHN2,,,Yes,0,Found,Found,0.0605,with_beads,with_beads,,Available,,23.04.2022_B1,Dileshi,,4/23/2022 4:37:31 PM,129.8,ng/µl,2.596,1.484,1.75,1.27,D
+E57,LM0199,XX,E57aGHU,,,,1,Found,Found,0.0788,with_beads,with_beads,,,Box_2_Row_2,21.04.2022_B3,Dileshi,,4/21/2022 8:02:44 PM,277.4,ng/µl,5.547,3.02,1.84,2.14,D
+E57,LM0199,XX,E57aCFG,,,,2,Found,Unknown,0.020,with_beads,with_beads,,,Box_2_Row_2,23.04.2022_B2,Dileshi,,4/23/2022 8:20:08 PM,94.2,ng/µl,1.885,1.065,1.77,1.19,D
+E57,LM0199,XX,E57aBPQ,,,,3,Empty,Unknown,,,,,,Box_2_Row_2,,,,,,,,,,,
+E57,LM0199,XX,E57aFOT,,,,4,Found,Found,0.0934,with_beads,with_beads,,,Box_2_Row_2,07.04.2022_B1,Dileshi,,4/7/2022 2:21:54 PM,251.3,ng/µl,5.026,2.912,1.73,1.87,D
+E57,LM0199,XX,E57aFOT,,,,4,Found,Found,0.0934,with_beads,with_beads,,,Box_2_Row_2,07.04.2022_B1,Dileshi,,4/26/2022 8:09:53 PM,258.6,ng/µl,5.172,2.888,1.79,1.67,D
+E57,LM0199,XX,E57aFOQ,,,,5,Found,Found,0.0407,with_beads,with_beads,,,Box_2_Row_2,05.04.2022_B1,Dileshi,,4/5/2022 3:48:51 PM,156.3,ng/µl,3.127,4.079,0.77,0.72,D
+E57,LM0199,XX,E57aFOQ,,,Yes,5,Unknown,Found,0.0763,with_beads,with_beads,,,,21.04.2022_B3,Dileshi,,4/5/2022 3:48:51 PM,156.3,ng/µl,3.127,4.079,0.77,0.72,D
+E57,LM0199,XX,E57aIMQ,,,,6,Found,Found,0.1013,with_beads,with_beads,,Available,Box_2_Row_2,11.03.2022_B1,Dileshi,,3/11/2022 6:17:25 PM,118.3,ng/µl,2.367,1.287,1.84,1.74,D
+E57,LM0199,XX,E57aIMQ,,,,6,Found,Found,0.1013,with_beads,with_beads,,Available,Box_2_Row_2,11.03.2022_B1,Dileshi,,4/26/2022 7:45:46 PM,136.2,ng/µl,2.724,1.477,1.84,1.8,D
+E57,LM0199,XX,E57aCJY,,,,7,Found,Unknown,0.0105,with_beads,with_beads,,,Box_2_Row_2,11.03.2022_B1,Dileshi,,3/11/2022 6:15:31 PM,37.2,ng/µl,0.745,0.446,1.67,0.85,D
+E57,LM0199,XX,E57aCJY,,,,7,Found,Unknown,0.0105,with_beads,with_beads,,,Box_2_Row_2,11.03.2022_B1,Dileshi,,4/26/2022 7:44:46 PM,53.4,ng/µl,1.069,0.591,1.81,1.49,D
+E57,LM0199,XX,E57aFKS,,,,8,Found,Unknown,0.0333,with_beads,with_beads,,Available,Box_2_Row_2,17.03.2022,Alexa,,4/26/2022 8:08:27 PM,125.2,ng/µl,2.505,1.364,1.84,1.91,D
+E57,LM0199,XX,E57aGIR,,,,9,Unknown,Found,0.0592,with_beads,with_beads,,Available,Box_2_Row_2,21.04.2022_B3,Dileshi,,4/21/2022 8:01:59 PM,81.6,ng/µl,1.632,0.904,1.81,1.53,D
+E57,LM0199,XX,E57aACJ,,,,10,Found,Found,0.0647,with_beads,with_beads,,Available,Box_2_Row_2,21.04.2022_B3,Dileshi,,4/21/2022 7:58:10 PM,251.7,ng/µl,5.033,2.753,1.83,1.99,D
+E57,LM0199,XX,E57aHSZ,,,,11,Found,Found,0.0578,with_beads,with_beads,,,Box_2_Row_2,21.04.2022_B1,Dileshi,,4/21/2022 8:04:19 PM,262.6,ng/µl,5.252,2.943,1.78,1.68,D
+E57,LM0200,,E57aAFT,,,,0,Found,Found,,,,,Available,Box_2_Row_1,,,,,,,,,,,
+E57,LM0200,,E57aGNQ,,,,1,Found,Found,,,,,Available,Box_2_Row_1,,,,,,,,,,,
+E57,LM0200,,E57aCGY,,,,2,Found,Unknown,,,,,Available,Box_2_Row_1,,,,,,,,,,,
+E57,LM0200,,E57aILZ,,,,3,Found,Unknown,,,,,Available,Box_2_Row_1,,,,,,,,,,,
+E57,LM0200,,E57aCQV,,,,4,Found,Found,,,,,Available,Box_2_Row_1,,,,,,,,,,,
+E57,LM0200,,E57aETW,,,,5,Empty,Found,,,,,Available,Box_2_Row_1,,,,,,,,,,,
+E57,LM0200,,E57aLMV,,,,6,Unknown,Found,,,,,Available,Box_2_Row_1,,,,,,,,,,,
+E57,LM0200,,E57aCIV,,,,7,Empty,Unknown,,,,,,Box_2_Row_1,,,,,,,,,,,
+E57,LM0200,,E57aIKW,,,,8,Empty,Found,,,,,,Box_2_Row_1,,,,,,,,,,,
+E57,LM0200,,E57aDHM,,,,9,Empty,Found,,,,,,Box_2_Row_1,,,,,,,,,,,
+E57,LM0200,,E57aBDN,,,,10,Empty,Found,,,,,,Box_2_Row_1,,,,,,,,,,,
+E57,LM0200,,E57aCFH,,,,11,Empty,Found,,,,,,Box_2_Row_1,,,,,,,,,,,
+E57,LM0201,,E57aBUX,,,,0,Found,Found,,,,,Available,Box_1_Row_5,,,,,,,,,,,
+E57,LM0201,,E57aTVX,,,,1,Found,Found,,,,,Available,Box_1_Row_5,,,,,,,,,,,
+E57,LM0201,,E57aAIO,,,,2,Found,Unknown,,,,,Available,Box_1_Row_5,,,,,,,,,,,
+E57,LM0201,,E57aGUV,,,,3,Found,Unknown,,,,,Available,Box_1_Row_5,,,,,,,,,,,
+E57,LM0201,,E57aAUY,,,,4,Found,Found,,,,,,Box_1_Row_5,,,,,,,,,,,
+E57,LM0201,,E57aAOZ,,,,5,Found,Found,,,,,,Box_1_Row_5,,,,,,,,,,,
+E57,LM0201,,E57aBES,,,,6,Found,Found,0.0695,with_beads,with_beads,,,Box_1_Row_5,11.03.2022_B2,Dileshi,,3/11/2022 6:05:50 PM,120.9,ng/µl,2.418,1.36,1.78,1.32,D
+E57,LM0201,,E57aCTW,,,,7,Empty,Unknown,,,,,,Box_1_Row_5,,,,,,,,,,,
+E57,LM0201,,E57aDPR,,,,8,Empty,Unknown,,,,,,Box_1_Row_5,,,,,,,,,,,
+E57,LM0201,,E57aEPT,,,,9,Unknown,Found,,,,,Available,Box_1_Row_5,,,,,,,,,,,
+E57,LM0201,,E57aESZ,,,,10,Empty,Found,,,,,Available,Box_1_Row_5,,,,,,,,,,,
+E57,LM0201,,E57aAGK,,,,11,Found,Found,,,,,Available,Box_1_Row_5,,,,,,,,,,,
+E57,LM0202,,E57aGPW,,,,0,Found,Found,,,,,,Box_1_Row_4,,,,,,,,,,,
+E57,LM0202,,E57aCJK,,,,1,Found,Found,,,,,,Box_1_Row_4,,,,,,,,,,,
+E57,LM0202,,E57aAPX,,,,2,Found,Unknown,,,,,,Box_1_Row_4,,,,,,,,,,,
+E57,LM0202,,E57aGJT,,,,3,Found,Found,,,,,Available,Box_1_Row_4,,,,,,,,,,,
+E57,LM0202,,E57aDEN,,,,4,Empty,Found,,,,,Available,Box_1_Row_4,,,,,,,,,,,
+E57,LM0202,,E57aDFG,,,,5,Found,Found,,,,,Available,Box_1_Row_4,,,,,,,,,,,
+E57,LM0202,,E57aBIK,,,,6,Found,Found,0.0101,with_beads,with_beads,,,Box_1_Row_4,21.03.2022,Alexa,,3/21/2022 1:24:44 PM,60.5,ng/µl,1.21,0.657,1.84,1.99,D
+E57,LM0202,,E57aCQU,,,,7,Empty,Unknown,,,,,,Box_1_Row_4,,,,,,,,,,,
+E57,LM0202,,E57aBEO,Diarrhea,,,8,Empty,Unknown,,,,,,Box_1_Row_4,,,,,,,,,,,
+E57,LM0202,,E57aCMU,,,,9,Found,Found,0.0129,with_beads,with_beads,,,Box_1_Row_4,18.03.2022,Alexa,,3/18/2022 12:53:50 PM,18.8,ng/µl,0.376,0.174,2.17,-1.87,D
+E57,LM0202,,E57aDMQ,,,,10,Found,Found,,,,,,Box_1_Row_4,,,,,,,,,,,
+E57,LM0202,,E57aHJY,,,,11,Found,Found,,,,,,Box_1_Row_4,,,,,,,,,,,
+E57,LM0203,,E57aCMO,,,,0,Found,Found,,,,,,Box_1_Row_3,,,,,,,,,,,
+E57,LM0203,,E57aGOP,,,,1,Unknown,Found,,,,,,Box_1_Row_3,,,,,,,,,,,
+E57,LM0203,,E57aILR,,,,2,Empty,Unknown,,,,,,Box_1_Row_3,,,,,,,,,,,
+E57,LM0203,,E57aQRV,,,,3,Found,Unknown,,,,,,Box_1_Row_3,,,,,,,,,,,
+E57,LM0203,,E57aEGO,,,,4,Found,Found,,,,,,Box_1_Row_3,,,,,,,,,,,
+E57,LM0203,,E57aHTU,,,,5,Found,Found,,,,,,Box_1_Row_3,,,,,,,,,,,
+E57,LM0203,,E57aCPT,,,,6,Found,Found,0.0884,with_beads,with_beads,,,Box_1_Row_3,11.03.2022_B2,Dileshi,,3/11/2022 6:01:36 PM,120,ng/µl,2.4,1.291,1.86,2.46,D
+E57,LM0203,,E57aCHO,,,,7,Found,Unknown,0.0808,with_beads,with_beads,,,Box_1_Row_3,11.03.2022_B1,Dileshi,,3/11/2022 6:14:11 PM,102.2,ng/µl,2.044,1.121,1.82,1.69,D
+E57,LM0203,,E57aBCO,,,,8,Empty,Unknown,,,,,,Box_1_Row_3,,,,,,,,,,,
+E57,LM0203,,E57aLQR,,,,9,Empty,Found,,,,,,Box_1_Row_3,,,,,,,,,,,
+E57,LM0203,,E57aLTY,,,,10,Empty,Found,,,,,,Box_1_Row_3,,,,,,,,,,,
+E57,LM0203,,E57aGJX,,,,11,Found,Found,,,,,,Box_1_Row_3,,,,,,,,,,,
+E57,LM0227,,E57aFGW,,,,0,Found,Found,,,,,,Box_1&5_Row_2&5,,,,,,,,,,,
+E57,LM0227,,E57aJMP,,,,1,Found,Found,0.1047,no_beads,no_beads,4_minute_longer_fridge_incubation,,Box_1&5_Row_2&5,09.03.2022_B1,Dileshi,,3/9/2022 5:14:30 PM,211.6,ng/µl,4.231,2.389,1.77,1.49,D
+E57,LM0227,,E57aILO,,,,2,Found,Found,,,,,,Box_1&5_Row_2&5,,,,,,,,,,,
+E57,LM0227,,E57aACU,,,,3,Found,Found,0.1250,with_beads,with_beads,,,Box_1&5_Row_2&5,24.03.2022,Alexa,,3/24/2022 3:32:45 PM,257.1,ng/µl,5.143,2.754,1.87,2.79,D
+E57,LM0227,,E57aPTU,,,,4,Found,Found,0.1034,with_beads,with_beads,,,Box_1&5_Row_2&5,24.03.2022,Alexa,,3/24/2022 3:29:19 PM,157.9,ng/µl,3.157,1.655,1.91,2.3,D
+E57,LM0227,,E57aNXY,,,,5,Found,Found,,,,,,Box_1&5_Row_2&5,,,,,,,,,,,
+E57,LM0227,,E57aBEH,,,,6,Unknown,Found,,,,,,Box_1&5_Row_2&5,,,,,,,,,,,
+E57,LM0227,,E57aFKN,,,,7,Unknown,Found,,,,,,Box_1&5_Row_2&5,,,,,,,,,,,
+E57,LM0227,,E57aKQR,,,,8,Unknown,Unknown,,,,,,Box_1&5_Row_2&5,,,,,,,,,,,
+E57,LM0227,,E57aBIR,,,,9,Unknown,Found,,,,,,Box_1&5_Row_2&5,,,,,,,,,,,
+E57,LM0227,,E57aGPR,,,,10,Unknown,Found,,,,,,Box_1&5_Row_2&5,,,,,,,,,,,
+E57,LM0227,,E57aKMO,,,,11,Unknown,Found,,,,,,Box_1&5_Row_2&5,,,,,,,,,,,
+E57,LM0228,XX,E57aFRW,,,,0,Empty,Found,0.0566,with_beads,with_beads,,,Box_6_Row_1,16.04.2022_B1,Dileshi,,4/16/2022 5:21:03 PM,115,ng/µl,2.3,1.25,1.84,2.11,D
+E57,LM0228,XX,E57aMWY,,,,1,Found,Found,0.0452,with_beads,with_beads,,,Box_6_Row_1,10.03.2022_B1,Dileshi,,3/10/2022 3:30:49 PM,46,ng/µl,0.92,0.515,1.79,0.93,D
+E57,LM0228,XX,E57aMWY2,,,Yes,1,Found,Found,0.0855,with_beads,with_beads,,,,16.04.2022_B1,Dileshi,,4/16/2022 5:23:00 PM,157.4,ng/µl,3.148,1.712,1.84,1.82,D
+E57,LM0228,XX,E57aCKN,,,,2,Found,Found,0.707,with_beads,with_beads,,,Box_6_Row_1,16.04.2022_B1,Dileshi,,4/16/2022 5:17:52 PM,238.1,ng/µl,4.761,2.82,1.69,1.11,D
+E57,LM0228,XX,E57aISW,,,,3,Found,Found,0.1172,with_beads,with_beads,,,Box_6_Row_1,24.03.2022,Alexa,,3/24/2022 11:52:15 AM,83.6,ng/µl,1.673,0.901,1.86,1.94,D
+E57,LM0228,XX,E57aISW,,,,3,Found,Found,0.1172,with_beads,with_beads,,,Box_6_Row_1,24.03.2022,Alexa,,4/26/2022 7:57:42 PM,83.3,ng/µl,1.666,0.936,1.78,1.24,D
+E57,LM0228,XX,E57aBMX,,,,4,Found,Found,0.0912,with_beads,with_beads,,,Box_6_Row_1,16.04.2022_B1,Dileshi,,4/16/2022 5:15:04 PM,134.7,ng/µl,2.694,1.518,1.77,1.45,D
+E57,LM0228,XX,E57aCEH,,,,5,Unknown,Found,0.0751,with_beads,with_beads,,,Box_6_Row_1,16.04.2022_B1,Dileshi,,4/16/2022 5:17:10 PM,51.2,ng/µl,1.024,0.563,1.82,1.68,D
+E57,LM0228,XX,E57aEIY,,,,6,Found,Found,0.0826,with_beads,with_beads,,,Box_6_Row_1,16.04.2022_B1,Dileshi,,4/16/2022 5:19:16 PM,120.7,ng/µl,2.413,1.332,1.81,1.59,D
+E57,LM0228,XX,E57aFIY,,,,7,Unknown,Found,0.0560,with_beads,with_beads,,,Box_6_Row_1,16.04.2022_B1,Dileshi,,4/16/2022 5:20:05 PM,72.9,ng/µl,1.457,0.811,1.8,1.38,D
+E57,LM0228,XX,E57aATY,,,,8,Unknown,Unknown,,,,,,Box_6_Row_1,,,,,,,,,,,
+E57,LM0228,XX,E57aIQU,,,,9,Unknown,Found,0.0665,with_beads,with_beads,,,Box_6_Row_1,16.04.2022_B1,Dileshi,,4/16/2022 5:22:04 PM,280.8,ng/µl,5.616,3.059,1.84,2.16,D
+E57,LM0228,XX,E57aANO,,,,10,Unknown,Found,0.0614,with_beads,with_beads,,,Box_6_Row_1,16.04.2022_B1,Dileshi,,4/16/2022 5:13:35 PM,166.5,ng/µl,3.33,1.83,1.82,1.8,D
+E57,LM0228,XX,E57aAIN,,,,11,Unknown,Found,0.1199,with_beads,with_beads,,,Box_6_Row_1,16.04.2022_B1,Dileshi,,4/16/2022 5:12:19 PM,189.6,ng/µl,3.792,2.06,1.84,2.16,D
+E57,LM0229,XX,E57aIJQ,,,,0,Found,Found,0.0641,with_beads,with_beads,,,Box_6_Row_2,16.04.2022_B2,Dileshi,,4/16/2022 5:06:43 PM,24.1,ng/µl,0.483,0.272,1.77,1.47,D
+E57,LM0229,XX,E57aIJQ2,,,Yes,0,Found,Found,0.0623,with_beads,with_beads,,,,23.04.2022_B2,Dileshi,,4/23/2022 8:26:57 PM,204.6,ng/µl,4.093,2.292,1.79,1.61,D
+E57,LM0229,XX,E57aEKT,,,,1,Found,Found,0.0428,with_beads,with_beads,,,Box_6_Row_2,10.03.2022_B1,Dileshi,,4/26/2022 8:14:55 PM,102,ng/µl,2.04,1.086,1.88,1.84,D
+E57,LM0229,XX,E57aHQZ,,,,2,Empty,Found,0.0686,with_beads,with_beads,,,Box_6_Row_2,16.04.2022_B2,Dileshi,,4/16/2022 5:04:49 PM,208.9,ng/µl,4.177,2.336,1.79,1.51,D
+E57,LM0229,XX,E57aHMU,,,,3,Found,Found,0.0982,with_beads,with_beads,,,Box_6_Row_2,16.04.2022_B2,Dileshi,,4/16/2022 5:03:56 PM,180.7,ng/µl,3.614,1.958,1.85,1.91,D
+E57,LM0229,XX,E57aHKV,,,,4,Found,Found,0.0840,with_beads,with_beads,,,Box_6_Row_2,16.04.2022_B2,Dileshi,,4/16/2022 5:03:07 PM,108.8,ng/µl,2.176,1.18,1.84,1.89,D
+E57,LM0229,XX,E57aMNT,,,,5,Found,Found,0.1062,with_beads,with_beads,,Available,Box_6_Row_2,16.04.2022_B2,Dileshi,,4/16/2022 5:08:42 PM,153.4,ng/µl,3.069,1.675,1.83,1.87,D
+E57,LM0229,XX,E57aKOU,,,,6,Unknown,Found,0.0569,with_beads,with_beads,,,Box_6_Row_2,16.04.2022_B2,Dileshi,,4/16/2022 5:07:22 PM,73.7,ng/µl,1.475,0.82,1.8,1.6,D
+E57,LM0229,XX,E57aHIO,,,,7,Unknown,Found,0.0373,with_beads,with_beads,,,Box_6_Row_2,16.04.2022_B2,Dileshi,,4/16/2022 5:00:51 PM,32.5,ng/µl,0.65,0.358,1.82,1.49,D
+E57,LM0229,XX,E57aBHK,,,,8,Unknown,Unknown,,,,,Available,Box_6_Row_2,,,,,,,,,,,
+E57,LM0229,XX,E57aLRZ,,,,9,Unknown,Found,0.0608,with_beads,with_beads,,,Box_6_Row_2,16.04.2022_B2,Dileshi,,4/16/2022 5:08:10 PM,118.2,ng/µl,2.364,1.329,1.78,1.43,D
+E57,LM0229,XX,E57aORU,,,,10,Unknown,Found,0.0773,with_beads,with_beads,,,Box_6_Row_2,16.04.2022_B2,Dileshi,,4/16/2022 5:09:46 PM,50.9,ng/µl,1.017,0.587,1.73,1.16,D
+E57,LM0229,XX,E57aHJK,,,,11,Unknown,Found,0.0573,with_beads,with_beads,,,Box_6_Row_2,16.04.2022_B2,Dileshi,,4/16/2022 5:02:18 PM,231.4,ng/µl,4.628,2.526,1.83,2.22,D
+E57,LM0230,,E57aERW,,,,0,Empty,Found,,,,,,Box_6_Row_3,,,,,,,,,,,
+E57,LM0230,,E57aDWX,,,,1,Found,Found,,,,,,Box_6_Row_3,,,,,,,,,,,
+E57,LM0230,,E57aEWY,,,,2,Unknown,Found,,,,,,Box_6_Row_3,,,,,,,,,,,
+E57,LM0230,,E57aWYZ,,,,3,Found,Found,,,,,,Box_6_Row_3,,,,,,,,,,,
+E57,LM0230,,E57aHPX,,,,4,Found,Found,,,,,Available,Box_6_Row_3,,,,,,,,,,,
+E57,LM0230,,E57aFJN,,,,5,Unknown,Found,,,,,,Box_6_Row_3,,,,,,,,,,,
+E57,LM0230,,E57aGJS,,,,6,Unknown,Found,,,,,Available,Box_6_Row_3,,,,,,,,,,,
+E57,LM0230,,E57aJTV,,,,7,Unknown,Found,,,,,Available,Box_6_Row_3,,,,,,,,,,,
+E57,LM0230,,E57aSUV,,Sacrificed,,8,Unknown,Unknown,,,,,,Box_6_Row_3,,,,,,,,,,,
+E57,LM0230,,E57aFMP,Uvailable,Sacrificed,,9,Unknown,Empty,,,,,,Box_6_Row_3,,,,,,,,,,,
+E57,LM0230,,E57aCKO,Uvailable,Sacrificed,,10,Unknown,Unknown,,,,,Available,Box_6_Row_3,,,,,,,,,,,
+E57,LM0230,,E57aSUY,Uvailable,Sacrificed,,11,Unknown,Unknown,,,,,,Box_6_Row_3,,,,,,,,,,,
+E57,LM0231,,E57aAFW,,,,0,Found,Found,,,,,,Box_6_Row_4,,,,,,,,,,,
+E57,LM0231,,E57aDRV,,,,1,Found,Found,0.1182,no_beads,no_beads,,,Box_6_Row_4,09.03.2022,Alexa,,3/9/2022 3:20:15 PM,144.2,ng/µl,2.884,1.481,1.95,7.03,D
+E57,LM0231,,E57aDKZ,,,,2,Found,Found,0.0523,with_beads,with_beads,,,Box_6_Row_4,05.04.2022_B1,Dileshi,,4/5/2022 3:46:09 PM,-94.8,ng/µl,-1.897,1.227,-1.55,-1.68,D
+E57,LM0231,,E57aLQX,,,,3,Found,Found,0.1072,with_beads,with_beads,,,Box_6_Row_4,23.03.2022,Alexa,,3/23/2022 1:28:50 PM,150.3,ng/µl,3.006,1.641,1.83,1.9,D
+E57,LM0231,,E57aSXZ,,,,4,Empty,Found,,,,,Available,Box_6_Row_4,,,,,,,,,,,
+E57,LM0231,,E57aBUY,,,,5,Unknown,Found,,,,,Available,Box_6_Row_4,,,,,,,,,,,
+E57,LM0231,,E57aFMT,,,,6,Unknown,Found,,,,,Available,Box_6_Row_4,,,,,,,,,,,
+E57,LM0231,,E57aBGQ,,,,7,Unknown,Found,,,,,Available,Box_6_Row_4,,,,,,,,,,,
+E57,LM0231,,E57aNSW,,,,8,Unknown,Unknown,,,,,,Box_6_Row_4,,,,,,,,,,,
+E57,LM0231,,E57aIWY,,,,9,Unknown,Found,,,,,Available,Box_6_Row_4,,,,,,,,,,,
+E57,LM0231,,E57aAOR,,,,10,Unknown,Found,,,,,Available,Box_6_Row_4,,,,,,,,,,,
+E57,LM0231,,E57aFLR,,,,11,Unknown,Found,,,,,,Box_6_Row_4,,,,,,,,,,,
+E57,LM0232,,E57aBGK,,,,0,Found,Found,,,,,,Box_6_Row_5,,,,,,,,,,,
+E57,LM0232,,E57aCQX,,,,1,Found,Found,0.0713,no_beads,no_beads,4_minute_longer_fridge_incubation,,Box_6_Row_5,09.03.2022_B1,Dileshi,,3/9/2022 5:04:43 PM,125.4,ng/µl,2.507,1.394,1.8,0.97,D
+E57,LM0232,,E57aHNQ,,,,2,Found,Found,,,,,,Box_6_Row_5,,,,,,,,,,,
+E57,LM0232,,E57aCSY,,,,3,Found,Found,,,,,,Box_6_Row_5,,,,,,,,,,,
+E57,LM0232,,E57aANW,,,,4,Found,Found,,,,,,Box_6_Row_5,,,,,,,,,,,
+E57,LM0232,,E57aEMO,,,,5,Found,Found,,,,,Available,Box_6_Row_5,,,,,,,,,,,
+E57,LM0232,,E57aEGZ,,,,6,Unknown,Found,,,,,Available,Box_6_Row_5,,,,,,,,,,,
+E57,LM0232,,E57aHKN,,,,7,Unknown,Found,,,,,,Box_6_Row_5,,,,,,,,,,,
+E57,LM0232,,E57aBDG,,,,8,Unknown,Unknown,,,,,,Box_6_Row_5,,,,,,,,,,,
+E57,LM0232,,E57aNOT,,,,9,Unknown,Found,,,,,,Box_6_Row_5,,,,,,,,,,,
+E57,LM0232,,E57aKRU,,,,10,Unknown,Found,,,,,,Box_6_Row_5,,,,,,,,,,,
+E57,LM0232,,E57aBDY,,,,11,Unknown,Found,,,,,,Box_6_Row_5,,,,,,,,,,,
+E57,LM0233,,E57aAJW,,,,0,Found,Found,,,,,,Box_7_Row_1,,,,,,,,,,,
+E57,LM0233,,E57aBCL,,,,1,Unknown,Found,,,,,,Box_7_Row_1,,,,,,,,,,,
+E57,LM0233,,E57aMQV,,,,2,Unknown,Found,,,,,,Box_7_Row_1,,,,,,,,,,,
+E57,LM0233,,E57aCMZ,,,,3,Found,Found,,,,,,Box_7_Row_1,,,,,,,,,,,
+E57,LM0233,,E57aOPV,,,,4,Found,Found,0.0540,with_beads,with_beads,,,Box_7_Row_1,24.03.2022,Alexa,,3/24/2022 3:31:39 PM,149.4,ng/µl,2.988,1.574,1.9,3.54,D
+E57,LM0233,,E57aHKX,,,,5,Unknown,Found,,,,,,Box_7_Row_1,,,,,,,,,,,
+E57,LM0233,,E57aDVW,,,,6,Unknown,Found,,,,,,Box_7_Row_1,,,,,,,,,,,
+E57,LM0233,,E57aCOR,,,,7,Unknown,Found,,,,,Available,Box_7_Row_1,,,,,,,,,,,
+E57,LM0233,,E57aNSY,,,,8,Unknown,Unknown,,,,,Available,Box_7_Row_1,,,,,,,,,,,
+E57,LM0233,,E57aNPY,,,,9,Unknown,Found,,,,,,Box_7_Row_1,,,,,,,,,,,
+E57,LM0233,,E57aOTX,,,,10,Unknown,Found,,,,,,Box_7_Row_1,,,,,,,,,,,
+E57,LM0233,,E57aDHI,,,,11,Unknown,Found,,,,,,Box_7_Row_1,,,,,,,,,,,
+E57,LM0234,,E57aDMN,,,,0,Found,Unknown,,,,,,Box_7_Row_2,,,,,,,,,,,
+E57,LM0234,,E57aOQR,,,,1,Unknown,Found,,,,,,Box_7_Row_2,,,,,,,,,,,
+E57,LM0234,,E57aBIX,,,,2,Found,Found,,,,,,Box_7_Row_2,,,,,,,,,,,
+E57,LM0234,,E57aQRS,,,,3,Found,Found,0.0711,with_beads,with_beads,,,Box_7_Row_2,23.03.2022,Alexa,,3/23/2022 1:29:26 PM,225.4,ng/µl,4.509,2.438,1.85,2.73,D
+E57,LM0234,,E57aNUV,,,,4,Found,Found,,,,,,Box_7_Row_2,,,,,,,,,,,
+E57,LM0234,,E57aFJY,,,,5,Found,Found,,,,,,Box_7_Row_2,,,,,,,,,,,
+E57,LM0234,,E57aLNY,,,,6,Unknown,Found,,,,,,Box_7_Row_2,,,,,,,,,,,
+E57,LM0234,,E57aBIS,,,,7,Unknown,Found,,,,,,Box_7_Row_2,,,,,,,,,,,
+E57,LM0234,,E57aEQW,,,,8,Unknown,Unknown,,,,,Available,Box_7_Row_2,,,,,,,,,,,
+E57,LM0234,,E57aHLX,,,,9,Unknown,Found,,,,,,Box_7_Row_2,,,,,,,,,,,
+E57,LM0234,,E57aCNW,,,,10,Unknown,Found,,,,,,Box_7_Row_2,,,,,,,,,,,
+E57,LM0234,,E57aDNO,,,,11,Unknown,Found,,,,,,Box_7_Row_2,,,,,,,,,,,
+E57,LM0235,,E57aMOY,,,,0,Found,Found,,,,,,Box_7_Row_4,,,,,,,,,,,
+E57,LM0235,,E57aJVX,,,,1,Found,Found,0.1006,no_beads,no_beads,,,Box_7_Row_4,07.03.2022_B1,Fay_Alexa_Dileshi,,,141.4,ng/µl,2.828,1.375,2.06,-3.37,D
+E57,LM0235,,E57aMOW,,,,2,Found,Found,,,,,,Box_7_Row_4,,,,,,,,,,,
+E57,LM0235,,E57aEIM,,,,3,Found,Unknown,0.1153,with_beads,with_beads,,,Box_7_Row_4,24.03.2022,Alexa,,3/24/2022 3:24:27 PM,198.1,ng/µl,3.961,2.171,1.82,1.75,D
+E57,LM0235,,E57aFHL,,,,4,Found,Found,,,,,,Box_7_Row_4,,,,,,,,,,,
+E57,LM0235,,E57aAGI,,,,5,Found,Found,,,,,,Box_7_Row_4,,,,,,,,,,,
+E57,LM0235,,E57aEMZ,,,,6,Unknown,Found,,,,,,Box_7_Row_4,,,,,,,,,,,
+E57,LM0235,,E57aAJU,,,,7,Unknown,Found,,,,,,Box_7_Row_4,,,,,,,,,,,
+E57,LM0235,,E57aDQZ,,,,8,Unknown,Unknown,,,,,,Box_7_Row_4,,,,,,,,,,,
+E57,LM0235,,E57aBFG,,,,9,Unknown,Unknown,,,,,,Box_7_Row_4,,,,,,,,,,,
+E57,LM0235,,E57aFJX,,,,10,Unknown,Found,,,,,,Box_7_Row_4,,,,,,,,,,,
+E57,LM0235,,E57aGMV,,,,11,Unknown,Found,,,,,,Box_7_Row_4,,,,,,,,,,,
+E57,LM0236,,E57aANT,,,,0,Found,Found,,,,,,Box_7_Row_3,,,,,,,,,,,
+E57,LM0236,,E57aRVW,,,,1,Unknown,Found,,,,,,Box_7_Row_3,,,,,,,,,,,
+E57,LM0236,,E57aLOY,,,,2,Unknown,Found,,,,,,Box_7_Row_3,,,,,,,,,,,
+E57,LM0236,,E57aDHR,,,,3,Empty,Found,,,,,,Box_7_Row_3,,,,,,,,,,,
+E57,LM0236,,E57aAOX,,,,4,Found,Found,0.0510,with_beads,with_beads,,,Box_7_Row_3,10.03.2022_B1,Dileshi,,3/10/2022 3:26:16 PM,258.5,ng/µl,5.17,3.023,1.71,1.18,D
+E57,LM0236,,E57aGOT,,,,5,Unknown,Found,,,,,,Box_7_Row_3,,,,,,,,,,,
+E57,LM0236,,E57aKNZ,,,,6,Unknown,Unknown,,,,,,Box_7_Row_3,,,,,,,,,,,
+E57,LM0236,,E57aDOP,,,,7,Unknown,Found,,,,,Available,Box_7_Row_3,,,,,,,,,,,
+E57,LM0236,,E57aJTW,,,,8,Unknown,Unknown,,,,,,Box_7_Row_3,,,,,,,,,,,
+E57,LM0236,,E57aGPS,,,,9,Unknown,Found,,,,,,Box_7_Row_3,,,,,,,,,,,
+E57,LM0236,,E57aDKN,,,,10,Unknown,Found,,,,,,Box_7_Row_3,,,,,,,,,,,
+E57,LM0236,,E57aBKL,,,,11,Unknown,Found,,,,,,Box_7_Row_3,,,,,,,,,,,
+E57,LM0237,,E57aBJN,,,,0,Found,Found,,,,,,Box_7_Row_5,,,,,,,,,,,
+E57,LM0237,,E57aDSX,,,,1,Found,Found,0.0430,no_beads,no_beads,4_minute_longer_fridge_incubation,,Box_7_Row_5,09.03.2022_B1,Dileshi,,3/9/2022 5:10:44 PM,259.5,ng/µl,5.191,2.956,1.76,1.46,D
+E57,LM0237,,E57aGSZ,,,,2,Found,Found,0.0056,with_beads,with_beads,,,Box_7_Row_5,07.04.2022_B1,Dileshi,,4/7/2022 2:22:52 PM,70.1,ng/µl,1.401,0.991,1.41,0.51,D
+E57,LM0237,,E57aHMY,,,,3,Found,Found,,,,,,Box_7_Row_5,,,,,,,,,,,
+E57,LM0237,,E57aFLZ,,,,4,Found,Found,,,,,,Box_7_Row_5,,,,,,,,,,,
+E57,LM0237,,E57aEHK,,,,5,Found,Found,,,,,,Box_7_Row_5,,,,,,,,,,,
+E57,LM0237,,E57aBFL,,,,6,Unknown,Found,,,,,,Box_7_Row_5,,,,,,,,,,,
+E57,LM0237,,E57aCKV,,,,7,Unknown,Found,,,,,Available,Box_7_Row_5,,,,,,,,,,,
+E57,LM0237,,E57aGMS,,,,8,Unknown,Unknown,,,,,,Box_7_Row_5,,,,,,,,,,,
+E57,LM0237,,E57aLOT,,,,9,Unknown,Unknown,,,,,,Box_7_Row_5,,,,,,,,,,,
+E57,LM0237,,E57aCJT,,,,10,Unknown,Unknown,,,,,,Box_7_Row_5,,,,,,,,,,,
+E57,LM0237,,E57aDKQ,,,,11,Unknown,Unknown,,,,,,Box_7_Row_5,,,,,,,,,,,
+E57,LM0238,,E57aEUW,,,,0,Found,Found,0.0737,with_beads,with_beads,,,Box_8_Row_1,14.04.2022_B1,Dileshi,,4/14/2022 6:47:37 PM,149.1,ng/µl,2.982,1.604,1.86,1.23,D
+E57,LM0238,,E57aFQV,,,,1,Unknown,Found,0.0896,with_beads,with_beads,,,Box_8_Row_1,14.04.2022_B1,Dileshi,,4/14/2022 6:51:49 PM,40.9,ng/µl,0.819,0.464,1.76,0.74,D
+E57,LM0238,,E57aDXY,,,,2,Found,Found,0.0752,with_beads,with_beads,,,Box_8_Row_1,24.03.2022,Alexa,,4/26/2022 7:57:09 PM,241.9,ng/µl,4.838,2.679,1.81,1.97,D
+E57,LM0238,,E57aDIS,,,,3,Found,Found,0.1021,with_beads,with_beads,,,Box_8_Row_1,23.03.2022,Alexa,,4/26/2022 8:00:24 PM,189.3,ng/µl,3.786,2.108,1.8,1.65,D
+E57,LM0238,,E57aETZ,,,,4,Found,Found,0.0507,with_beads,with_beads,,,Box_8_Row_1,23.04.2022_B1,Dileshi,,4/23/2022 4:41:40 PM,200.1,ng/µl,4.002,2.189,1.83,1.42,D
+E57,LM0238,,E57aENR,,,,5,Unknown,Found,0.0609,with_beads,with_beads,,,Box_8_Row_1,23.04.2022_B1,Dileshi,,4/23/2022 4:40:56 PM,72.9,ng/µl,1.458,0.792,1.84,1.55,D
+E57,LM0238,,E57aIOY,,,,6,Unknown,Found,0.0805,with_beads,with_beads,,,Box_8_Row_1,14.04.2022_B1,Dileshi,,4/14/2022 6:54:07 PM,210,ng/µl,4.199,2.328,1.8,1.69,D
+E57,LM0238,,E57aCJQ,,,,7,Unknown,Found,0.0224,with_beads,with_beads,,,Box_8_Row_1,14.04.2022_B1,Dileshi,,4/14/2022 6:44:41 PM,147.7,ng/µl,2.954,1.596,1.85,2.01,D
+E57,LM0238,,E57aNQW,,,,8,Unknown,Unknown,,,,,,Box_8_Row_1,,,,,,,,,,,
+E57,LM0238,,E57aHOU,,,,9,Unknown,Unknown,,,,,,Box_8_Row_1,,,,,,,,,,,
+E57,LM0238,,E57aIOX,,,,10,Unknown,Found,0.0341,with_beads,with_beads,,,Box_8_Row_1,14.04.2022_B1,Dileshi,,4/14/2022 6:54:59 PM,199.1,ng/µl,3.982,2.178,1.83,1.61,D
+E57,LM0238,,E57aDMT,,,,11,Unknown,Found,0.0628,with_beads,with_beads,,,Box_8_Row_1,14.04.2022_B1,Dileshi,,4/14/2022 6:46:53 PM,244.2,ng/µl,4.884,2.648,1.84,1.98,D
+E57,LM0239,XX,E57aTXZ,,,,0,Found,Found,0.0736,with_beads,with_beads,,,Box_8_Row_2,07.04.2022_B1,Dileshi,,4/7/2022 2:27:55 PM,255,ng/µl,5.101,3.034,1.68,1.48,D
+E57,LM0239,XX,E57aTXZ,,,,0,Found,Found,0.0736,with_beads,with_beads,,,Box_8_Row_2,07.04.2022_B1,Dileshi,,4/26/2022 8:12:59 PM,218.2,ng/µl,4.363,2.387,1.83,1.81,D
+E57,LM0239,XX,E57aDEK,,,,1,Found,Found,0.0662,no_beads,no_beads,4_minute_longer_fridge_incubation,,Box_8_Row_2,09.03.2022_B1,Dileshi,,3/9/2022 5:06:22 PM,60,ng/µl,1.2,0.675,1.78,1.52,DEK
+E57,LM0239,XX,E57aDEK2,,,Yes,1,Found,Found,0.1330,with_beads,with_beads,,,,14.04.2022_B1,Dileshi,,4/14/2022 6:46:03 PM,127.7,ng/µl,2.555,1.369,1.87,1.89,D
+E57,LM0239,XX,E57aGRV,,,,2,Found,Found,0.0952,with_beads,with_beads,,,Box_8_Row_2,14.04.2022_B2,Dileshi,,4/14/2022 7:04:39 PM,197.4,ng/µl,3.948,2.158,1.83,1.29,D
+E57,LM0239,XX,E57aHTZ,,,,3,Found,Found,0.1138,with_beads,with_beads,,,Box_8_Row_2,23.03.2022,Alexa,,4/26/2022 7:42:35 PM,201.6,ng/µl,4.032,2.204,1.83,1.94,D
+E57,LM0239,XX,E57aAEQ,,,,4,Found,Found,0.1195,with_beads,with_beads,,,Box_8_Row_2,24.03.2022,Alexa,,3/24/2022 11:46:46 AM,145.4,ng/µl,2.909,1.552,1.87,1.89,D
+E57,LM0239,XX,E57aAEQ,,,,4,Found,Found,0.1195,with_beads,with_beads,,,Box_8_Row_2,24.03.2022,Alexa,,4/26/2022 8:08:57 PM,154,ng/µl,3.08,1.665,1.85,1.54,D
+E57,LM0239,XX,E57aLRX,,,,5,Found,Found,0.0599,with_beads,with_beads,,,Box_8_Row_2,23.04.2022_B1,Dileshi,,4/23/2022 4:46:20 PM,184.9,ng/µl,3.698,2.01,1.84,2.08,D
+E57,LM0239,XX,E57aQVY,,,,6,Unknown,Found,0.0525,with_beads,with_beads,,Available,Box_8_Row_2,14.04.2022_B2,Dileshi,,4/14/2022 7:06:17 PM,168.4,ng/µl,3.368,1.835,1.84,1.18,D
+E57,LM0239,XX,E57aGNZ,,,,7,Unknown,Found,0.0909,with_beads,with_beads,lost_50%_supertant_step_12_round_2,,Box_8_Row_2,14.04.2022_B1,Dileshi,,4/14/2022 6:53:14 PM,157.9,ng/µl,3.157,1.722,1.83,1.69,D
+E57,LM0239,XX,E57aMPT,,,,8,Unknown,Unknown,,,,,,Box_8_Row_2,,,,,,,,,,,
+E57,LM0239,XX,E57aCFW,,,,9,Unknown,Found,0.0620,with_beads,with_beads,,,Box_8_Row_2,14.04.2022_B1,Dileshi,,4/14/2022 6:42:41 PM,160.5,ng/µl,3.21,1.723,1.86,1.89,D
+E57,LM0239,XX,E57aAJT,,,,10,Unknown,Found,0.0647,with_beads,with_beads,,,Box_8_Row_2,14.04.2022_B1,Dileshi,,4/14/2022 6:43:14 PM,134.1,ng/µl,2.682,1.433,1.87,2.02,D
+E57,LM0239,XX,E57aIJS,,,,11,Unknown,Found,0.0564,with_beads,with_beads,,,Box_8_Row_2,23.04.2022_B1,Dileshi,,4/23/2022 4:44:53 PM,186.7,ng/µl,3.734,2.035,1.84,2.19,D
+E57,LM0240,XX,E57aCSX,,,,0,Found,Found,0.0901,with_beads,with_beads,,,Box_8_Row_3,14.04.2022_B2,Dileshi,,4/14/2022 7:02:48 PM,144.1,ng/µl,2.883,1.58,1.82,1.26,D
+E57,LM0240,XX,E57aFLQ,,,,1,Found,Found,0.0847,no_beads,no_beads,75µl_SX_instead_of_32.5µl_+_no_vortex_at_step_22,,Box_8_Row_3,07.03.2022_B2,Dileshi,,4/26/2022 8:10:24 PM,164.4,ng/µl,3.288,1.778,1.85,0.98,D
+E57,LM0240,XX,E57aRWY,,,,2,Found,Found,0.0767,with_beads,with_beads,,,Box_8_Row_3,14.04.2022_B2,Dileshi,,4/14/2022 7:06:42 PM,56.5,ng/µl,1.129,0.629,1.79,0.78,D
+E57,LM0240,XX,E57aRWY2,,,Yes,2,Found,Found,0.0465,with_beads,with_beads,,,,23.04.2022_B2,Dileshi,,4/23/2022 8:28:45 PM,98.8,ng/µl,1.977,1.079,1.83,1.85,D
+E57,LM0240,XX,E57aALU,,,,3,Found,Found,0.0787,with_beads,with_beads,,,Box_8_Row_3,23.03.2022,Alexa,,4/26/2022 8:13:57 PM,163.4,ng/µl,3.267,1.772,1.84,1.82,D
+E57,LM0240,XX,E57aUWY,,,,4,Found,Found,0.0776,with_beads,with_beads,,,Box_8_Row_3,14.04.2022_B2,Dileshi,,4/14/2022 7:07:21 PM,178.3,ng/µl,3.566,1.953,1.83,1.31,D
+E57,LM0240,XX,E57aHJR,,,,5,Found,Found,0.0540,with_beads,with_beads,,Available,Box_8_Row_3,23.04.2022_B1,Dileshi,,4/23/2022 4:44:07 PM,135.3,ng/µl,2.706,1.518,1.78,1.34,D
+E57,LM0240,XX,E57aCKZ,,,,6,Unknown,Found,0.1074,with_beads,with_beads,,,Box_8_Row_3,14.04.2022_B2,Dileshi,,4/14/2022 7:02:10 PM,185.1,ng/µl,3.701,2.029,1.82,1.32,D
+E57,LM0240,XX,E57aKMX,,,,7,Unknown,Found,0.576,with_beads,with_beads,,,Box_8_Row_3,14.04.2022_B2,Dileshi,,4/14/2022 7:05:41 PM,109.2,ng/µl,2.184,1.21,1.81,0.75,D
+E57,LM0240,XX,E57aAGU,,,,8,Unknown,Unknown,,,,,,Box_8_Row_3,,,,,,,,,,,
+E57,LM0240,XX,E57aHJT,,,,9,Unknown,Found,0.1391,with_beads,with_beads,,Available,Box_8_Row_3,14.04.2022_B2,Dileshi,,4/14/2022 7:05:10 PM,155.6,ng/µl,3.112,1.7,1.83,1.35,D
+E57,LM0240,XX,E57aENX,,,,10,Unknown,Found,0.0897,with_beads,with_beads,,Available,Box_8_Row_3,14.04.2022_B2,Dileshi,,4/14/2022 7:03:52 PM,221.7,ng/µl,4.434,2.484,1.78,1.3,D
+E57,LM0240,XX,E57aABL,,,,11,Unknown,Found,0.103,with_beads,with_beads,,,Box_8_Row_3,14.04.2022_B2,Dileshi,,4/14/2022 6:59:48 PM,203.3,ng/µl,4.065,2.234,1.82,1.29,D
+E57,LM0241,,E57aIVW,,,,0,Found,Found,,,,,,Box_8_Row_4,,,,,,,,,,,
+E57,LM0241,,E57aHOS,,,,1,Unknown,Found,,,,,,Box_8_Row_4,,,,,,,,,,,
+E57,LM0241,,E57aCHP,,,,2,Found,Found,,,,,,Box_8_Row_4,,,,,,,,,,,
+E57,LM0241,,E57aHJZ,,,,3,Found,Found,0.0363,with_beads,with_beads,,,Box_8_Row_4,24.03.2022,Alexa,,3/24/2022 11:50:06 AM,84.4,ng/µl,1.687,0.896,1.88,3.63,D
+E57,LM0241,,E57aPRS,,,,4,Found,Found,0.1027,with_beads,with_beads,,Available,Box_8_Row_4,24.03.2022,Alexa,,3/24/2022 3:30:25 PM,203.8,ng/µl,4.076,2.181,1.87,2.74,D
+E57,LM0241,,E57aDFX,,,,5,Unknown,Found,,,,,Available,Box_8_Row_4,,,,,,,,,,,
+E57,LM0241,,E57aEOZ,,,,6,Unknown,Found,,,,,Available,Box_8_Row_4,,,,,,,,,,,
+E57,LM0241,,E57aADE,,,,7,Unknown,Found,,,,,,Box_8_Row_4,,,,,,,,,,,
+E57,LM0241,,E57aIUZ,,,,8,Unknown,Unknown,,,,,Available,Box_8_Row_4,,,,,,,,,,,
+E57,LM0241,,E57aADF,,,,9,Unknown,Unknown,,,,,Available,Box_8_Row_4,,,,,,,,,,,
+E57,LM0241,,E57aJNU,,,,10,Unknown,Unknown,,,,,,Box_8_Row_4,,,,,,,,,,,
+E57,LM0241,,E57aDHW,,,,11,Unknown,Unknown,,,,,Available,Box_8_Row_4,,,,,,,,,,,
+E57,LM0242,,E57aSUZ,,,,0,Found,Found,0.0814,with_beads,with_beads,,Available,Box_8_Row_5,07.04.2022_B1,Dileshi,,4/7/2022 2:27:09 PM,220.2,ng/µl,4.403,2.557,1.72,1.72,D
+E57,LM0242,,E57aIMY,,,,1,Found,Found,0.1001,with_beads,with_beads,,,Box_8_Row_5,10.03.2022_B1,Dileshi,,3/10/2022 3:29:46 PM,320.2,ng/µl,6.405,3.536,1.81,2.02,D
+E57,LM0242,,E57aCGR,,,,2,Found,Found,,,,,,Box_8_Row_5,,,,,,,,,,,
+E57,LM0242,,E57aGJY,,,,3,Found,Unknown,,,,,,Box_8_Row_5,,,,,,,,,,,
+E57,LM0242,,E57aMOX,,,,4,Found,Found,,,,,,Box_8_Row_5,,,,,,,,,,,
+E57,LM0242,,E57aOQV,,,,5,Found,Found,,,,,,Box_8_Row_5,,,,,,,,,,,
+E57,LM0242,,E57aKTX,,,,6,Unknown,Found,,,,,,Box_8_Row_5,,,,,,,,,,,
+E57,LM0242,,E57aAKX,,,,7,Unknown,Found,,,,,Available,Box_8_Row_5,,,,,,,,,,,
+E57,LM0242,,E57aIMS,,,,8,Unknown,Unknown,,,,,Available,Box_8_Row_5,,,,,,,,,,,
+E57,LM0242,,E57aALN,,,,9,Unknown,Found,,,,,,Box_8_Row_5,,,,,,,,,,,
+E57,LM0242,,E57aJLO,,Died,,10,Unknown,Found,,,,,Available,Box_8_Row_5,,,,,,,,,,,
+E57,LM0242,,E57aAHM,,Died,,11,Unknown,Unknown,,,,,,Box_8_Row_5,,,,,,,,,,,
+E57,LM0243,,E57aILY,,,,0,Found,Found,,,,,,Box_1_Row_1,,,,,,,,,,,
+E57,LM0243,,E57aRSZ,,,,1,Unknown,Found,ALEXA,no_beads,no_beads,,Available,Box_1_Row_1,04.03.2022,Alexa_Fay,,3/4/2022 2:14:40 PM,202.7,ng/µl,4.055,2.321,1.75,1.41,D
+E57,LM0243,,E57aKTZ,,,,2,Unknown,Found,,,,,Available,Box_1_Row_1,,,,,,,,,,,
+E57,LM0243,,E57aEMP,,,,3,Unknown,Found,,,,,Available,Box_1_Row_1,,,,,,,,,,,
+E57,LM0243,,E57aJLT,,,,4,Found,Found,,,,,Available,Box_1_Row_1,,,,,,,,,,,
+E57,LM0243,,E57aIPR,,,,5,Unknown,Found,,,,,,Box_1_Row_1,,,,,,,,,,,
+E57,LM0243,,E57aMPY,,,,6,Unknown,Found,,,,,,Box_1_Row_1,,,,,,,,,,,
+E57,LM0243,,E57aQUW,,,,7,Unknown,Found,,,,,Available,Box_1_Row_1,,,,,,,,,,,
+E57,LM0243,,E57aABH,,Sacrificed,,8,Unknown,Unknown,,,,,Available,Box_1_Row_1,,,,,,,,,,,
+E57,LM0243,,E57aHUZ,,Sacrificed,,9,Unknown,Unknown,,,,,,Box_1_Row_1,,,,,,,,,,,
+E57,LM0243,,E57aDQW,,Sacrificed,,10,Unknown,Unknown,,,,,,Box_1_Row_1,,,,,,,,,,,
+E57,LM0243,,E57aPUY,,Sacrificed,,11,Unknown,Unknown,,,,,,Box_1_Row_1,,,,,,,,,,,
+E57,LM0244,,E57aJMQ,,,,0,Found,Found,0.0580,with_beads,with_beads,,,Box_11_Row_2,07.04.2022_B1,Dileshi,,4/7/2022 2:24:37 PM,292.6,ng/µl,5.853,3.371,1.74,2.09,D
+E57,LM0244,,E57aALY,,,,1,Found,Found,0.0118,no_beads,no_beads,4_minute_longer_fridge_incubation,,Box_11_Row_2,09.03.2022_B1,Dileshi,,3/9/2022 5:00:51 PM,27.6,ng/µl,0.552,0.303,1.82,0.88,D
+E57,LM0244,,E57aCRY,,,,2,Found,Found,,,,,,Box_11_Row_2,,,,,,,,,,,
+E57,LM0244,,E57aBFI,,,,3,Found,Found,0.0691,with_beads,with_beads,,,Box_11_Row_2,23.03.2022,Alexa,,3/23/2022 1:29:55 PM,91.7,ng/µl,1.833,0.977,1.88,2.69,D
+E57,LM0244,,E57aHJW,,,,4,Found,Found,0.0616,with_beads,with_beads,,,Box_11_Row_2,22.04.2022_B2,Dileshi,,4/22/2022 8:24:57 PM,250.9,ng/µl,5.018,2.731,1.84,1.91,D
+E57,LM0244,,E57aMXZ,,,,5,Found,Found,,,,,,Box_11_Row_2,,,,,,,,,,,
+E57,LM0244,,E57aVWY,,,,6,Unknown,Found,,,,,,Box_11_Row_2,,,,,,,,,,,
+E57,LM0244,,E57aLNX,,,,7,Unknown,Found,,,,,,Box_11_Row_2,,,,,,,,,,,
+E57,LM0244,,E57aJSU,,Eye_infection,,8,Unknown,Unknown,,,,,,Box_11_Row_2,,,,,,,,,,,
+E57,LM0244,,E57aBGL,,,,9,Unknown,Empty,,,,,,Box_11_Row_2,,,,,,,,,,,
+E57,LM0244,,E57aBFV,,,,10,Unknown,Unknown,,,,,Available,Box_11_Row_2,,,,,,,,,,,
+E57,LM0244,,E57aBNO,,,,11,Unknown,Unknown,,,,,Available,Box_11_Row_2,,,,,,,,,,,
+E57,LM0245,,E57aCFJ,,,,0,Found,Found,,,,,,Box_9_Row_1,,,,,,,,,,,
+E57,LM0245,,E57aBRZ,,,,1,Found,Found,0.0638,no_beads,no_beads,,,Box_9_Row_1,07.03.2022_B1,Fay_Alexa_Dileshi,,,213.3,ng/µl,4.266,2.238,1.91,4.54,D
+E57,LM0245,,E57aNRV,,,,2,Found,Found,,,,,,Box_9_Row_1,,,,,,,,,,,
+E57,LM0245,,E57aFTV,,,,3,Found,Found,,,,,,Box_9_Row_1,,,,,,,,,,,
+E57,LM0245,,E57aARV,,,,4,Found,Found,0.0788,with_beads,with_beads,,,Box_9_Row_1,24.03.2022,Alexa,,3/24/2022 11:49:22 AM,196.3,ng/µl,3.926,2.129,1.84,2.25,D
+E57,LM0245,,E57aHIK,,,,5,Found,Found,,,,,,Box_9_Row_1,,,,,,,,,,,
+E57,LM0245,,E57aJOP,,,,6,Unknown,Found,,,,,,Box_9_Row_1,,,,,,,,,,,
+E57,LM0245,,E57aOST,,,,7,Unknown,Found,,,,,,Box_9_Row_1,,,,,,,,,,,
+E57,LM0245,,E57aDLX,,Sacrificed,,8,Unknown,Unknown,,,,,,Box_9_Row_1,,,,,,,,,,,
+E57,LM0245,,E57aBOV,Uvailable,Sacrificed,,9,Unknown,Empty,,,,,,Box_9_Row_1,,,,,,,,,,,
+E57,LM0245,,E57aAOT,Uvailable,Sacrificed,,10,Unknown,Unknown,,,,,,Box_9_Row_1,,,,,,,,,,,
+E57,LM0245,,E57aBLT,Uvailable,Sacrificed,,11,Unknown,Unknown,,,,,,Box_9_Row_1,,,,,,,,,,,
+E57,LM0246,XX,E57aAHJ,,,,0,Found,Found,0.0910,no_beads,with_beads,vortex_step_21_skipped,,Box_9_Row_3,15.04.2022_B1,Dileshi,,4/15/2022 3:06:47 PM,164.7,ng/µl,3.295,1.795,1.84,2.18,D
+E57,LM0246,XX,E57aAKO,,,,1,Found,Found,0.0844,no_beads,with_beads,vortex_step_21_skipped,,Box_9_Row_3,15.04.2022_B1,Dileshi,,4/15/2022 3:07:43 PM,169.2,ng/µl,3.384,1.913,1.77,1.18,D
+E57,LM0246,XX,E57aGHL,,,,2,Unknown,Found,0.0866,no_beads,with_beads,vortex_step_21_skipped,,Box_9_Row_3,15.04.2022_B1,Dileshi,,4/15/2022 3:11:04 PM,147,ng/µl,2.94,1.622,1.81,1.92,D
+E57,LM0246,XX,E57aBLN,,,,3,Found,Found,0.0783,with_beads,with_beads,,,Box_9_Row_3,24.03.2022,Alexa,,4/26/2022 8:07:56 PM,164.2,ng/µl,3.283,1.797,1.83,2.03,D
+E57,LM0246,XX,E57aRTV,,,,4,Found,Found,0.1434,no_beads,with_beads,vortex_step_21_skipped,,Box_9_Row_3,15.04.2022_B1,Dileshi,,4/15/2022 3:15:18 PM,146.4,ng/µl,2.929,1.643,1.78,1.4,D
+E57,LM0246,XX,E57aIKZ,,,,5,Empty,Found,0.0542,no_beads,with_beads,,,Box_9_Row_3,15.04.2022_B1,Dileshi,,4/15/2022 3:12:35 PM,119,ng/µl,2.379,1.284,1.85,2.16,D
+E57,LM0246,XX,E57aTUY,,,,6,Unknown,Found,0.0613,no_beads,with_beads,vortex_step_21_skipped,,Box_9_Row_3,15.04.2022_B1,Dileshi,,4/15/2022 3:16:12 PM,100.3,ng/µl,2.005,1.096,1.83,1.86,D
+E57,LM0246,XX,E57aBOY,,,,7,Found,Empty,,,,,,Box_9_Row_3,,,,,,,,,,,
+E57,LM0246,XX,E57aAMS,,,,8,Unknown,Unknown,,,,,,Box_9_Row_3,,,,,,,,,,,
+E57,LM0246,XX,E57aACY,,,,9,Unknown,Found,0.0726,no_beads,with_beads,vortex_step_21_skipped,Available,Box_9_Row_3,15.04.2022_B1,Dileshi,,4/15/2022 3:05:33 PM,280,ng/µl,5.6,3.075,1.82,2.09,D
+E57,LM0246,XX,E57aKUY,,,,10,Unknown,Found,0.0441,no_beads,with_beads,vortex_step_21_skipped,,Box_9_Row_3,15.04.2022_B1,Dileshi,,4/15/2022 3:13:34 PM,207.2,ng/µl,4.144,2.251,1.84,2.15,D
+E57,LM0246,XX,E57aBGU,,,,11,Unknown,Found,0.0797,no_beads,with_beads,vortex_step_21_skipped,,Box_9_Row_3,15.04.2022_B1,Dileshi,,4/15/2022 3:08:38 PM,280.5,ng/µl,5.609,3.094,1.81,2.06,D
+E57,LM0247,XX,E57aACP,,,,0,Found,Found,0.0762,with_beads,with_beads,,,Box_9_Row_4,15.04.2022_B2,Dileshi,,4/15/2022 6:27:57 PM,192.1,ng/µl,3.841,2.145,1.79,1.45,D
+E57,LM0247,XX,E57aGLM,,,,1,Found,Found,0.0550,no_beads,no_beads,4_minute_longer_fridge_incubation,,Box_9_Row_4,09.03.2022_B1,Dileshi,,4/26/2022 7:59:48 PM,81.2,ng/µl,1.625,0.906,1.79,1.41,D
+E57,LM0247,XX,E57aSUX,,,,2,Found,Found,0.0967,with_beads,with_beads,,,Box_9_Row_4,15.04.2022_B2,,,4/15/2022 6:35:17 PM,294.7,ng/µl,5.894,3.476,1.7,1.06,D
+E57,LM0247,XX,E57aHLY,,,,3,Unknown,Found,0.0553,with_beads,with_beads,,,Box_9_Row_4,15.04.2022_B2,Dileshi,,4/15/2022 6:30:10 PM,141.8,ng/µl,2.835,1.589,1.78,1.45,D
+E57,LM0247,XX,E57aKUX,,,,4,Empty,Found,0.0625,with_beads,with_beads,,,Box_9_Row_4,15.04.2022_B2,Dileshi,,4/15/2022 6:31:31 PM,85.3,ng/µl,1.706,0.976,1.75,0.96,D
+E57,LM0247,XX,E57aHOY,,,,5,Unknown,Found,0.0757,with_beads,with_beads,,,Box_9_Row_4,15.04.2022_B2,Dileshi,,4/15/2022 6:30:48 PM,92.8,ng/µl,1.855,1.075,1.73,0.35,D
+E57,LM0247,XX,E57aMNR,,,,6,Unknown,Found,0.0873,with_beads,with_beads,,,Box_9_Row_4,15.04.2022_B2,Dileshi,,4/15/2022 6:33:56 PM,189.4,ng/µl,3.787,2.237,1.69,0.52,D
+E57,LM0247,XX,E57aAIK,,,,7,Unknown,Found,0.1158,with_beads,with_beads,,,Box_9_Row_4,15.04.2022_B2,Dileshi,,4/15/2022 6:28:34 PM,143.6,ng/µl,2.871,1.563,1.84,1.36,D
+E57,LM0247,XX,E57aGQS,,,,8,Unknown,Unknown,,,,,,Box_9_Row_4,,,,,,,,,,,
+E57,LM0247,XX,E57aCOW,,,,9,Unknown,Found,0.0762,no_beads,with_beads,vortex_step_21_skipped,Available,Box_9_Row_4,15.04.2022_B1,Dileshi,,4/15/2022 3:09:31 PM,305,ng/µl,6.099,3.341,1.83,2.2,D
+E57,LM0247,XX,E57aOQY,,,,10,Unknown,Found,0.0663,with_beads,with_beads,,,Box_9_Row_4,15.04.2022_B2,Dileshi,,4/15/2022 6:34:37 PM,234.4,ng/µl,4.688,2.605,1.8,1.44,D
+E57,LM0247,XX,E57aLRS,,,,11,Unknown,Found,0.0725,with_beads,with_beads,,,Box_9_Row_4,15.04.2022_B2,Dileshi,,4/15/2022 6:32:12 PM,173.4,ng/µl,3.467,1.914,1.81,0.23,D
+E57,LM0247,XX,E57aLRS,,,,11,Unknown,Found,0.0725,with_beads,with_beads,,,Box_9_Row_4,15.04.2022_B2,Dileshi,,4/15/2022 6:32:12 PM,173.4,ng/µl,3.467,1.914,1.81,0.23,D
+E57,LM0248,,E57aJOT,,,,0,Found,Found,,,,,,Box_9_Row_5,,,,,,,,,,,
+E57,LM0248,,E57aCMW,,,,1,Found,Found,0.1083,no_beads,no_beads,4_minute_longer_fridge_incubation,,Box_9_Row_5,09.03.2022_B1,Dileshi,,3/9/2022 5:03:21 PM,250.1,ng/µl,5.001,2.78,1.8,1.75,D
+E57,LM0248,,E57aDQV,,,,2,Unknown,Found,,,,,,Box_9_Row_5,,,,,,,,,,,
+E57,LM0248,,E57aAUZ,,,,3,Empty,Found,,,,,,Box_9_Row_5,,,,,,,,,,,
+E57,LM0248,,E57aHJM,,,,4,Found,Found,0.0302,with_beads,with_beads,,,Box_9_Row_5,10.04.2022_B1,Dileshi,,4/10/2022 5:16:47 PM,93,ng/µl,1.859,1.053,1.77,1.43,D
+E57,LM0248,,E57aDOU,,,,5,Unknown,Found,,,,,,Box_9_Row_5,,,,,,,,,,,
+E57,LM0248,,E57aEFG,,,,6,Unknown,Found,,,,,,Box_9_Row_5,,,,,,,,,,,
+E57,LM0248,,E57aJLX,,,,7,Unknown,Found,,,,,,Box_9_Row_5,,,,,,,,,,,
+E57,LM0248,,E57aAIV,,,,8,Unknown,Unknown,,,,,,Box_9_Row_5,,,,,,,,,,,
+E57,LM0248,,E57aDEW,,,,9,Unknown,Found,0.0977,with_beads,with_beads,lost_50%_supertant_step_5,Available,Box_9_Row_5,15.04.2022_B2,Dileshi,,4/15/2022 6:29:25 PM,63,ng/µl,1.26,0.702,1.79,1.52,D
+E57,LM0248,,E57aCJO,,,,10,Unknown,Found,,,,,Available,Box_9_Row_5,,,,,,,,,,,
+E57,LM0248,,E57aAHV,,,,11,Unknown,Found,,,,,Available,Box_9_Row_5,,,,,,,,,,,
+E57,LM0249,,E57aFGZ,,,,0,Found,Found,,,,,,Box_10_Row_1,,,,,,,,,,,
+E57,LM0249,,E57aFVY,,,,1,Unknown,Found,,,,,Available,Box_10_Row_1,,,,,,,,,,,
+E57,LM0249,,E57aART,,,,2,Empty,Found,,,,,,Box_10_Row_1,,,,,,,,,,,
+E57,LM0249,,E57aKRZ,,,,3,Unknown,Found,,,,,Available,Box_10_Row_1,,,,,,,,,,,
+E57,LM0249,,E57aAES,,,,4,Empty,Found,,,,,,Box_10_Row_1,,,,,,,,,,,
+E57,LM0249,,E57aDOS,,,,5,Unknown,Found,,,,,,Box_10_Row_1,,,,,,,,,,,
+E57,LM0249,,E57aHLW,,,,6,Unknown,Found,,,,,,Box_10_Row_1,,,,,,,,,,,
+E57,LM0249,,E57aMRS,,,,7,Unknown,Found,,,,,,Box_10_Row_1,,,,,,,,,,,
+E57,LM0249,,E57aSVX,,,,8,Unknown,Unknown,,,,,,Box_10_Row_1,,,,,,,,,,,
+E57,LM0249,,E57aRSX,,,,9,Unknown,Found,,,,,,Box_10_Row_1,,,,,,,,,,,
+E57,LM0249,,E57aMPW,,,,10,Unknown,Found,,,,,,Box_10_Row_1,,,,,,,,,,,
+E57,LM0249,,E57aAIP,,,,11,Unknown,Found,,,,,,Box_10_Row_1,,,,,,,,,,,
+E57,LM0250,,E57aCQW,,,,0,Found,Found,,,,,Available,Box_11_Row_3,,,,,,,,,,,
+E57,LM0250,,E57aDUZ,,,,1,Found,Found,0.1007,no_beads,no_beads,4_minute_longer_fridge_incubation,,Box_11_Row_3,09.03.2022_B1,Dileshi,,3/9/2022 5:11:42 PM,162.7,ng/µl,3.254,1.825,1.78,1.34,D
+E57,LM0250,,E57aDOQ,,,,2,Found,Found,,,,,,Box_11_Row_3,,,,,,,,,,,
+E57,LM0250,,E57aPVY,,,,3,Found,Unknown,,,,,,Box_11_Row_3,,,,,,,,,,,
+E57,LM0250,,E57aJOV,,,,4,Found,Found,0.0579,with_beads,with_beads,,Available,Box_11_Row_3,24.03.2022,Alexa,,3/24/2022 11:51:41 AM,49.6,ng/µl,0.993,0.531,1.87,0.67,D
+E57,LM0250,,E57aDLM,,,,5,Found,Found,,,,,,Box_11_Row_3,,,,,,,,,,,
+E57,LM0250,,E57aKOS,,,,6,Unknown,Found,,,,,,Box_11_Row_3,,,,,,,,,,,
+E57,LM0250,,E57aAKN,,,,7,Found,Found,,,,,Available,Box_11_Row_3,,,,,,,,,,,
+E57,LM0250,,E57aEKP,,Died,,8,Unknown,Unknown,,,,,Available,Box_11_Row_3,,,,,,,,,,,
+E57,LM0250,,E57aCMV,Uvailable,Died,,9,Unknown,Unknown,,,,,,Box_11_Row_3,,,,,,,,,,,
+E57,LM0250,,E57aGNV,Uvailable,Died,,10,Unknown,Unknown,,,,,Available,Box_11_Row_3,,,,,,,,,,,
+E57,LM0250,,E57aGOY,Uvailable,Died,,11,Unknown,Unknown,,,,,,Box_11_Row_3,,,,,,,,,,,
+E57,LM0251,,E57aBCK,,,,0,Found,Found,,,,,,Box_10&11_Row_2&5,,,,,,,,,,,
+E57,LM0251,,E57aADK,,,,1,Found,Found,0.0848,no_beads,no_beads,,,Box_10&11_Row_2&5,07.03.2022_B1,Fay_Alexa_Dileshi,,,75,ng/µl,1.499,0.656,2.29,-1.1,D
+E57,LM0251,,E57aCTX,,,,2,Found,Found,,,,,,Box_10&11_Row_2&5,,,,,,,,,,,
+E57,LM0251,,E57aDIM,,,,3,Unknown,Unknown,,,,,,Box_10&11_Row_2&5,,,,,,,,,,,
+E57,LM0251,,E57aBPR,,,,4,Found,Found,,,,,,Box_10&11_Row_2&5,,,,,,,,,,,
+E57,LM0251,,E57aCJN,,,,5,Unknown,Found,,,,,,Box_10&11_Row_2&5,,,,,,,,,,,
+E57,LM0251,,E57aADS,,,,6,Unknown,Found,,,,,Available,Box_10&11_Row_2&5,,,,,,,,,,,
+E57,LM0251,,E57aBDH,,,,7,Unknown,Found,,,,,,Box_10&11_Row_2&5,,,,,,,,,,,
+E57,LM0251,,E57aISU,,,,8,Unknown,Unknown,,,,,,Box_10&11_Row_2&5,,,,,,,,,,,
+E57,LM0251,,E57aBQU,,,,9,Unknown,Found,,,,,,Box_10&11_Row_2&5,,,,,,,,,,,
+E57,LM0251,,E57aBEX,,,,10,Unknown,Found,,,,,,Box_10&11_Row_2&5,,,,,,,,,,,
+E57,LM0251,,E57aBMS,,,,11,Unknown,Found,,,,,,Box_10&11_Row_2&5,,,,,,,,,,,
+E57,LM0252,,E57aLQW,,,,0,Empty,Found,,,,,,Box_11_Row_4,,,,,,,,,,,
+E57,LM0252,,E57aOWX,,,,1,Found,Found,0.0215,no_beads,no_beads,4_minute_longer_fridge_incubation,,Box_11_Row_4,09.03.2022_B1,Dileshi,,3/9/2022 5:15:19 PM,130,ng/µl,2.6,1.547,1.68,0.97,D
+E57,LM0252,,E57aGKN,,,,2,Found,Found,,,,,,Box_11_Row_4,,,,,,,,,,,
+E57,LM0252,,E57aBHR,,,,3,Found,Unknown,0.0560,with_beads,with_beads,,,Box_11_Row_4,23.03.2022,Dileshi,,3/23/2022 1:31:38 PM,196.1,ng/µl,3.923,2.157,1.82,2.63,D
+E57,LM0252,,E57aHPY,,,,4,Found,Found,0.0645,with_beads,with_beads,,,Box_11_Row_4,24.03.2022,Alexa,,3/24/2022 3:33:46 PM,230.6,ng/µl,4.612,2.469,1.87,2.66,D
+E57,LM0252,,E57aHIR,,,,5,Found,Found,,,,,,Box_11_Row_4,,,,,,,,,,,
+E57,LM0252,,E57aDQY,,,,6,Unknown,Found,,,,,,Box_11_Row_4,,,,,,,,,,,
+E57,LM0252,,E57aMNY,,,,7,Found,Found,,,,,,Box_11_Row_4,,,,,,,,,,,
+E57,LM0252,,E57aFHO,,Died,,8,Unknown,Unknown,,,,,,Box_11_Row_4,,,,,,,,,,,
+E57,LM0252,,E57aGQW,Uvailable,Died,,9,Unknown,Unknown,,,,,,Box_11_Row_4,,,,,,,,,,,
+E57,LM0252,,E57aCDX,Uvailable,Died,,10,Unknown,Unknown,,,,,Available,Box_11_Row_4,,,,,,,,,,,
+E57,LM0252,,E57aCDQ,Uvailable,Died,,11,Unknown,Unknown,,,,,,Box_11_Row_4,,,,,,,,,,,
+E57,LM0253,,E57aLMX,,,,0,Found,Found,,,,,,Box_11_Row_6,,,,,,,,,,,
+E57,LM0253,,E57aDEJ,,,,1,Unknown,Found,,,,,,Box_11_Row_6,,,,,,,,,,,
+E57,LM0253,,E57aISX,,,,2,Empty,Found,,,,,,Box_11_Row_6,,,,,,,,,,,
+E57,LM0253,,E57aEUZ,,,,3,Found,Found,,,,,,Box_11_Row_6,,,,,,,,,,,
+E57,LM0253,,E57aCIY,,,,4,Found,Found,,,,,,Box_11_Row_6,,,,,,,,,,,
+E57,LM0253,,E57aINS,,,,5,Unknown,Found,,,,,,Box_11_Row_6,,,,,,,,,,,
+E57,LM0253,,E57aKWZ,,,,6,Unknown,Found,,,,,,Box_11_Row_6,,,,,,,,,,,
+E57,LM0253,,E57aBEW,,,,7,Unknown,Found,,,,,,Box_11_Row_6,,,,,,,,,,,
+E57,LM0253,,E57aDKS,,,,8,Unknown,Unknown,,,,,,Box_11_Row_6,,,,,,,,,,,
+E57,LM0253,,E57aDFZ,,,,9,Unknown,Unknown,,,,,,Box_11_Row_6,,,,,,,,,,,
+E57,LM0253,,E57aNUW,,,,10,Unknown,Unknown,,,,,,Box_11_Row_6,,,,,,,,,,,
+E57,LM0253,,E57aBFS,,,,11,Unknown,Unknown,,,,,,Box_11_Row_6,,,,,,,,,,,
+E57,LM0254,XX,E57aACN,,,,0,Found,Found,0.0549,with_beads,with_beads,,,Box_10_Row_3,23.04.2022_B2,Dileshi,,4/23/2022 8:19:14 PM,236.9,ng/µl,4.738,2.566,1.85,2.21,D
+E57,LM0254,XX,E57aATW,,,,1,Found,Found,0.1006,no_beads,no_beads,75µl_SX_instead_of_32.5µl_+_no_vortex_at_step_22,,Box_10_Row_3,07.03.2022_B2,Dileshi,,4/26/2022 8:00:49 PM,210.6,ng/µl,4.213,2.373,1.78,1.54,D
+E57,LM0254,XX,E57aBTZ,,,,2,Found,Found,0.1075,with_beads,with_beads,,,Box_10_Row_3,24.04.2022_B1,Dileshi,,4/24/2022 4:07:58 PM,83.3,ng/µl,1.665,0.942,1.77,1.42,D
+E57,LM0254,XX,E57aFLV,,,,3,Empty,Found,0.0536,with_beads,with_beads,,,Box_10_Row_3,23.04.2022_B2,Dileshi,,4/23/2022 8:25:20 PM,32,ng/µl,0.64,0.341,1.88,0.82,D
+E57,LM0254,XX,E57aFLV2,,,Yes,3,Empty,Found,0.0825,with_beads,with_beads,,,,24.04.2022_B1,Dileshi,,4/24/2022 4:09:26 PM,52.2,ng/µl,1.043,0.6,1.74,1.11,D
+E57,LM0254,XX,E57aJKL,,,,4,Found,Found,0.0692,with_beads,with_beads,,,Box_10_Row_3,24.04.2022_B1,Dileshi,,4/24/2022 4:10:53 PM,15.8,ng/µl,0.316,0.193,1.64,0.66,D
+E57,LM0254,XX,E57aBNX,,,,5,Unknown,Found,0.0622,with_beads,with_beads,,,Box_10_Row_3,24.04.2022_B1,Dileshi,,4/24/2022 4:07:06 PM,117,ng/µl,2.341,1.312,1.78,1.5,D
+E57,LM0254,XX,E57aGMQ,,,,6,Unknown,Found,0.0668,with_beads,with_beads,,,Box_10_Row_3,23.04.2022_B2,Dileshi,,4/23/2022 8:26:13 PM,171.3,ng/µl,3.426,1.857,1.84,2.04,D
+E57,LM0254,XX,E57aBKZ,,,,7,Unknown,Found,0.0771,with_beads,with_beads,,,Box_10_Row_3,24.04.2022_B1,Dileshi,,4/24/2022 4:05:47 PM,86.5,ng/µl,1.73,0.962,1.8,1.92,D
+E57,LM0254,XX,E57aEFT,,,,8,Unknown,Unknown,,,,,,Box_10_Row_3,,,,,,,,,,,
+E57,LM0254,XX,E57aMNW,,,,9,Unknown,Found,0.0870,with_beads,with_beads,,,Box_10_Row_3,24.04.2022_B1,Dileshi,,4/24/2022 4:11:46 PM,181.7,ng/µl,3.634,2.008,1.81,1.8,D
+E57,LM0254,XX,E57aBCM,,,,10,Unknown,Found,0.0697,with_beads,with_beads,,,Box_10_Row_3,24.04.2022_B1,Dileshi,,4/24/2022 4:04:19 PM,205.1,ng/µl,4.102,2.253,1.82,2.06,D
+E57,LM0254,XX,E57aADG,,,,11,Unknown,Found,0.0661,with_beads,with_beads,,,Box_10_Row_3,24.04.2022_B1,Dileshi,,4/24/2022 4:03:19 PM,212.1,ng/µl,4.241,2.323,1.83,2.11,D
+E57,LM0255,XX,E57aAKT,,,,0,Found,Found,0.0157,with_beads,with_beads,,,Box_10_Row_4,07.04.2022_B1,Dileshi,,4/7/2022 2:18:10 PM,123.4,ng/µl,2.469,1.505,1.64,0.97,D
+E57,LM0255,XX,E57aGMY,,,,1,Found,Found,0.0375,no_beads,no_beads,4_minute_longer_fridge_incubation,,Box_10_Row_4,09.03.2022_B1,Dileshi,,3/9/2022 5:13:39 PM,224.3,ng/µl,4.486,2.559,1.75,1.44,D
+E57,LM0255,,E57aDFM,,,,2,Found,Found,,,,,,Box_10_Row_4,,,,,,,,,,,
+E57,LM0255,,E57aJWY,,,,3,Found,Found,0.0777,with_beads,with_beads,,,Box_10_Row_4,24.03.2022,Alexa,,3/24/2022 11:48:39 AM,188.4,ng/µl,3.767,2.062,1.83,1.9,D
+E57,LM0255,,E57aCMS,,,,4,Found,Found,,,,,,Box_10_Row_4,,,,,,,,,,,
+E57,LM0255,,E57aIMX,,,,5,Unknown,Found,,,,,,Box_10_Row_4,,,,,,,,,,,
+E57,LM0255,XX,E57aBNV,,,,6,Unknown,Found,0.0667,with_beads,with_beads,,,Box_10_Row_4,24.04.2022_B1,Dileshi,,4/24/2022 4:06:24 PM,266.2,ng/µl,5.324,2.912,1.83,2.01,D
+E57,LM0255,XX,E57aEIR,,,,7,Unknown,Found,0.0544,with_beads,with_beads,,,Box_10_Row_4,24.04.2022_B1,Dileshi,,4/24/2022 4:08:39 PM,309.9,ng/µl,6.198,3.406,1.82,2.13,D
+E57,LM0255,,E57aGXY,,,,8,Unknown,Unknown,,,,,,Box_10_Row_4,,,,,,,,,,,
+E57,LM0255,,E57aOQS,,,,9,Unknown,Empty,,,,,,Box_10_Row_4,,,,,,,,,,,
+E57,LM0255,XX,E57aDGJ,,,,10,Unknown,Found,0.0253,with_beads,with_beads,,,Box_10_Row_4,01.05.2022_B1,Dileshi,,5/1/2022 3:43:50 PM,284,ng/µl,5.681,3.109,1.83,2.26,D
+E57,LM0255,,E57aHXY,,,,11,Unknown,Found,,,,,,Box_10_Row_4,,,,,,,,,,,
+E57,LM0256,,E57aFIM,,,,0,Found,Found,,,,,,Box_10_Row_5,,,,,,,,,,,
+E57,LM0256,,E57aGLZ,,,,1,Unknown,Found,,,,,,Box_10_Row_5,,,,,,,,,,,
+E57,LM0256,,E57aDSZ,,,,2,Found,Found,,,,,,Box_10_Row_5,,,,,,,,,,,
+E57,LM0256,,E57aFTY,,,,3,Unknown,Found,,,,,,Box_10_Row_5,,,,,,,,,,,
+E57,LM0256,,E57aKLZ,,,,4,Empty,Found,,,,,,Box_10_Row_5,,,,,,,,,,,
+E57,LM0256,,E57aBKQ,,,,5,Unknown,Found,,,,,,Box_10_Row_5,,,,,,,,,,,
+E57,LM0256,,E57aLPS,,,,6,Unknown,Found,,,,,,Box_10_Row_5,,,,,,,,,,,
+E57,LM0256,,E57aLRU,,,,7,Unknown,Found,,,,,,Box_10_Row_5,,,,,,,,,,,
+E57,LM0256,,E57aABE,,,,8,Unknown,Unknown,,,,,Available,Box_10_Row_5,,,,,,,,,,,
+E57,LM0256,,E57aEFY,,,,9,Unknown,Found,,,,,,Box_10_Row_5,,,,,,,,,,,
+E57,LM0256,,E57aHIU,,,,10,Unknown,Found,,,,,Available,Box_10_Row_5,,,,,,,,,,,
+E57,LM0256,,E57aILS,,,,11,Unknown,Found,,,,,Available,Box_10_Row_5,,,,,,,,,,,
+E57,LM0257,,E57aCEN,,,,0,Found,Found,,,,,Available,Box_11_Row_1,,,,,,,,,,,
+E57,LM0257,,E57aCLV,,,,1,Found,Found,0.0648,no_beads,no_beads,75µl_SX_instead_of_32.5µl_+_no_vortex_at_step_22,Available,Box_11_Row_1,07.03.2022_B2,Dileshi,,,209.8,ng/µl,4.197,2.395,1.75,1.39,D
+E57,LM0257,,E57aFOY,,,,2,Empty,Found,,,,,Available,Box_11_Row_1,,,,,,,,,,,
+E57,LM0257,,E57aDIN,,,,3,Found,Found,0.0147,with_beads,with_beads,,Available,Box_11_Row_1,23.03.2022,Alexa,,3/23/2022 1:31:00 PM,167.2,ng/µl,3.344,1.81,1.85,2.28,D
+E57,LM0257,,E57aELP,,,,4,Found,Found,,,,,Available,Box_11_Row_1,,,,,,,,,,,
+E57,LM0257,,E57aJOQ,,,,5,Found,Found,,,,,,Box_11_Row_1,,,,,,,,,,,
+E57,LM0257,,E57aBKN,,,,6,Unknown,Found,,,,,Available,Box_11_Row_1,,,,,,,,,,,
+E57,LM0257,,E57aDIW,,,,7,Found,Found,,,,,Available,Box_11_Row_1,,,,,,,,,,,
+E57,LM0257,,E57aJKN,,,,8,Unknown,Unknown,,,,,Available,Box_11_Row_1,,,,,,,,,,,
+E57,LM0257,,E57aLNW,,,,9,Unknown,Found,,,,,,Box_11_Row_1,,,,,,,,,,,
+E57,LM0257,,E57aFHI,,,,10,Unknown,Found,,,,,,Box_11_Row_1,,,,,,,,,,,
+E57,LM0257,,E57aIOU,,,,11,Unknown,Found,,,,,,Box_11_Row_1,,,,,,,,,,,
