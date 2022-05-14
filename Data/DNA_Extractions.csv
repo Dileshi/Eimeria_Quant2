@@ -1,0 +1,727 @@
+"","...1","experiment","EH_ID","completed_mice","labels","Fecal_status","Mouse_status","Repeated_extract","dpi","E57_Sample_status","VJD_Sample_status","fecal_mass_for_extraction_in grams","Extraction_round_1","Extraction_round_2","Errors_during_extraction","Faeces_for_RNA-Extraction","Sample_location","Date_of_extraction","Executor","V_H20","Date&Time","DNA_Conc","Unit","A260","A280","260/280","260/230","Sample_type"
+"1",1,"E57","LM0179",NA,"E57aACD",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_5_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2",2,"E57","LM0179",NA,"E57aMQS",NA,NA,NA,1,"Found","Found",NA,NA,NA,NA,NA,"Box_5_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"3",3,"E57","LM0179",NA,"E57aHUY",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_5_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"4",4,"E57","LM0179",NA,"E57aHKT",NA,NA,NA,3,"Found","Unknown","0.0109","with_beads","with_beads",NA,NA,"Box_5_Row_4","05.04.2022_B1","Dileshi",NA,"4/5/2022 3:49:42 PM",51,"ng/µl",1.019,2.846,0.36,0.3,"DNA"
+"5",5,"E57","LM0179",NA,"E57aELN",NA,NA,NA,4,"Found","Found","0.0580","with_beads","with_beads",NA,NA,"Box_5_Row_4","05.04.2022_B1","Dileshi",NA,"4/5/2022 3:48:03 PM",-140.3,"ng/µl",-2.805,0.757,-3.71,-0.8,"DNA"
+"6",6,"E57","LM0179",NA,"E57aVXY",NA,NA,NA,5,"Found","Found","0.0374","with_beads","with_beads",NA,NA,"Box_5_Row_4","05.04.2022_B1","Dileshi",NA,"4/5/2022 3:53:42 PM",-102.8,"ng/µl",-2.055,1.153,-1.78,-0.41,"DNA"
+"7",7,"E57","LM0179",NA,"E57aRVX",NA,NA,NA,6,"Unknown","Found","0.0389","with_beads","with_beads",NA,NA,"Box_5_Row_4","14.03.2022","Alexa",NA,"3/14/2022 2:07:55 PM",33.9,"ng/µl",0.677,0.39,1.74,1.05,"DNA"
+"8",8,"E57","LM0179",NA,"E57aBEJ",NA,NA,NA,7,"Found","Unknown","0.0248","with_beads","with_beads",NA,NA,"Box_5_Row_4","21.03.2022","Alexa",NA,"3/21/2022 1:21:52 PM",155.2,"ng/µl",3.103,1.776,1.75,0.69,"DNA"
+"9",9,"E57","LM0179",NA,"E57aOQZ","Diarrhea",NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_5_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"10",10,"E57","LM0179",NA,"E57aGTY",NA,NA,NA,9,"Found","Found","0.0363","with_beads","with_beads",NA,NA,"Box_5_Row_4","11.03.2022_B2","Dileshi",NA,"3/11/2022 6:03:17 PM",198.2,"ng/µl",3.965,2.19,1.81,2.13,"DNA"
+"11",11,"E57","LM0179",NA,"E57aBLZ",NA,NA,NA,10,"Found","Found",NA,NA,NA,NA,NA,"Box_5_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"12",12,"E57","LM0179",NA,"E57aCXY",NA,NA,NA,11,"Found","Found",NA,NA,NA,NA,NA,"Box_5_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13",13,"E57","LM0180","XX","E57aBLX",NA,NA,NA,0,"Found","Unknown","0.0568","with_beads","with_beads",NA,NA,"Box_5_Row_3","19.04.2022_B1","Dileshi",NA,"4/19/2022 12:37:20 PM",305.2,"ng/µl",6.104,3.343,1.83,2.05,"DNA"
+"14",14,"E57","LM0180","XX","E57aDTY",NA,NA,NA,1,"Found","Found","0.0694","with_beads","with_beads",NA,"Available","Box_5_Row_3","19.04.2022_B1","Dileshi",NA,"4/19/2022 12:40:26 PM",200.9,"ng/µl",4.019,2.188,1.84,2,"DNA"
+"15",15,"E57","LM0180","XX","E57aMQT",NA,NA,NA,2,"Found","Found","0.1058","with_beads","with_beads",NA,"Available","Box_5_Row_3","10.04.2022_B1","Dileshi",NA,"4/10/2022 5:19:00 PM",354.7,"ng/µl",7.094,3.995,1.78,1.26,"DNA"
+"16",15,"E57","LM0180","XX","E57aMQT",NA,NA,NA,2,"Found","Found","0.1058","with_beads","with_beads",NA,"Available","Box_5_Row_3","10.04.2022_B1","Dileshi",NA,"4/26/2022 7:52:23 PM",364.4,"ng/µl",7.288,4.07,1.79,1.2,"DNA"
+"17",16,"E57","LM0180","XX","E57aCLZ",NA,NA,NA,3,"Found","Unknown","0.0923","with_beads","with_beads",NA,"Available","Box_5_Row_3","05.04.2022_B1","Dileshi",NA,"4/5/2022 3:44:19 PM",178.6,"ng/µl",3.572,4.234,0.84,0.28,"DNA"
+"18",17,"E57","LM0180","XX","E57aGLV",NA,NA,NA,4,"Found","Found","0.1095","with_beads","with_beads",NA,"Available","Box_5_Row_3","10.04.2022_B1","Dileshi",NA,"4/10/2022 5:15:58 PM",232.8,"ng/µl",4.657,2.575,1.81,1.92,"DNA"
+"19",17,"E57","LM0180","XX","E57aGLV",NA,NA,NA,4,"Found","Found","0.1095","with_beads","with_beads",NA,"Available","Box_5_Row_3","10.04.2022_B1","Dileshi",NA,"4/26/2022 7:53:22 PM",225.9,"ng/µl",4.517,2.489,1.81,1.8,"DNA"
+"20",18,"E57","LM0180","XX","E57aLMW",NA,NA,NA,5,"Found","Found","0.0722","with_beads","with_beads",NA,"Available","Box_5_Row_3","19.04.2022_B1","Dileshi",NA,"4/19/2022 12:43:41 PM",341.7,"ng/µl",6.833,3.702,1.85,2.15,"DNA"
+"21",19,"E57","LM0180","XX","E57aKWY",NA,NA,NA,6,"Found","Found","0.1007","with_beads","with_beads",NA,"Available","Box_5_Row_3","11.03.2022_B1","Dileshi",NA,"3/11/2022 6:18:12 PM",119.6,"ng/µl",2.392,1.288,1.86,1.95,"DNA"
+"22",19,"E57","LM0180","XX","E57aKWY",NA,NA,NA,6,"Found","Found","0.1007","with_beads","with_beads",NA,"Available","Box_5_Row_3","11.03.2022_B1","Dileshi",NA,"4/26/2022 7:50:31 PM",143.9,"ng/µl",2.879,1.563,1.84,1.59,"DNA"
+"23",20,"E57","LM0180","XX","E57aQRU",NA,NA,NA,7,"Found","Unknown","0.1067","with_beads","with_beads",NA,"Available","Box_5_Row_3","11.03.2022_B2","Dileshi",NA,"3/11/2022 6:04:58 PM",112.9,"ng/µl",2.258,1.249,1.81,1.4,"DNA"
+"24",20,"E57","LM0180","XX","E57aQRU",NA,NA,NA,7,"Found","Unknown","0.1067","with_beads","with_beads",NA,"Available","Box_5_Row_3","11.03.2022_B2","Dileshi",NA,"4/26/2022 7:48:58 PM",139.7,"ng/µl",2.795,1.523,1.83,1.73,"DNA"
+"25",21,"E57","LM0180","XX","E57aCGI","Soft",NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_5_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"26",22,"E57","LM0180","XX","E57aQVZ",NA,NA,NA,9,"Found","Found","0.0606","with_beads","with_beads",NA,"Available","Box_5_Row_3","19.04.2022_B1","Dileshi",NA,"4/19/2022 12:45:13 PM",226.4,"ng/µl",4.528,2.448,1.85,2.42,"DNA"
+"27",23,"E57","LM0180","XX","E57aDPT",NA,NA,NA,10,"Found","Found","0.0558","with_beads","with_beads",NA,"Available","Box_5_Row_3","19.04.2022_B1","Dileshi",NA,"4/19/2022 12:39:30 PM",294.7,"ng/µl",5.893,3.186,1.85,2.24,"DNA"
+"28",24,"E57","LM0180","XX","E57aIJY",NA,NA,NA,11,"Found","Found","0.0540","with_beads","with_beads",NA,"Available","Box_5_Row_3","19.04.2022_B1","Dileshi",NA,"4/19/2022 12:42:54 PM",344.3,"ng/µl",6.887,3.738,1.84,2.14,"DNA"
+"29",25,"E57","LM0181",NA,"E57aAWY",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_5_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"30",26,"E57","LM0181",NA,"E57aMQR",NA,NA,NA,1,"Empty","Found",NA,NA,NA,NA,"Available","Box_5_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"31",27,"E57","LM0181",NA,"E57aIRX",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,"Available","Box_5_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"32",28,"E57","LM0181",NA,"E57aQTW",NA,NA,NA,3,"Empty","Unknown",NA,NA,NA,NA,"Available","Box_5_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"33",29,"E57","LM0181",NA,"E57aPSY",NA,NA,NA,4,"Found","Found","0.0942","with_beads","with_beads",NA,NA,"Box_5_Row_2","07.04.2022_B1","Dileshi",NA,"4/7/2022 2:26:17 PM",259.2,"ng/µl",5.184,3.021,1.72,1.47,"DNA"
+"34",30,"E57","LM0181",NA,"E57aKMS",NA,NA,NA,5,"Found","Found","0.0956","with_beads","with_beads",NA,NA,"Box_5_Row_2","07.04.2022_B1","Dileshi",NA,"4/7/2022 2:25:30 PM",325.2,"ng/µl",6.503,3.755,1.73,2,"DNA"
+"35",31,"E57","LM0181",NA,"E57aJLY",NA,NA,NA,6,"Found","Found","0.0922","with_beads","with_beads",NA,NA,"Box_5_Row_2","15.03.2022","Alexa",NA,"3/15/2022 12:14:36 PM",176.1,"ng/µl",3.522,1.923,1.83,1.76,"DNA"
+"36",32,"E57","LM0181",NA,"E57aINV",NA,NA,NA,7,"Found","Unknown","0.1143","with_beads","with_beads",NA,NA,"Box_5_Row_2","15.03.2022","Alexa",NA,"3/15/2022 12:14:36 PM",176.1,"ng/µl",3.522,1.923,1.83,1.76,"DNA"
+"37",33,"E57","LM0181",NA,"E57aLPT",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_5_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"38",34,"E57","LM0181",NA,"E57aHPU",NA,NA,NA,9,"Found","Found",NA,NA,NA,NA,"Available","Box_5_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"39",35,"E57","LM0181",NA,"E57aBCS",NA,NA,NA,10,"Empty","Found",NA,NA,NA,NA,NA,"Box_5_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"40",36,"E57","LM0181",NA,"E57aCGH",NA,NA,NA,11,"Found","Found",NA,NA,NA,NA,"Available","Box_5_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"41",37,"E57","LM0182","XX","E57aCLT",NA,NA,NA,0,"Found","Found","0.0602","with_beads","with_beads",NA,NA,"Box_5_Row_1","19.04.2022_B2","Dileshi",NA,"4/19/2022 5:13:05 PM",197.9,"ng/µl",3.958,2.142,1.85,2.23,"DNA"
+"42",38,"E57","LM0182","XX","E57aESV",NA,NA,NA,1,"Empty","Found","0.0603","with_beads","with_beads",NA,NA,"Box_5_Row_1","19.04.2022_B2","Dileshi",NA,"4/19/2022 5:13:54 PM",209.6,"ng/µl",4.193,2.35,1.78,1.62,"DNA"
+"43",39,"E57","LM0182","XX","E57aBOR",NA,NA,NA,2,"Empty","Found","0.0741","with_beads","with_beads",NA,NA,"Box_5_Row_1","19.04.2022_B2","Dileshi",NA,"4/19/2022 5:12:11 PM",235.1,"ng/µl",4.702,2.549,1.84,1.57,"DNA"
+"44",40,"E57","LM0182","XX","E57aHIS",NA,NA,NA,3,"Found","Unknown","0.0162","with_beads","with_beads",NA,NA,"Box_5_Row_1","23.04.2022_B1","Dileshi",NA,"4/23/2022 4:43:18 PM",139.5,"ng/µl",2.789,1.578,1.77,1.4,"DNA"
+"45",41,"E57","LM0182","XX","E57aABD",NA,NA,NA,4,"Found","Found","0.0795","with_beads","with_beads",NA,"Available","Box_5_Row_1","19.04.2022_B2","Dileshi",NA,"4/19/2022 5:10:11 PM",202,"ng/µl",4.04,2.182,1.85,2.08,"DNA"
+"46",42,"E57","LM0182","XX","E57aJMY",NA,NA,NA,5,"Found","Found","0.0525","with_beads","with_beads",NA,"Available","Box_5_Row_1","19.04.2022_B2","Dileshi",NA,"4/19/2022 5:15:59 PM",185.6,"ng/µl",3.711,2.058,1.8,1.87,"DNA"
+"47",43,"E57","LM0182","XX","E57aJRS",NA,NA,NA,6,"Found","Found","0.1052","with_beads","with_beads",NA,"Available","Box_5_Row_1","11.03.2022_B2","Dileshi",NA,"3/11/2022 6:04:03 PM",112.9,"ng/µl",2.259,1.265,1.79,1.54,"DNA"
+"48",43,"E57","LM0182","XX","E57aJRS",NA,NA,NA,6,"Found","Found","0.1052","with_beads","with_beads",NA,"Available","Box_5_Row_1","11.03.2022_B2","Dileshi",NA,"4/26/2022 7:59:21 PM",134.2,"ng/µl",2.685,1.471,1.83,1.93,"DNA"
+"49",44,"E57","LM0182","XX","E57aFSW",NA,NA,NA,7,"Found","Unknown","0.0847","with_beads","with_beads",NA,NA,"Box_5_Row_1","17.03.2022","Alexa",NA,"4/26/2022 8:14:26 PM",82.6,"ng/µl",1.652,0.88,1.88,2.13,"DNA"
+"50",45,"E57","LM0182","XX","E57aACW",NA,NA,NA,8,"Found","Unknown","0.0340","with_beads","with_beads",NA,"Available","Box_5_Row_1","11.03.2022_B1","Dileshi",NA,"3/11/2022 6:13:17 PM",26.4,"ng/µl",0.528,0.309,1.71,0.99,"DNA"
+"51",45,"E57","LM0182","XX","E57aACW",NA,NA,NA,8,"Found","Unknown","0.0340","with_beads","with_beads",NA,"Available","Box_5_Row_1","11.03.2022_B1","Dileshi",NA,"4/26/2022 7:58:49 PM",52.2,"ng/µl",1.044,0.584,1.79,1.52,"DNA"
+"52",46,"E57","LM0182","XX","E57aJSW",NA,NA,NA,9,"Found","Found","0.0556","with_beads","with_beads",NA,"Available","Box_5_Row_1","19.04.2022_B2","Dileshi",NA,"4/19/2022 5:16:48 PM",237.8,"ng/µl",4.757,2.605,1.83,2.02,"DNA"
+"53",47,"E57","LM0182","XX","E57aDMZ",NA,NA,NA,10,"Found","Found","0.0470","with_beads","with_beads",NA,"Available","Box_5_Row_1","20.04.2022_B1","Dileshi",NA,"4/20/2022 2:00:46 PM",250.2,"ng/µl",5.005,2.869,1.74,1.44,"DNA"
+"54",48,"E57","LM0182","XX","E57aHNX",NA,NA,NA,11,"Found","Found","0.0650","with_beads","with_beads",NA,"Available","Box_5_Row_1","20.04.2022_B1","Dileshi",NA,"4/20/2022 2:04:08 PM",168.6,"ng/µl",3.373,1.836,1.84,1.96,"DNA"
+"55",49,"E57","LM0183",NA,"E57aCEK",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_4_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"56",50,"E57","LM0183",NA,"E57aPTZ",NA,NA,NA,1,"Found","Found",NA,NA,NA,NA,NA,"Box_4_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"57",51,"E57","LM0183",NA,"E57aCLN",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_4_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"58",52,"E57","LM0183",NA,"E57aAVZ",NA,NA,NA,3,"Found","Unknown",NA,NA,NA,NA,NA,"Box_4_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"59",53,"E57","LM0183",NA,"E57aDEO",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,NA,"Box_4_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"60",54,"E57","LM0183",NA,"E57aEKQ",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,"Available","Box_4_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"61",55,"E57","LM0183",NA,"E57aDSY",NA,NA,NA,6,"Found","Found","0.0826","with_beads","with_beads",NA,NA,"Box_4_Row_5","15.03.2022","Alexa",NA,"3/15/2022 3:22:16 PM",81.3,"ng/µl",1.626,0.862,1.89,3.65,"DNA"
+"62",56,"E57","LM0183",NA,"E57aHJV",NA,NA,NA,7,"Found","Unknown","0.0528","with_beads","with_beads",NA,NA,"Box_4_Row_5","17.03.2022","Alexa",NA,"3/17/2022 2:07:47 PM",162,"ng/µl",3.24,1.797,1.8,1.49,"DNA"
+"63",57,"E57","LM0183",NA,"E57aDIY","Soft",NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_4_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"64",58,"E57","LM0183",NA,"E57aCIX",NA,NA,NA,9,"Unknown","Found",NA,NA,NA,NA,NA,"Box_4_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"65",59,"E57","LM0183",NA,"E57aABT",NA,NA,NA,10,"Found","Found",NA,NA,NA,NA,NA,"Box_4_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"66",60,"E57","LM0183",NA,"E57aPWX",NA,NA,NA,11,"Found","Found",NA,NA,NA,NA,NA,"Box_4_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"67",61,"E57","LM0184","XX","E57aCUX",NA,NA,NA,0,"Found","Found","0.0639","with_beads","with_beads",NA,NA,"Box_4_Row_4","20.04.2022_B2","Dileshi",NA,"4/20/2022 5:57:39 PM",220.7,"ng/µl",4.413,2.447,1.8,1.9,"DNA"
+"68",62,"E57","LM0184","XX","E57aEKO",NA,NA,NA,1,"Found","Found","0.0554","with_beads","with_beads","Step_7_round_2_supernatant_lost",NA,"Box_4_Row_4","21.04.2022_B1","Dileshi",NA,"4/21/2022 12:29:07 PM",97.6,"ng/µl",1.952,1.067,1.83,1.9,"DNA"
+"69",63,"E57","LM0184","XX","E57aETU",NA,NA,NA,2,"Found","Found","0.0527","with_beads","with_beads",NA,NA,"Box_4_Row_4","21.04.2022_B1","Dileshi",NA,"4/21/2022 12:30:04 PM",251.9,"ng/µl",5.037,2.751,1.83,1.61,"DNA"
+"70",64,"E57","LM0184","XX","E57aLPU",NA,NA,NA,3,"Found","Unknown","0.0555","with_beads","with_beads",NA,NA,"Box_4_Row_4","23.04.2022_B1","Dileshi",NA,"4/23/2022 4:45:35 PM",50.7,"ng/µl",1.014,0.586,1.73,1.1,"DNA"
+"71",65,"E57","LM0184","XX","E57aEHS",NA,NA,NA,4,"Found","Found","0.0554","with_beads","with_beads","Step_7_round_2_supernatant_lost",NA,"Box_4_Row_4","21.04.2022_B1","Dileshi",NA,"4/21/2022 12:28:13 PM",163.9,"ng/µl",3.279,1.785,1.84,2.04,"DNA"
+"72",66,"E57","LM0184","XX","E57aOPZ",NA,NA,NA,5,"Found","Found","0.0597","with_beads","with_beads",NA,NA,"Box_4_Row_4","21.04.2022_B1","Dileshi",NA,"4/21/2022 12:33:13 PM",225.9,"ng/µl",4.517,2.487,1.82,1.65,"DNA"
+"73",67,"E57","LM0184","XX","E57aSYZ",NA,NA,NA,6,"Empty","Found","0.0653","with_beads","with_beads",NA,"Available","Box_4_Row_4","21.04.2022_B1","Dileshi",NA,"4/21/2022 12:34:52 PM",248.9,"ng/µl",4.979,2.712,1.84,2.25,"DNA"
+"74",68,"E57","LM0184","XX","E57aNRW",NA,NA,NA,7,"Found","Unknown","0.0035","with_beads","with_beads",NA,"Available","Box_4_Row_4","17.03.2022","Alexa",NA,"3/17/2022 2:06:13 PM",24.7,"ng/µl",0.494,0.27,1.83,0.6,"DNA"
+"75",68,"E57","LM0184","XX","E57aNRW",NA,NA,NA,7,"Found","Unknown","0.0035","with_beads","with_beads",NA,"Available","Box_4_Row_4","17.03.2022","Alexa",NA,"4/26/2022 7:58:13 PM",23.7,"ng/µl",0.475,0.278,1.71,0.55,"DNA"
+"76",69,"E57","LM0184","XX","E57aLSU",NA,NA,NA,8,"Found","Unknown","0.0302","with_beads","with_beads",NA,"Available","Box_4_Row_4","17.03.2022","Alexa",NA,"3/17/2022 1:57:59 PM",124.7,"ng/µl",2.495,1.358,1.84,2.12,"DNA"
+"77",69,"E57","LM0184","XX","E57aLSU",NA,NA,NA,8,"Found","Unknown","0.0302","with_beads","with_beads",NA,"Available","Box_4_Row_4","17.03.2022","Alexa",NA,"4/26/2022 8:02:00 PM",134.1,"ng/µl",2.681,1.48,1.81,1.94,"DNA"
+"78",70,"E57","LM0184","XX","E57aLSZ",NA,NA,NA,9,"Found","Found","0.0618","with_beads","with_beads",NA,"Available","Box_4_Row_4","21.04.2022_B1","Dileshi",NA,"4/21/2022 12:31:34 PM",349.4,"ng/µl",6.989,3.858,1.81,2.13,"DNA"
+"79",71,"E57","LM0184","XX","E57aBGM",NA,NA,NA,10,"Found","Found","0.0525","with_beads","with_beads",NA,"Available","Box_4_Row_4","21.04.2022_B1","Dileshi",NA,"4/21/2022 12:27:05 PM",303.6,"ng/µl",6.072,3.359,1.81,1.95,"DNA"
+"80",72,"E57","LM0184","XX","E57aKNT",NA,NA,NA,11,"Found","Found","0.0506","with_beads","with_beads",NA,"Available","Box_4_Row_4","20.04.2022_B2","Dileshi",NA,"4/20/2022 6:00:22 PM",262.8,"ng/µl",5.256,2.873,1.83,2.24,"DNA"
+"81",73,"E57","LM0185","XX","E57aCEG",NA,NA,NA,0,"Found","Found","0.0867","with_beads","with_beads",NA,NA,"Box_4_Row_3","10.04.2022_B1","Dileshi",NA,"4/10/2022 5:13:03 PM",315.1,"ng/µl",6.302,3.499,1.8,1.86,"DNA"
+"82",73,"E57","LM0185","XX","E57aCEG",NA,NA,NA,0,"Found","Found","0.0867","with_beads","with_beads",NA,NA,"Box_4_Row_3","10.04.2022_B1","Dileshi",NA,"4/26/2022 7:55:31 PM",330.5,"ng/µl",6.609,3.654,1.81,1.8,"DNA"
+"83",74,"E57","LM0185","XX","E57aMOV",NA,NA,NA,1,"Found","Found","0.0477","with_beads","with_beads",NA,NA,"Box_4_Row_3","20.04.2022_B2","Dileshi",NA,"4/20/2022 6:01:11 PM",212.9,"ng/µl",4.259,2.381,1.79,1.75,"DNA"
+"84",75,"E57","LM0185","XX","E57aIPY",NA,NA,NA,2,"Found","Found","0.0752","with_beads","with_beads",NA,NA,"Box_4_Row_3","20.04.2022_B1","Dileshi",NA,"4/20/2022 2:06:03 PM",200.5,"ng/µl",4.01,2.257,1.78,1.5,"DNA"
+"85",76,"E57","LM0185","XX","E57aIPT",NA,NA,NA,3,"Found","Unknown","0.0884","with_beads","with_beads",NA,NA,"Box_4_Row_3","10.04.2022_B1","Dileshi",NA,"4/10/2022 5:17:30 PM",130.7,"ng/µl",2.615,1.494,1.75,1.17,"DNA"
+"86",76,"E57","LM0185","XX","E57aIPT",NA,NA,NA,3,"Found","Unknown","0.0884","with_beads","with_beads",NA,NA,"Box_4_Row_3","10.04.2022_B1","Dileshi",NA,"4/26/2022 7:51:02 PM",106.4,"ng/µl",2.127,1.171,1.82,1.34,"DNA"
+"87",77,"E57","LM0185","XX","E57aBCE",NA,NA,NA,4,"Found","Found","0.1047","with_beads","with_beads",NA,NA,"Box_4_Row_3","10.04.2022_B1","Dileshi",NA,"4/10/2022 5:12:12 PM",-30.8,"ng/µl",-0.617,-0.342,1.81,0.89,"DNA"
+"88",78,"E57","LM0185","XX","E57aBCE2",NA,NA,"Yes",4,"Unknown","Found","0.0509","with_beads","with_beads",NA,NA,NA,"20.04.2022_B2","Dileshi",NA,"4/20/2022 5:52:54 PM",187.1,"ng/µl",3.742,2.041,1.83,2.13,"DNA"
+"89",79,"E57","LM0185","XX","E57aCKR",NA,NA,NA,5,"Found","Found","0.0609","with_beads","with_beads",NA,"Available","Box_4_Row_3","20.04.2022_B2","Dileshi",NA,"4/20/2022 5:54:32 PM",239.2,"ng/µl",4.784,2.7,1.77,1.6,"DNA"
+"90",80,"E57","LM0185","XX","E57aEFU2",NA,NA,NA,6,"Found","Found","0.0518","with_beads","with_beads",NA,"Available","Box_4_Row_3","20.04.2022_B2","Dileshi",NA,"4/20/2022 5:59:05 PM",131.2,"ng/µl",2.625,1.482,1.77,1.28,"DNA"
+"91",81,"E57","LM0185","XX","E57aEFU",NA,NA,"Yes",6,NA,NA,"0.0813","with_beads","with_beads",NA,NA,NA,"15.03.2022","Alexa",NA,"3/15/2022 3:20:22 PM",46.7,"ng/µl",0.934,0.489,1.91,14.78,"DNA"
+"92",82,"E57","LM0185","XX","E57aBIL",NA,NA,NA,7,"Found","Unknown","0.1431","with_beads","with_beads",NA,NA,"Box_4_Row_3","15.03.2022","Alexa",NA,"4/26/2022 7:50:02 PM",275.1,"ng/µl",5.501,3.021,1.82,2.06,"DNA"
+"93",83,"E57","LM0185","XX","E57aDMV",NA,NA,NA,8,"Found","Found","0.0734","with_beads","with_beads",NA,NA,"Box_4_Row_3","20.04.2022_B2","Dileshi",NA,"3/21/2022 1:25:28 PM",27.2,"ng/µl",0.544,0.288,1.89,-5.51,"DNA"
+"94",84,"E57","LM0185","XX","E57aDMV2",NA,NA,"Yes",8,NA,NA,"0.0329","with_beads","with_beads",NA,"Available",NA,"21.03.2022","Alexa",NA,"4/20/2022 5:58:20 PM",149.3,"ng/µl",2.985,1.674,1.78,1.55,"DNA"
+"95",85,"E57","LM0185","XX","E57aIKO",NA,NA,NA,9,"Found","Found","0.0710","with_beads","with_beads",NA,NA,"Box_4_Row_3","20.04.2022_B2","Dileshi",NA,"4/20/2022 5:59:46 PM",279.1,"ng/µl",5.582,3.149,1.77,1.67,"DNA"
+"96",86,"E57","LM0185","XX","E57aCHR",NA,NA,NA,10,"Unknown","Found","0.0482","with_beads","with_beads",NA,NA,"Box_4_Row_3","20.04.2022_B2","Dileshi",NA,"4/20/2022 5:51:54 PM",261.7,"ng/µl",5.235,2.9,1.8,1.97,"DNA"
+"97",87,"E57","LM0185","XX","E57aCKW",NA,NA,NA,11,"Found","Found","0.0803","with_beads","with_beads",NA,"Available","Box_4_Row_3","20.04.2022_B2","Dileshi",NA,"4/20/2022 5:55:22 PM",248.8,"ng/µl",4.976,2.768,1.8,1.76,"DNA"
+"98",88,"E57","LM0186","XX","E57aFPV",NA,NA,NA,0,"Found","Found","0.0739","with_beads","with_beads",NA,"Available","Box_4_Row_2","20.04.2022_B1","Dileshi",NA,"4/20/2022 2:02:21 PM",262.8,"ng/µl",5.255,2.909,1.81,1.75,"DNA"
+"99",89,"E57","LM0186","XX","E57aSUW",NA,NA,NA,1,"Unknown","Found","0.0839","with_beads","with_beads",NA,"Available","Box_4_Row_2","20.04.2022_B1","Dileshi",NA,"4/20/2022 2:07:31 PM",41.1,"ng/µl",0.822,0.45,1.83,1.58,"DNA"
+"100",90,"E57","LM0186","XX","E57aCDE",NA,NA,NA,2,"Found","Found","0.0634","with_beads","with_beads",NA,"Available","Box_4_Row_2","20.04.2022_B1","Dileshi",NA,"4/20/2022 1:58:19 PM",150.6,"ng/µl",3.013,1.626,1.85,2.18,"DNA"
+"101",91,"E57","LM0186","XX","E57aFJQ",NA,NA,NA,3,"Found","Unknown","0.0590","with_beads","with_beads",NA,NA,"Box_4_Row_2","23.04.2022_B1","Dileshi",NA,"4/23/2022 4:42:34 PM",126.3,"ng/µl",2.526,1.393,1.81,1.78,"DNA"
+"102",92,"E57","LM0186","XX","E57aCEW",NA,NA,NA,4,"Found","Found","0.0373","with_beads","with_beads",NA,NA,"Box_4_Row_2","20.04.2022_B1","Dileshi",NA,"4/20/2022 1:59:49 PM",181.2,"ng/µl",3.623,1.975,1.83,1.76,"DNA"
+"103",93,"E57","LM0186","XX","E57aBQY",NA,NA,NA,5,"Found","Found","0.0520","with_beads","with_beads",NA,"Available","Box_4_Row_2","20.04.2022_B1","Dileshi",NA,"4/20/2022 1:56:11 PM",88,"ng/µl",1.759,0.951,1.85,2.08,"DNA"
+"104",94,"E57","LM0186","XX","E57aEJM",NA,NA,NA,6,"Found","Found","0.0938","with_beads","with_beads",NA,NA,"Box_4_Row_2","18.03.2022","Alexa",NA,"3/18/2022 1:02:31 PM",211.6,"ng/µl",4.232,2.303,1.84,2.44,"DNA"
+"105",95,"E57","LM0186","XX","E57aBQZ",NA,NA,NA,7,"Found","Unknown","0.1006","with_beads","with_beads",NA,NA,"Box_4_Row_2","17.03.2022","Alexa",NA,"4/26/2022 8:03:04 PM",199.8,"ng/µl",3.997,2.195,1.82,1.53,"DNA"
+"106",96,"E57","LM0186","XX","E57aJPY",NA,NA,NA,8,"Found","Unknown","0.0352","with_beads","with_beads",NA,NA,"Box_4_Row_2","17.03.2022","Alexa",NA,"4/26/2022 8:03:37 PM",41.4,"ng/µl",0.828,0.464,1.79,1.33,"DNA"
+"107",97,"E57","LM0186","XX","E57aKQZ",NA,NA,NA,9,"Found","Found","0.1045","with_beads","with_beads",NA,"Available","Box_4_Row_2","17.03.2022","Alexa",NA,"4/26/2022 8:02:34 PM",151.3,"ng/µl",3.026,1.666,1.82,1.6,"DNA"
+"108",98,"E57","LM0186","XX","E57aFJK",NA,NA,NA,10,"Found","Found","0.0630","with_beads","with_beads",NA,"Available","Box_4_Row_2","20.04.2022_B1","Dileshi",NA,"4/20/2022 2:01:39 PM",182.6,"ng/µl",3.652,1.993,1.83,2.11,"DNA"
+"109",99,"E57","LM0186","XX","E57aHQT",NA,NA,NA,11,"Empty","Found","0.0706","with_beads","with_beads",NA,NA,"Box_4_Row_2","20.04.2022_B1","Dileshi",NA,"4/20/2022 2:05:17 PM",268.4,"ng/µl",5.367,2.94,1.83,2.08,"DNA"
+"110",99,"E57","LM0186","XX","E57aHQT",NA,NA,NA,11,"Empty","Found","0.0706","with_beads","with_beads",NA,NA,"Box_4_Row_2","20.04.2022_B1","Dileshi",NA,"4/20/2022 2:05:17 PM",268.4,"ng/µl",5.367,2.94,1.83,2.08,"DNA"
+"111",100,"E57","LM0187",NA,"E57aFJS",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_9_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"112",101,"E57","LM0187",NA,"E57aENZ",NA,NA,NA,1,"Found","Found",NA,NA,NA,NA,NA,"Box_9_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"113",102,"E57","LM0187",NA,"E57aNQS",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_9_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"114",103,"E57","LM0187",NA,"E57aMNV",NA,NA,NA,3,"Found","Unknown",NA,NA,NA,NA,"Available","Box_9_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"115",104,"E57","LM0187",NA,"E57aEPU",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,NA,"Box_9_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"116",105,"E57","LM0187",NA,"E57aMOU",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_9_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"117",106,"E57","LM0187",NA,"E57aFPR",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_9_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"118",107,"E57","LM0187",NA,"E57aAOP",NA,NA,NA,7,"Found","Unknown","0.0459","with_beads","with_beads",NA,NA,"Box_9_Row_2","15.03.2022","Alexa",NA,"3/15/2022 12:09:24 PM",106.4,"ng/µl",2.129,1.154,1.85,2.14,"DNA"
+"119",108,"E57","LM0187",NA,"E57aAPW",NA,"Sacrificed",NA,8,"Empty","Unknown",NA,NA,NA,NA,"Available","Box_9_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"120",109,"E57","LM0187",NA,"E57aKPZ","Unavailable","Sacrificed",NA,9,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_9_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"121",110,"E57","LM0187",NA,"E57aAKP","Unavailable","Sacrificed",NA,10,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_9_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"122",111,"E57","LM0187",NA,"E57aCIZ","Unavailable","Sacrificed",NA,11,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_9_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"123",112,"E57","LM0188","XX","E57aCIW",NA,NA,NA,0,"Found","Found","0.0840","with_beads","with_beads",NA,NA,"Box_3_Row_5","10.04.2022_B1","Dileshi",NA,"4/10/2022 5:14:11 PM",-33.4,"ng/µl",-0.669,-0.342,1.95,1.04,"DNA"
+"124",113,"E57","LM0188","XX","E57aCIW2",NA,NA,"Yes",0,"Unknown","Found","0.0589","with_beads","with_beads",NA,NA,NA,"22.04.2022_B1","Dileshi",NA,"4/22/2022 5:26:10 PM",261.1,"ng/µl",5.222,2.872,1.82,1.9,"DNA"
+"125",114,"E57","LM0188","XX","E57aBCR",NA,NA,NA,1,"Found","Found","0.0504","with_beads","with_beads",NA,NA,"Box_3_Row_5","22.04.2022_B1","Dileshi",NA,"4/22/2022 5:24:37 PM",274.7,"ng/µl",5.494,3.031,1.81,1.87,"DNA"
+"126",115,"E57","LM0188","XX","E57aFKW",NA,NA,NA,2,"Found","Unknown","0.0662","with_beads","with_beads",NA,NA,"Box_3_Row_5","23.04.2022_B2","Dileshi",NA,"4/23/2022 8:22:53 PM",34.1,"ng/µl",0.682,0.389,1.76,0.92,"DNA"
+"127",116,"E57","LM0188","XX","E57aDRY",NA,NA,NA,3,"Found","Unknown","0.0690","with_beads","with_beads",NA,NA,"Box_3_Row_5","23.04.2022_B2","Dileshi",NA,"4/23/2022 8:20:53 PM",117.8,"ng/µl",2.357,1.273,1.85,1.54,"DNA"
+"128",117,"E57","LM0188","XX","E57aDNX",NA,NA,NA,4,"Found","Found","0.0745","with_beads","with_beads",NA,NA,"Box_3_Row_5","22.04.2022_B1","Dileshi",NA,"4/22/2022 5:27:40 PM",120.9,"ng/µl",2.419,1.327,1.82,2.02,"DNA"
+"129",118,"E57","LM0188","XX","E57aAOV",NA,NA,NA,5,"Found","Found","0.0731","with_beads","with_beads",NA,NA,"Box_3_Row_5","10.03.2022_B1","Dileshi",NA,"3/10/2022 3:24:35 PM",212.2,"ng/µl",4.243,2.326,1.82,1.76,"DNA"
+"130",119,"E57","LM0188","XX","E57aAOV2",NA,NA,"Yes",5,"Unknown","Found","0.0532","with_beads","with_beads",NA,NA,NA,"22.04.2022_B1","Dileshi",NA,"4/22/2022 5:23:53 PM",217.6,"ng/µl",4.351,2.398,1.81,1.92,"DNA"
+"131",120,"E57","LM0188","XX","E57aEOU",NA,NA,NA,6,"Unknown","Found","0.0552","with_beads","with_beads",NA,NA,"Box_3_Row_5","22.04.2022_B1","Dileshi",NA,"4/22/2022 5:28:22 PM",137.8,"ng/µl",2.756,1.521,1.81,1.41,"DNA"
+"132",121,"E57","LM0188","XX","E57aUVY","Soft",NA,NA,7,"Found","Unknown","0.0207","with_beads","with_beads",NA,NA,"Box_3_Row_5","21.03.2022","Alexa",NA,"3/21/2022 1:19:18 PM",20.7,"ng/µl",0.414,0.217,1.9,-3.71,"DNA"
+"133",121,"E57","LM0188","XX","E57aUVY","Soft",NA,NA,7,"Found","Unknown","0.0207","with_beads","with_beads",NA,NA,"Box_3_Row_5","21.03.2022","Alexa",NA,"4/26/2022 7:43:36 PM",30.8,"ng/µl",0.617,0.34,1.81,0.96,"DNA"
+"134",122,"E57","LM0188","XX","E57aDET",NA,NA,NA,8,"Found","Unknown","0.0908","with_beads","with_beads",NA,NA,"Box_3_Row_5","11.03.2022_B1","Dileshi",NA,"3/11/2022 6:16:30 PM",216.5,"ng/µl",4.33,2.482,1.74,1.37,"DNA"
+"135",123,"E57","LM0188","XX","E57aTWY",NA,NA,NA,9,"Empty","Found","0.0316","with_beads","with_beads",NA,"Available","Box_3_Row_5","22.04.2022_B1","Dileshi",NA,"4/22/2022 5:29:48 PM",314.9,"ng/µl",6.299,3.502,1.8,1.87,"DNA"
+"136",124,"E57","LM0188","XX","E57aCIP",NA,NA,NA,10,"Found","Found","0.0640","with_beads","with_beads",NA,"Available","Box_3_Row_5","22.04.2022_B2","Dileshi",NA,"4/22/2022 8:21:10 PM",278.5,"ng/µl",5.57,3.108,1.79,2.14,"DNA"
+"137",125,"E57","LM0188","XX","E57aIJT",NA,NA,NA,11,"Found","Found","0.0805","with_beads","with_beads",NA,NA,"Box_3_Row_5","22.04.2022_B2","Dileshi",NA,"4/22/2022 8:26:07 PM",302.2,"ng/µl",6.043,3.322,1.82,1.94,"DNA"
+"138",126,"E57","LM0189",NA,"E57aIJW",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,"Available","Box_12unlabeled_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"139",127,"E57","LM0189",NA,"E57aCJS",NA,NA,NA,1,"Found","Found",NA,NA,NA,NA,"Available","Box_12unlabeled_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"140",128,"E57","LM0189",NA,"E57aDOV",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_12unlabeled_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"141",129,"E57","LM0189",NA,"E57aKSV",NA,NA,NA,3,"Found","Unknown",NA,NA,NA,NA,"Available","Box_12unlabeled_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"142",130,"E57","LM0189",NA,"E57aAYZ",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,"Available","Box_12unlabeled_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"143",131,"E57","LM0189",NA,"E57aCKY",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_12unlabeled_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"144",132,"E57","LM0189",NA,"E57aABV",NA,NA,NA,6,"Found","Found","0.1047","with_beads","with_beads",NA,NA,"Box_12unlabeled_Row_1","11.03.2022_B2","Dileshi",NA,"3/11/2022 5:56:57 PM",143.5,"ng/µl",2.871,1.541,1.86,2.2,"DNA"
+"145",133,"E57","LM0189",NA,"E57aCHW",NA,NA,NA,7,"Empty","Unknown",NA,NA,NA,NA,NA,"Box_12unlabeled_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"146",134,"E57","LM0189",NA,"E57aAOY","Low content",NA,NA,8,"Empty","Unknown",NA,NA,NA,NA,NA,"Box_12unlabeled_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"147",135,"E57","LM0189",NA,"E57aKWX",NA,"Sacrificed",NA,9,"Unknown","Found",NA,NA,NA,NA,NA,"Box_12unlabeled_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"148",136,"E57","LM0189",NA,"E57aAOW","Unavailable","Sacrificed",NA,10,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_12unlabeled_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"149",137,"E57","LM0189",NA,"E57aDGS","Unavailable","Sacrificed",NA,11,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_12unlabeled_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"150",138,"E57","LM0190","XX","E57aHOX",NA,NA,NA,0,"Found","Found","0.0584","with_beads","with_beads",NA,NA,"Box_4_Row_1","21.04.2022_B2","Dileshi",NA,"4/21/2022 4:44:40 PM",226.3,"ng/µl",4.527,2.459,1.84,2.04,"DNA"
+"151",139,"E57","LM0190","XX","E57aRSW",NA,NA,NA,1,"Found","Found","0.0799","with_beads","with_beads",NA,NA,"Box_4_Row_1","21.04.2022_B1","Dileshi",NA,"4/21/2022 12:33:58 PM",246.2,"ng/µl",4.925,2.755,1.79,1.73,"DNA"
+"152",140,"E57","LM0190","XX","E57aEKR",NA,NA,NA,2,"Found","Unknown","0.0215","with_beads","with_beads",NA,NA,"Box_4_Row_1","23.04.2022_B1","Dileshi",NA,"4/23/2022 4:39:15 PM",37.1,"ng/µl",0.742,0.414,1.79,1.41,"DNA"
+"153",141,"E57","LM0190","XX","E57aGQX",NA,NA,NA,3,"Empty","Unknown",NA,NA,NA,NA,NA,"Box_4_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"154",142,"E57","LM0190","XX","E57aVWX",NA,NA,NA,4,"Found","Found","0.0650","with_beads","with_beads",NA,NA,"Box_4_Row_1","10.04.2022_B1","Dileshi",NA,"4/10/2022 5:19:48 PM",62.7,"ng/µl",1.254,0.722,1.74,1.19,"DNA"
+"155",143,"E57","LM0190","XX","E57aVWX2",NA,NA,"Yes",4,"Found","Found","0.0652","with_beads","with_beads",NA,"Available",NA,"01.05.2022_B1","Dileshi",NA,"5/1/2022 3:44:27 PM",140.5,"ng/µl",2.81,1.5,1.87,2.45,"DNA"
+"156",144,"E57","LM0190","XX","E57aCEP",NA,NA,NA,5,"Empty","Found","0.0525","with_beads","with_beads",NA,NA,"Box_4_Row_1","21.04.2022_B2","Dileshi",NA,"4/21/2022 4:40:27 PM",277.6,"ng/µl",5.553,3.144,1.77,1.56,"DNA"
+"157",145,"E57","LM0190","XX","E57aNSZ",NA,NA,NA,6,"Found","Found","0.0574","with_beads","with_beads",NA,NA,"Box_4_Row_1","21.04.2022_B1","Dileshi",NA,"3/21/2022 1:20:14 PM",20.3,"ng/µl",0.405,0.214,1.89,-2.59,"DNA"
+"158",146,"E57","LM0190","XX","E57aNSZ2",NA,NA,"Yes",NA,NA,NA,"0.0286","with_beads","with_beads",NA,NA,NA,"21.03.2022","Alexa",NA,"4/21/2022 12:32:26 PM",243.3,"ng/µl",4.865,2.724,1.79,1.69,"DNA"
+"159",147,"E57","LM0190","XX","E57aPWY",NA,NA,NA,7,"Found","Unknown","0.0580","with_beads","with_beads",NA,NA,"Box_4_Row_1","11.03.2022_B1","Dileshi",NA,"3/11/2022 6:21:50 PM",88.9,"ng/µl",1.779,1.019,1.75,0.97,"DNA"
+"160",147,"E57","LM0190","XX","E57aPWY",NA,NA,NA,7,"Found","Unknown","0.0580","with_beads","with_beads",NA,NA,"Box_4_Row_1","11.03.2022_B1","Dileshi",NA,"4/26/2022 7:45:15 PM",62.5,"ng/µl",1.25,0.684,1.83,1.25,"DNA"
+"161",148,"E57","LM0190","XX","E57aAIZ",NA,NA,NA,8,"Found","Unknown","0.0100","with_beads","with_beads",NA,NA,"Box_4_Row_1","21.03.2022","Alexa",NA,"3/21/2022 1:26:47 PM",20.8,"ng/µl",0.416,0.23,1.81,1.45,"DNA"
+"162",148,"E57","LM0190","XX","E57aAIZ",NA,NA,NA,8,"Found","Unknown","0.0100","with_beads","with_beads",NA,NA,"Box_4_Row_1","21.03.2022","Alexa",NA,"4/26/2022 7:44:15 PM",23.9,"ng/µl",0.477,0.269,1.77,0.58,"DNA"
+"163",149,"E57","LM0190","XX","E57aJNS",NA,NA,NA,9,"Empty","Found","0.0642","with_beads","with_beads",NA,NA,"Box_4_Row_1","21.04.2022_B1","Dileshi",NA,"4/21/2022 12:30:51 PM",174.6,"ng/µl",3.493,1.944,1.8,1.71,"DNA"
+"164",150,"E57","LM0190","XX","E57aLUW",NA,NA,NA,10,"Found","Found","0.0461","with_beads","with_beads",NA,"Available","Box_4_Row_1","21.04.2022_B2","Dileshi",NA,"4/21/2022 4:47:14 PM",277.8,"ng/µl",5.556,3.089,1.8,1.73,"DNA"
+"165",151,"E57","LM0190","XX","E57aFJO",NA,NA,NA,11,"Found","Found","0.0913","with_beads","with_beads",NA,NA,"Box_4_Row_1","10.04.2022_B1","Dileshi",NA,"4/10/2022 5:15:04 PM",373.8,"ng/µl",7.477,4.291,1.74,1.48,"DNA"
+"166",152,"E57","LM0191","XX","E57aHJX",NA,NA,NA,0,"Found","Found","0.0536","with_beads","with_beads",NA,NA,"Box_3_Row_4","30.04.2022_B1","Dileshi",NA,"5/1/2022 3:31:07 PM",231,"ng/µl",4.62,2.508,1.84,2.18,"DNA"
+"167",153,"E57","LM0191","XX","E57aINR",NA,NA,NA,1,"Found","Found","0.0540","with_beads","with_beads",NA,NA,"Box_3_Row_4","30.04.2022_B1","Dileshi",NA,"5/1/2022 3:33:24 PM",196.9,"ng/µl",3.937,2.169,1.82,1.8,"DNA"
+"168",154,"E57","LM0191","XX","E57aBNR",NA,NA,NA,2,"Found","Unknown","0.0242","with_beads","with_beads",NA,NA,"Box_3_Row_4","30.04.2022_B1","Dileshi",NA,"5/1/2022 3:29:37 PM",7.9,"ng/µl",0.158,0.071,2.23,0.32,"DNA"
+"169",155,"E57","LM0191","XX","E57aMRT",NA,NA,NA,3,"Found","Unknown","0.0358","with_beads","with_beads",NA,"Available","Box_3_Row_4","30.04.2022_B1","Dileshi",NA,"5/1/2022 3:34:44 PM",48.6,"ng/µl",0.973,0.514,1.89,1.59,"DNA"
+"170",156,"E57","LM0191","XX","E57aBHO",NA,NA,NA,4,"Found","Found","0.0572","with_beads","with_beads",NA,"Available","Box_3_Row_4","30.04.2022_B1","Dileshi",NA,"5/1/2022 3:28:50 PM",201.6,"ng/µl",4.032,2.217,1.82,1.19,"DNA"
+"171",157,"E57","LM0191","XX","E57aHLZ",NA,NA,NA,5,"Found","Found","0.0460","with_beads","with_beads",NA,NA,"Box_3_Row_4","30.04.2022_B1","Dileshi",NA,"5/1/2022 3:31:58 PM",177.3,"ng/µl",3.547,1.951,1.82,1.73,"DNA"
+"172",158,"E57","LM0191","XX","E57aAJO",NA,NA,NA,6,"Unknown","Found","0.0483","with_beads","with_beads",NA,"Available","Box_3_Row_4","30.04.2022_B1","Dileshi",NA,"5/1/2022 3:25:26 PM",227.8,"ng/µl",4.556,2.514,1.81,1.66,"DNA"
+"173",159,"E57","LM0191","XX","E57aDOZ",NA,NA,NA,7,"Found","Found_as_poz","0.1078","with_beads","with_beads",NA,"Available","Box_3_Row_4","11.03.2022_B1","Dileshi",NA,"3/11/2022 6:22:35 PM",339.9,"ng/µl",6.797,3.834,1.77,1.81,"DNA"
+"174",160,"E57","LM0191","XX","E57aHOP",NA,NA,NA,8,"Found","Unknown","0.0252","with_beads","with_beads",NA,NA,"Box_3_Row_4","17.03.2022","Alexa",NA,"3/17/2022 1:50:13 PM",77.4,"ng/µl",1.547,0.84,1.84,1.32,"DNA"
+"175",160,"E57","LM0191","XX","E57aHOP",NA,NA,NA,8,"Found","Unknown","0.0252","with_beads","with_beads",NA,NA,"Box_3_Row_4","17.03.2022","Alexa",NA,"5/1/2022 3:27:29 PM",64.6,"ng/µl",1.292,0.691,1.87,1.24,"DNA"
+"176",161,"E57","LM0191","XX","E57aFUY",NA,NA,NA,9,"Found","Found","0.0343","with_beads","with_beads",NA,NA,"Box_3_Row_4","30.04.2022_B1","Dileshi",NA,"5/1/2022 3:32:48 PM",340.8,"ng/µl",6.817,3.714,1.84,1.93,"DNA"
+"177",162,"E57","LM0191","XX","E57aBCY",NA,NA,NA,10,"Empty","Found","0.0533","with_beads","with_beads",NA,"Available","Box_3_Row_4","30.04.2022_B1","Dileshi",NA,"5/1/2022 3:28:03 PM",50.5,"ng/µl",1.01,0.525,1.92,2.74,"DNA"
+"178",163,"E57","LM0191","XX","E57aJLN",NA,NA,NA,11,"Empty","Found","0.0612","with_beads","with_beads",NA,NA,"Box_3_Row_4","30.04.2022_B1","Dileshi",NA,"5/1/2022 3:34:03 PM",161.5,"ng/µl",3.229,1.745,1.85,1.3,"DNA"
+"179",164,"E57","LM0192","XX","E57aGUX",NA,NA,NA,0,"Found","Found","0.0408","with_beads","with_beads",NA,NA,"Box_3_Row_3","01.05.2022_B1","Dileshi",NA,"5/1/2022 3:42:04 PM",243.4,"ng/µl",4.869,2.751,1.77,1.58,"DNA"
+"180",165,"E57","LM0192","XX","E57aBCJ",NA,NA,NA,1,"Found","Found","0.0605","with_beads","with_beads",NA,"Available","Box_3_Row_3","01.05.2022_B1","Dileshi",NA,"5/1/2022 3:38:24 PM",233.8,"ng/µl",4.676,2.581,1.81,1.9,"DNA"
+"181",166,"E57","LM0192","XX","E57aIVX",NA,NA,NA,2,"Found","Unknown",NA,NA,NA,NA,"Available","Box_3_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"182",167,"E57","LM0192","XX","E57aKNU",NA,NA,NA,3,"Found","Unknown","0.0405","with_beads","with_beads",NA,NA,"Box_3_Row_3","01.05.2022_B1","Dileshi",NA,"5/1/2022 3:42:38 PM",66.1,"ng/µl",1.321,0.713,1.85,1.92,"DNA"
+"183",168,"E57","LM0192","XX","E57aEHN",NA,NA,NA,4,"Found","Found","0.0516","with_beads","with_beads","lost_50%_supernatant_step_14",NA,"Box_3_Row_3","01.05.2022_B1","Dileshi",NA,"5/1/2022 3:39:43 PM",126.7,"ng/µl",2.534,1.383,1.83,1.94,"DNA"
+"184",169,"E57","LM0192","XX","E57aEHX",NA,NA,NA,5,"Found","Found","0.0628","with_beads","with_beads",NA,"Available","Box_3_Row_3","01.05.2022_B1","Dileshi",NA,"5/1/2022 3:40:22 PM",297.6,"ng/µl",5.951,3.306,1.8,1.77,"DNA"
+"185",170,"E57","LM0192","XX","E57aDMO",NA,NA,NA,6,"Found","Found","0.0122","with_beads","with_beads",NA,"Available","Box_3_Row_3","11.03.2022_B2","Dileshi",NA,"3/11/2022 6:02:24 PM",8.1,"ng/µl",0.162,0.148,1.1,0.16,"DNA"
+"186",171,"E57","LM0192","XX","E57aDMO2",NA,NA,"Yes",6,"Found","Found","0.0342","with_beads","with_beads",NA,NA,NA,"01.05.2022_B1","Dileshi",NA,"5/1/2022 3:39:05 PM",202.2,"ng/µl",4.043,2.193,1.84,2.1,"DNA"
+"187",172,"E57","LM0192","XX","E57aEMT",NA,NA,NA,7,"Found","Unknown","0.0115","with_beads","with_beads",NA,"Available","Box_3_Row_3","18.03.2022","Alexa",NA,"3/18/2022 12:59:54 PM",72.8,"ng/µl",1.455,0.765,1.9,5.17,"DNA"
+"188",172,"E57","LM0192","XX","E57aEMT",NA,NA,NA,7,"Found","Unknown","0.0115","with_beads","with_beads",NA,"Available","Box_3_Row_3","18.03.2022","Alexa",NA,"5/1/2022 3:35:21 PM",78.6,"ng/µl",1.573,0.85,1.85,1.91,"DNA"
+"189",173,"E57","LM0192","XX","E57aQSY",NA,NA,NA,8,"Found","Unknown","0.0508","with_beads","with_beads",NA,NA,"Box_3_Row_3","17.03.2022","Alexa",NA,"3/17/2022 1:56:14 PM",31.5,"ng/µl",0.63,0.349,1.81,1.13,"DNA"
+"190",173,"E57","LM0192","XX","E57aQSY",NA,NA,NA,8,"Found","Unknown","0.0508","with_beads","with_beads",NA,NA,"Box_3_Row_3","17.03.2022","Alexa",NA,"5/1/2022 3:35:53 PM",20.3,"ng/µl",0.407,0.197,2.07,1.54,"DNA"
+"191",174,"E57","LM0192","XX","E57aKPV",NA,NA,NA,9,"Found","Found","0.0487","with_beads","with_beads",NA,NA,"Box_3_Row_3","01.05.2022_B1","Dileshi",NA,"5/1/2022 3:43:13 PM",149.9,"ng/µl",2.997,1.638,1.83,2.01,"DNA"
+"192",175,"E57","LM0192","XX","E57aAGL",NA,NA,NA,10,"Found","Found","0.0492","with_beads","with_beads",NA,NA,"Box_3_Row_3","01.05.2022_B1","Dileshi",NA,"5/1/2022 3:37:42 PM",268.8,"ng/µl",5.376,2.959,1.82,2,"DNA"
+"193",176,"E57","LM0192","XX","E57aTWZ",NA,NA,NA,11,"Found","Found",NA,NA,NA,NA,"Available","Box_3_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"194",177,"E57","LM0193",NA,"E57aGUW",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,"Available","Box_12unlabeled_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"195",178,"E57","LM0193",NA,"E57aNRX",NA,NA,NA,1,"Empty","Found",NA,NA,NA,NA,"Available","Box_12unlabeled_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"196",179,"E57","LM0193",NA,"E57aFKO",NA,NA,NA,2,"Found","Unknown",NA,NA,NA,NA,"Available","Box_12unlabeled_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"197",180,"E57","LM0193",NA,"E57aAEN",NA,NA,NA,3,"Found","Unknown",NA,NA,NA,NA,NA,"Box_12unlabeled_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"198",181,"E57","LM0193",NA,"E57aIVZ",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,NA,"Box_12unlabeled_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"199",182,"E57","LM0193",NA,"E57aAGS",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,"Available","Box_12unlabeled_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"200",183,"E57","LM0193",NA,"E57aDJP",NA,NA,NA,6,"Found","Found","0.0251","with_beads","with_beads",NA,"Available","Box_12unlabeled_Row_2","21.03.2022","Alexa",NA,"3/21/2022 1:21:04 PM",42.1,"ng/µl",0.843,0.451,1.87,1.41,"DNA"
+"201",184,"E57","LM0193",NA,"E57aBDL",NA,NA,NA,7,"Found","Unknown","0.0223","with_beads","with_beads",NA,NA,"Box_12unlabeled_Row_2","18.03.2022","Alexa",NA,"3/18/2022 12:58:43 PM",137.3,"ng/µl",2.746,1.463,1.88,2.49,"DNA"
+"202",185,"E57","LM0193",NA,"E57aHNZ",NA,"Died",NA,8,"Empty","Unknown",NA,NA,NA,NA,NA,"Box_12unlabeled_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"203",186,"E57","LM0193",NA,"E57aDTV","Unavailable","Died",NA,9,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_12unlabeled_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"204",187,"E57","LM0193",NA,"E57aRTY","Unavailable","Died",NA,10,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_12unlabeled_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"205",188,"E57","LM0193",NA,"E57aDGX","Unavailable","Died",NA,11,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_12unlabeled_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"206",189,"E57","LM0194","XX","E57aLNU",NA,NA,NA,0,"Found","Found","0.0542","with_beads","with_beads",NA,NA,"Box_3_Row_2","21.04.2022_B2","Dileshi",NA,"3/24/2022 11:47:47 AM",84,"ng/µl",1.68,0.888,1.89,4.35,"DNA"
+"207",190,"E57","LM0194","XX","E57aLNU2",NA,NA,"Yes",0,NA,NA,"0.1065","with_beads","with_beads",NA,"Available",NA,"24.03.2022","Alexa",NA,"4/21/2022 4:46:16 PM",228.2,"ng/µl",4.564,2.558,1.78,1.61,"DNA"
+"208",191,"E57","LM0194","XX","E57aNWZ",NA,NA,NA,1,"Found","Found","0.0730","with_beads","with_beads","lost_supernatant_of_round_2_step_14","Available","Box_3_Row_2","21.04.2022_B2","Dileshi",NA,"4/21/2022 4:48:02 PM",95.7,"ng/µl",1.914,1.043,1.83,2.05,"DNA"
+"209",192,"E57","LM0194","XX","E57aEIP",NA,NA,NA,2,"Found","Unknown","0.0581","with_beads","with_beads",NA,NA,"Box_3_Row_2","21.04.2022_B2","Dileshi",NA,"4/21/2022 4:43:09 PM",180.8,"ng/µl",3.615,1.966,1.84,1.64,"DNA"
+"210",193,"E57","LM0194","XX","E57aNQY",NA,NA,NA,3,"Found","Unknown","0.0734","with_beads","with_beads",NA,NA,"Box_3_Row_2","05.04.2022_B1","Dileshi",NA,"4/5/2022 3:52:05 PM",-104.2,"ng/µl",-2.084,1.146,-1.82,-1.37,"DNA"
+"211",193,"E57","LM0194","XX","E57aNQY",NA,NA,NA,3,"Found","Unknown","0.0734","with_beads","with_beads",NA,NA,"Box_3_Row_2","05.04.2022_B1","Dileshi",NA,"4/26/2022 8:12:29 PM",119.8,"ng/µl",2.397,1.305,1.84,1.19,"DNA"
+"212",194,"E57","LM0194","XX","E57aKNX",NA,NA,NA,4,"Found","Found","0.0960","with_beads","with_beads",NA,NA,"Box_3_Row_2","05.04.2022_B1","Dileshi",NA,"4/5/2022 3:50:32 PM",62.4,"ng/µl",1.247,2.944,0.42,0.53,"DNA"
+"213",195,"E57","LM0194","XX","E57aKNX2",NA,NA,"Yes",4,"Found","Found","0.0549","with_beads","with_beads",NA,NA,NA,"21.04.2022_B2","Dileshi",NA,"4/21/2022 4:45:24 PM",257.1,"ng/µl",5.141,2.865,1.79,1.72,"DNA"
+"214",196,"E57","LM0194","XX","E57aJLQ",NA,NA,NA,5,"Found","Found","0.0964","with_beads","with_beads",NA,NA,"Box_3_Row_2","07.04.2022_B1","Dileshi",NA,"4/7/2022 2:23:48 PM",117.7,"ng/µl",2.353,1.44,1.63,1.46,"DNA"
+"215",196,"E57","LM0194","XX","E57aJLQ",NA,NA,NA,5,"Found","Found","0.0964","with_beads","with_beads",NA,NA,"Box_3_Row_2","07.04.2022_B1","Dileshi",NA,"4/26/2022 8:11:27 PM",98.4,"ng/µl",1.968,1.052,1.87,1.28,"DNA"
+"216",197,"E57","LM0194","XX","E57aAMY",NA,NA,NA,6,"Found","Found","0.0852","with_beads","with_beads",NA,NA,"Box_3_Row_2","11.03.2022_B2","Dileshi",NA,"3/11/2022 5:57:52 PM",145.6,"ng/µl",2.913,1.669,1.75,1.23,"DNA"
+"217",197,"E57","LM0194","XX","E57aAMY",NA,NA,NA,6,"Found","Found","0.0852","with_beads","with_beads",NA,NA,"Box_3_Row_2","11.03.2022_B2","Dileshi",NA,"4/26/2022 7:47:25 PM",-10.1,"ng/µl",-0.202,0.035,-5.81,-0.5,"DNA"
+"218",197,"E57","LM0194","XX","E57aAMY",NA,NA,NA,6,"Found","Found","0.0852","with_beads","with_beads",NA,NA,"Box_3_Row_2","11.03.2022_B2","Dileshi",NA,"4/26/2022 7:47:53 PM",196.6,"ng/µl",3.931,2.199,1.79,1.44,"DNA"
+"219",198,"E57","LM0194","XX","E57aAHU",NA,NA,NA,7,"Found","Unknown","0.1136","with_beads","with_beads",NA,NA,"Box_3_Row_2","15.03.2022","Alexa",NA,"4/26/2022 8:07:25 PM",237.3,"ng/µl",4.747,2.587,1.83,1.94,"DNA"
+"220",199,"E57","LM0194","XX","E57aDEY",NA,NA,NA,8,"Found","Unknown","0.0416","with_beads","with_beads",NA,NA,"Box_3_Row_2","18.03.2022","Alexa",NA,"3/18/2022 12:57:16 PM",259.2,"ng/µl",5.184,2.803,1.85,2.74,"DNA"
+"221",199,"E57","LM0194","XX","E57aDEY",NA,NA,NA,8,"Found","Unknown","0.0416","with_beads","with_beads",NA,NA,"Box_3_Row_2","18.03.2022","Alexa",NA,"4/26/2022 8:09:25 PM",271.4,"ng/µl",5.428,2.968,1.83,2.17,"DNA"
+"222",200,"E57","LM0194","XX","E57aRUV",NA,NA,NA,9,"Found","Found","0.0242","with_beads","with_beads",NA,NA,"Box_3_Row_2","21.04.2022_B2","Dileshi",NA,"4/21/2022 4:49:39 PM",285.4,"ng/µl",5.708,3.155,1.81,1.89,"DNA"
+"223",201,"E57","LM0194","XX","E57aEMX",NA,NA,NA,10,"Found","Found","0.0515","with_beads","with_beads",NA,NA,"Box_3_Row_2","21.04.2022_B2","Dileshi",NA,"4/21/2022 4:43:55 PM",220.7,"ng/µl",4.414,2.425,1.82,2.08,"DNA"
+"224",202,"E57","LM0194","XX","E57aCTZ",NA,NA,NA,11,"Found","Found","0.0707","with_beads","with_beads",NA,NA,"Box_3_Row_2","21.04.2022_B2","Dileshi",NA,"4/21/2022 4:41:33 PM",212.8,"ng/µl",4.256,2.374,1.79,1.63,"DNA"
+"225",203,"E57","LM0195","XX","E57aOPY",NA,NA,NA,0,"Found","Found","0.0655","with_beads","with_beads",NA,NA,"Box_3_Row_1","19.04.2022_B2","Dileshi",NA,"4/19/2022 5:19:07 PM",156.8,"ng/µl",3.136,1.697,1.85,2.11,"DNA"
+"226",204,"E57","LM0195","XX","E57aEQU",NA,NA,NA,1,"Empty","Found","0.0684","with_beads","with_beads",NA,NA,"Box_3_Row_1","19.04.2022_B1","Dileshi",NA,"4/19/2022 12:41:28 PM",296.4,"ng/µl",5.929,3.244,1.83,1.68,"DNA"
+"227",205,"E57","LM0195","XX","E57aGVZ",NA,NA,NA,2,"Empty","Unknown",NA,NA,NA,NA,"Available","Box_3_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"228",206,"E57","LM0195","XX","E57aEGS",NA,NA,NA,3,"Found","Unknown",NA,NA,NA,NA,"Available","Box_3_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"229",207,"E57","LM0195","XX","E57aJVY",NA,NA,NA,4,"Found","Found","0.0528","with_beads","with_beads",NA,"Available","Box_3_Row_1","19.04.2022_B2","Dileshi",NA,"4/19/2022 5:17:37 PM",131.2,"ng/µl",2.623,1.415,1.85,2.09,"DNA"
+"230",208,"E57","LM0195","XX","E57aPTV",NA,NA,NA,5,"Empty","Found","0.0669","with_beads","with_beads",NA,"Available","Box_3_Row_1","19.04.2022_B1","Dileshi",NA,"4/19/2022 12:44:27 PM",196.5,"ng/µl",3.93,2.159,1.82,1.79,"DNA"
+"231",209,"E57","LM0195","XX","E57aDGU",NA,NA,NA,6,"Empty","Found","0.0620","with_beads","with_beads",NA,NA,"Box_3_Row_1","19.04.2022_B1","Dileshi",NA,"4/19/2022 12:38:35 PM",197.7,"ng/µl",3.953,2.149,1.84,2.21,"DNA"
+"232",210,"E57","LM0195","XX","E57aKVY",NA,NA,NA,7,"Empty","Unknown",NA,NA,NA,NA,NA,"Box_3_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"233",211,"E57","LM0195","XX","E57aDPW",NA,NA,NA,8,"Found","Unknown","0.0166","with_beads","with_beads",NA,NA,"Box_3_Row_1","17.03.2022","Alexa",NA,"4/26/2022 8:01:23 PM",30.1,"ng/µl",0.601,0.343,1.75,1.27,"DNA"
+"234",212,"E57","LM0195","XX","E57aBGI",NA,NA,NA,9,"Empty","Found","0.0680","with_beads","with_beads",NA,"Available","Box_3_Row_1","19.04.2022_B2","Dileshi",NA,"4/19/2022 5:11:19 PM",213.9,"ng/µl",4.279,2.32,1.84,2.18,"DNA"
+"235",213,"E57","LM0195","XX","E57aFTX",NA,NA,NA,10,"Found","Found","0.0628","with_beads","with_beads",NA,"Available","Box_3_Row_1","19.04.2022_B2","Dileshi",NA,"4/19/2022 5:14:40 PM",265.8,"ng/µl",5.315,2.906,1.83,2.09,"DNA"
+"236",214,"E57","LM0195","XX","E57aIJR",NA,NA,NA,11,"Found","Found","0.0544","with_beads","with_beads",NA,"Available","Box_3_Row_1","19.04.2022_B1","Dileshi",NA,"4/19/2022 12:42:13 PM",250.3,"ng/µl",5.005,2.722,1.84,2.07,"DNA"
+"237",215,"E57","LM0196",NA,"E57aCPW",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_2_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"238",216,"E57","LM0196",NA,"E57aMNP",NA,NA,NA,1,"Found","Found",NA,NA,NA,NA,NA,"Box_2_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"239",217,"E57","LM0196",NA,"E57aFOW",NA,NA,NA,2,"Found","Unknown",NA,NA,NA,NA,NA,"Box_2_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"240",218,"E57","LM0196",NA,"E57aGHX",NA,NA,NA,3,"Found","Unknown",NA,NA,NA,NA,NA,"Box_2_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"241",219,"E57","LM0196",NA,"E57aEMV",NA,NA,NA,4,"Found","Found","0.0151","with_beads","with_beads",NA,NA,"Box_2_Row_5","07.04.2022_B1","Dileshi",NA,"4/7/2022 2:20:45 PM",144.1,"ng/µl",2.881,1.792,1.61,1.2,"DNA"
+"242",220,"E57","LM0196",NA,"E57aFGP",NA,NA,NA,5,"Empty","Found",NA,NA,NA,NA,NA,"Box_2_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"243",221,"E57","LM0196",NA,"E57aINP",NA,NA,NA,6,"Empty","Found",NA,NA,NA,NA,NA,"Box_2_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"244",222,"E57","LM0196",NA,"E57aACH",NA,NA,NA,7,"Found","Unknown","0.0011","with_beads","with_beads",NA,"Available","Box_2_Row_5","21.03.2022","Alexa",NA,"3/21/2022 1:26:08 PM",12.4,"ng/µl",0.248,0.152,1.63,0.42,"DNA"
+"245",223,"E57","LM0196",NA,"E57aDLZ",NA,NA,NA,8,"Empty","Unknown",NA,NA,NA,NA,"Available","Box_2_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"246",224,"E57","LM0196",NA,"E57aKNY",NA,NA,NA,9,"Empty","Found",NA,NA,NA,NA,NA,"Box_2_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"247",225,"E57","LM0196",NA,"E57aABN",NA,NA,NA,10,"Found","Found",NA,NA,NA,NA,"Available","Box_2_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"248",226,"E57","LM0196",NA,"E57aBGT",NA,NA,NA,11,"Found","Found",NA,NA,NA,NA,NA,"Box_2_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"249",227,"E57","LM0197","XX","E57aLXZ",NA,NA,NA,0,"Found","Found","0.0505","with_beads","with_beads",NA,NA,"Box_2_Row_4","21.04.2022_B3","Dileshi",NA,"4/21/2022 8:06:21 PM",274.3,"ng/µl",5.485,3.007,1.82,1.87,"DNA"
+"250",228,"E57","LM0197","XX","E57aJOS",NA,NA,NA,1,"Found","Found","0.0579","with_beads","with_beads",NA,"Available","Box_2_Row_4","21.04.2022_B3","Dileshi",NA,"4/21/2022 8:05:01 PM",230.2,"ng/µl",4.603,2.548,1.81,1.79,"DNA"
+"251",229,"E57","LM0197","XX","E57aFKM",NA,NA,NA,2,"Found","Unknown","0.0525","with_beads","with_beads",NA,NA,"Box_2_Row_4","23.04.2022_B2","Dileshi",NA,"4/23/2022 8:21:39 PM",122.7,"ng/µl",2.454,1.332,1.84,1.5,"DNA"
+"252",230,"E57","LM0197","XX","E57aAFR",NA,NA,NA,3,"Found","Unknown","0.0642","with_beads","with_beads",NA,NA,"Box_2_Row_4","10.04.2022_B1","Dileshi",NA,"4/10/2022 5:11:02 PM",60.1,"ng/µl",1.202,0.67,1.79,1.93,"DNA"
+"253",230,"E57","LM0197","XX","E57aAFR",NA,NA,NA,3,"Found","Unknown","0.0642","with_beads","with_beads",NA,NA,"Box_2_Row_4","10.04.2022_B1","Dileshi",NA,"4/26/2022 7:56:38 PM",63.4,"ng/µl",1.269,0.713,1.78,1.38,"DNA"
+"254",231,"E57","LM0197","XX","E57aBFO",NA,NA,NA,4,"Found","Found","0.0574","with_beads","with_beads",NA,NA,"Box_2_Row_4","22.04.2022_B1","Dileshi",NA,"4/22/2022 5:25:20 PM",249.7,"ng/µl",4.994,2.837,1.76,1.54,"DNA"
+"255",232,"E57","LM0197","XX","E57aHJL",NA,NA,NA,5,"Found","Found","0.0642","with_beads","with_beads",NA,NA,"Box_2_Row_4","21.04.2022_B3","Dileshi",NA,"4/21/2022 8:03:28 PM",122.4,"ng/µl",2.449,1.355,1.81,1.18,"DNA"
+"256",233,"E57","LM0197","XX","E57aABU",NA,NA,NA,6,"Found","Found","0.0303","with_beads","with_beads",NA,"Available","Box_2_Row_4","11.03.2022_B2","Dileshi",NA,"3/11/2022 5:55:03 PM",14.4,"ng/µl",0.288,0.156,1.84,0.97,"DNA"
+"257",234,"E57","LM0197","XX","E57aABU2",NA,NA,"Yes",6,"Unknown","Found","0.0430","with_beads","with_beads","spillage_hence_30µl_available_for_step14",NA,NA,"22.04.2022_B1","Dileshi",NA,"4/22/2022 5:22:51 PM",61.2,"ng/µl",1.225,0.706,1.74,1.23,"DNA"
+"258",235,"E57","LM0197","XX","E57aCNP",NA,NA,NA,7,"Unknown","Unknown","0.0954","with_beads","with_beads",NA,"Available","Box_2_Row_4","14.03.2022","Alexa",NA,"3/14/2022 2:10:15 PM",192.7,"ng/µl",3.853,2.099,1.84,2.07,"DNA"
+"259",235,"E57","LM0197","XX","E57aCNP",NA,NA,NA,7,"Unknown","Unknown","0.0954","with_beads","with_beads",NA,"Available","Box_2_Row_4","14.03.2022","Alexa",NA,"4/26/2022 7:46:58 PM",201.3,"ng/µl",4.025,2.196,1.83,1.94,"DNA"
+"260",236,"E57","LM0197","XX","E57aJKZ",NA,NA,NA,8,"Found","Unknown","0.1021","with_beads","with_beads",NA,NA,"Box_2_Row_4","18.03.2022","Alexa",NA,"3/18/2022 1:01:19 PM",239.3,"ng/µl",4.785,2.595,1.84,2.5,"DNA"
+"261",236,"E57","LM0197","XX","E57aJKZ",NA,NA,NA,8,"Found","Unknown","0.1021","with_beads","with_beads",NA,NA,"Box_2_Row_4","18.03.2022","Alexa",NA,"4/26/2022 8:13:28 PM",244.1,"ng/µl",4.883,2.671,1.83,2.02,"DNA"
+"262",237,"E57","LM0197","XX","E57aLTU",NA,NA,NA,9,"Found","Found","0.0600","with_beads","with_beads",NA,NA,"Box_2_Row_4","21.04.2022_B3","Dileshi",NA,"4/21/2022 8:05:44 PM",355.5,"ng/µl",7.109,3.996,1.78,1.74,"DNA"
+"263",238,"E57","LM0197","XX","E57aLYZ",NA,NA,NA,10,"Found","Found","0.0460","with_beads","with_beads",NA,NA,"Box_2_Row_4","22.04.2022_B1","Dileshi",NA,"4/22/2022 5:29:05 PM",296.2,"ng/µl",5.925,3.328,1.78,1.77,"DNA"
+"264",239,"E57","LM0197","XX","E57aCOV",NA,NA,NA,11,"Found","Found","0.0765","with_beads","with_beads",NA,NA,"Box_2_Row_4","22.04.2022_B1","Dileshi",NA,"4/22/2022 5:26:56 PM",216,"ng/µl",4.319,2.48,1.74,1.4,"DNA"
+"265",240,"E57","LM0198","XX","E57aCNS",NA,NA,NA,0,"Found","Found","0.0557","with_beads","with_beads",NA,NA,"Box_2_Row_3","22.04.2022_B2","Dileshi",NA,"4/22/2022 8:22:01 PM",224,"ng/µl",4.481,2.583,1.73,1.27,"DNA"
+"266",241,"E57","LM0198","XX","E57aCQT",NA,NA,NA,1,"Unknown","Found","0.0524","with_beads","with_beads",NA,NA,"Box_2_Row_3","22.04.2022_B2","Dileshi",NA,"4/22/2022 8:22:39 PM",246.6,"ng/µl",4.931,2.683,1.84,2.03,"DNA"
+"267",242,"E57","LM0198","XX","E57aOTV",NA,NA,NA,2,"Found","Unknown","0.0434","with_beads","with_beads",NA,NA,"Box_2_Row_3","23.04.2022_B2","Dileshi",NA,"4/23/2022 8:27:42 PM",42.3,"ng/µl",0.845,0.464,1.82,1.39,"DNA"
+"268",243,"E57","LM0198","XX","E57aOVY",NA,NA,NA,3,"Found","Unknown","0.0219","with_beads","with_beads",NA,NA,"Box_2_Row_3","05.04.2022_B1","Dileshi",NA,"4/5/2022 3:52:57 PM",-123.2,"ng/µl",-2.463,0.938,-2.63,-0.82,"DNA"
+"269",243,"E57","LM0198","XX","E57aOVY",NA,NA,NA,3,"Found","Unknown","0.0219","with_beads","with_beads",NA,NA,"Box_2_Row_3","05.04.2022_B1","Dileshi",NA,"4/26/2022 8:11:56 PM",90.6,"ng/µl",1.812,0.983,1.84,0.54,"DNA"
+"270",244,"E57","LM0198","XX","E57aDEZ",NA,NA,NA,4,"Found","Found","0.0601","with_beads","with_beads",NA,NA,"Box_2_Row_3","22.04.2022_B2","Dileshi",NA,"4/22/2022 8:23:25 PM",202.8,"ng/µl",4.056,2.183,1.86,2.07,"DNA"
+"271",245,"E57","LM0198","XX","E57aMTY",NA,NA,NA,5,"Found","Found","0.1032","with_beads","with_beads",NA,NA,"Box_2_Row_3","05.04.2022_B1","Dileshi",NA,"4/5/2022 3:51:17 PM",46.5,"ng/µl",0.929,2.811,0.33,0.36,"DNA"
+"272",246,"E57","LM0198","XX","E57aMTY2",NA,NA,"Yes",5,"Unknown","Found","0.0595","with_beads","with_beads",NA,NA,NA,"22.04.2022_B2","Dileshi",NA,"4/22/2022 8:28:08 PM",307.9,"ng/µl",6.158,3.403,1.81,1.82,"DNA"
+"273",247,"E57","LM0198","XX","E57aTXY",NA,NA,NA,6,"Found","Found","0.0469","with_beads","with_beads",NA,NA,"Box_2_Row_3","11.03.2022_B1","Dileshi",NA,"3/11/2022 6:23:19 PM",163.8,"ng/µl",3.277,1.865,1.76,1.37,"DNA"
+"274",247,"E57","LM0198","XX","E57aTXY",NA,NA,NA,6,"Found","Found","0.0469","with_beads","with_beads",NA,NA,"Box_2_Row_3","11.03.2022_B1","Dileshi",NA,"4/26/2022 7:49:32 PM",112.9,"ng/µl",2.257,1.26,1.79,1.67,"DNA"
+"275",248,"E57","LM0198","XX","E57aJPV",NA,NA,NA,7,"Found","Unknown","0.1046","with_beads","with_beads",NA,"Available","Box_2_Row_3","17.03.2022","Alexa",NA,"3/17/2022 1:54:05 PM",180.7,"ng/µl",3.614,1.96,1.84,2.12,"DNA"
+"276",248,"E57","LM0198","XX","E57aJPV",NA,NA,NA,7,"Found","Unknown","0.1046","with_beads","with_beads",NA,"Available","Box_2_Row_3","17.03.2022","Alexa",NA,"4/26/2022 8:10:53 PM",178.6,"ng/µl",3.572,1.925,1.86,2.15,"DNA"
+"277",249,"E57","LM0198","XX","E57aAJQ",NA,NA,NA,8,"Found","Unknown","0.0362","with_beads","with_beads",NA,"Available","Box_2_Row_3","15.03.2022","Alexa",NA,"4/26/2022 7:46:19 PM",59.3,"ng/µl",1.186,0.67,1.77,1.44,"DNA"
+"278",250,"E57","LM0198","XX","E57aIKS",NA,NA,NA,9,"Empty","Found","0.0754","with_beads","with_beads",NA,"Available","Box_2_Row_3","22.04.2022_B2","Dileshi",NA,"4/22/2022 8:26:49 PM",284.1,"ng/µl",5.683,3.092,1.84,2.14,"DNA"
+"279",251,"E57","LM0198","XX","E57aRXZ",NA,NA,NA,10,"Found","Found","0.1084","with_beads","with_beads",NA,NA,"Box_2_Row_3","22.04.2022_B2","Dileshi",NA,"4/22/2022 8:27:26 PM",254.1,"ng/µl",5.082,2.867,1.77,1.42,"DNA"
+"280",252,"E57","LM0198","XX","E57aEHR",NA,NA,NA,11,"Found","Found","0.0847","with_beads","with_beads",NA,NA,"Box_2_Row_3","22.04.2022_B2","Dileshi",NA,"4/22/2022 8:24:10 PM",257,"ng/µl",5.139,2.782,1.85,2.18,"DNA"
+"281",253,"E57","LM0199","XX","E57aBHN",NA,NA,NA,0,"Found","Found","0.0630","with_beads","with_beads",NA,"Available","Box_2_Row_2","21.04.2022_B3","Dileshi",NA,"4/21/2022 8:00:26 PM",17.2,"ng/µl",0.343,0.192,1.78,0.8,"DNA"
+"282",254,"E57","LM0199","XX","E57aBHN2",NA,NA,"Yes",0,"Found","Found","0.0605","with_beads","with_beads",NA,"Available",NA,"23.04.2022_B1","Dileshi",NA,"4/23/2022 4:37:31 PM",129.8,"ng/µl",2.596,1.484,1.75,1.27,"DNA"
+"283",255,"E57","LM0199","XX","E57aGHU",NA,NA,NA,1,"Found","Found","0.0788","with_beads","with_beads",NA,NA,"Box_2_Row_2","21.04.2022_B3","Dileshi",NA,"4/21/2022 8:02:44 PM",277.4,"ng/µl",5.547,3.02,1.84,2.14,"DNA"
+"284",256,"E57","LM0199","XX","E57aCFG",NA,NA,NA,2,"Found","Unknown","0.020","with_beads","with_beads",NA,NA,"Box_2_Row_2","23.04.2022_B2","Dileshi",NA,"4/23/2022 8:20:08 PM",94.2,"ng/µl",1.885,1.065,1.77,1.19,"DNA"
+"285",257,"E57","LM0199","XX","E57aBPQ",NA,NA,NA,3,"Empty","Unknown",NA,NA,NA,NA,NA,"Box_2_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"286",258,"E57","LM0199","XX","E57aFOT",NA,NA,NA,4,"Found","Found","0.0934","with_beads","with_beads",NA,NA,"Box_2_Row_2","07.04.2022_B1","Dileshi",NA,"4/7/2022 2:21:54 PM",251.3,"ng/µl",5.026,2.912,1.73,1.87,"DNA"
+"287",258,"E57","LM0199","XX","E57aFOT",NA,NA,NA,4,"Found","Found","0.0934","with_beads","with_beads",NA,NA,"Box_2_Row_2","07.04.2022_B1","Dileshi",NA,"4/26/2022 8:09:53 PM",258.6,"ng/µl",5.172,2.888,1.79,1.67,"DNA"
+"288",259,"E57","LM0199","XX","E57aFOQ",NA,NA,NA,5,"Found","Found","0.0407","with_beads","with_beads",NA,NA,"Box_2_Row_2","05.04.2022_B1","Dileshi",NA,"4/5/2022 3:48:51 PM",156.3,"ng/µl",3.127,4.079,0.77,0.72,"DNA"
+"289",260,"E57","LM0199","XX","E57aFOQ",NA,NA,"Yes",5,"Unknown","Found","0.0763","with_beads","with_beads",NA,NA,NA,"21.04.2022_B3","Dileshi",NA,"4/5/2022 3:48:51 PM",156.3,"ng/µl",3.127,4.079,0.77,0.72,"DNA"
+"290",261,"E57","LM0199","XX","E57aIMQ",NA,NA,NA,6,"Found","Found","0.1013","with_beads","with_beads",NA,"Available","Box_2_Row_2","11.03.2022_B1","Dileshi",NA,"3/11/2022 6:17:25 PM",118.3,"ng/µl",2.367,1.287,1.84,1.74,"DNA"
+"291",261,"E57","LM0199","XX","E57aIMQ",NA,NA,NA,6,"Found","Found","0.1013","with_beads","with_beads",NA,"Available","Box_2_Row_2","11.03.2022_B1","Dileshi",NA,"4/26/2022 7:45:46 PM",136.2,"ng/µl",2.724,1.477,1.84,1.8,"DNA"
+"292",262,"E57","LM0199","XX","E57aCJY",NA,NA,NA,7,"Found","Unknown","0.0105","with_beads","with_beads",NA,NA,"Box_2_Row_2","11.03.2022_B1","Dileshi",NA,"3/11/2022 6:15:31 PM",37.2,"ng/µl",0.745,0.446,1.67,0.85,"DNA"
+"293",262,"E57","LM0199","XX","E57aCJY",NA,NA,NA,7,"Found","Unknown","0.0105","with_beads","with_beads",NA,NA,"Box_2_Row_2","11.03.2022_B1","Dileshi",NA,"4/26/2022 7:44:46 PM",53.4,"ng/µl",1.069,0.591,1.81,1.49,"DNA"
+"294",263,"E57","LM0199","XX","E57aFKS",NA,NA,NA,8,"Found","Unknown","0.0333","with_beads","with_beads",NA,"Available","Box_2_Row_2","17.03.2022","Alexa",NA,"4/26/2022 8:08:27 PM",125.2,"ng/µl",2.505,1.364,1.84,1.91,"DNA"
+"295",264,"E57","LM0199","XX","E57aGIR",NA,NA,NA,9,"Unknown","Found","0.0592","with_beads","with_beads",NA,"Available","Box_2_Row_2","21.04.2022_B3","Dileshi",NA,"4/21/2022 8:01:59 PM",81.6,"ng/µl",1.632,0.904,1.81,1.53,"DNA"
+"296",265,"E57","LM0199","XX","E57aACJ",NA,NA,NA,10,"Found","Found","0.0647","with_beads","with_beads",NA,"Available","Box_2_Row_2","21.04.2022_B3","Dileshi",NA,"4/21/2022 7:58:10 PM",251.7,"ng/µl",5.033,2.753,1.83,1.99,"DNA"
+"297",266,"E57","LM0199","XX","E57aHSZ",NA,NA,NA,11,"Found","Found","0.0578","with_beads","with_beads",NA,NA,"Box_2_Row_2","21.04.2022_B1","Dileshi",NA,"4/21/2022 8:04:19 PM",262.6,"ng/µl",5.252,2.943,1.78,1.68,"DNA"
+"298",267,"E57","LM0200",NA,"E57aAFT",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,"Available","Box_2_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"299",268,"E57","LM0200",NA,"E57aGNQ",NA,NA,NA,1,"Found","Found",NA,NA,NA,NA,"Available","Box_2_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"300",269,"E57","LM0200",NA,"E57aCGY",NA,NA,NA,2,"Found","Unknown",NA,NA,NA,NA,"Available","Box_2_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"301",270,"E57","LM0200",NA,"E57aILZ",NA,NA,NA,3,"Found","Unknown",NA,NA,NA,NA,"Available","Box_2_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"302",271,"E57","LM0200",NA,"E57aCQV",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,"Available","Box_2_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"303",272,"E57","LM0200",NA,"E57aETW",NA,NA,NA,5,"Empty","Found",NA,NA,NA,NA,"Available","Box_2_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"304",273,"E57","LM0200",NA,"E57aLMV",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,"Available","Box_2_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"305",274,"E57","LM0200",NA,"E57aCIV",NA,NA,NA,7,"Empty","Unknown",NA,NA,NA,NA,NA,"Box_2_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"306",275,"E57","LM0200",NA,"E57aIKW",NA,NA,NA,8,"Empty","Found",NA,NA,NA,NA,NA,"Box_2_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"307",276,"E57","LM0200",NA,"E57aDHM",NA,NA,NA,9,"Empty","Found",NA,NA,NA,NA,NA,"Box_2_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"308",277,"E57","LM0200",NA,"E57aBDN",NA,NA,NA,10,"Empty","Found",NA,NA,NA,NA,NA,"Box_2_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"309",278,"E57","LM0200",NA,"E57aCFH",NA,NA,NA,11,"Empty","Found",NA,NA,NA,NA,NA,"Box_2_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"310",279,"E57","LM0201",NA,"E57aBUX",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,"Available","Box_1_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"311",280,"E57","LM0201",NA,"E57aTVX",NA,NA,NA,1,"Found","Found",NA,NA,NA,NA,"Available","Box_1_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"312",281,"E57","LM0201",NA,"E57aAIO",NA,NA,NA,2,"Found","Unknown",NA,NA,NA,NA,"Available","Box_1_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"313",282,"E57","LM0201",NA,"E57aGUV",NA,NA,NA,3,"Found","Unknown",NA,NA,NA,NA,"Available","Box_1_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"314",283,"E57","LM0201",NA,"E57aAUY",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,NA,"Box_1_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"315",284,"E57","LM0201",NA,"E57aAOZ",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_1_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"316",285,"E57","LM0201",NA,"E57aBES",NA,NA,NA,6,"Found","Found","0.0695","with_beads","with_beads",NA,NA,"Box_1_Row_5","11.03.2022_B2","Dileshi",NA,"3/11/2022 6:05:50 PM",120.9,"ng/µl",2.418,1.36,1.78,1.32,"DNA"
+"317",286,"E57","LM0201",NA,"E57aCTW",NA,NA,NA,7,"Empty","Unknown",NA,NA,NA,NA,NA,"Box_1_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"318",287,"E57","LM0201",NA,"E57aDPR",NA,NA,NA,8,"Empty","Unknown",NA,NA,NA,NA,NA,"Box_1_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"319",288,"E57","LM0201",NA,"E57aEPT",NA,NA,NA,9,"Unknown","Found",NA,NA,NA,NA,"Available","Box_1_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"320",289,"E57","LM0201",NA,"E57aESZ",NA,NA,NA,10,"Empty","Found",NA,NA,NA,NA,"Available","Box_1_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"321",290,"E57","LM0201",NA,"E57aAGK",NA,NA,NA,11,"Found","Found",NA,NA,NA,NA,"Available","Box_1_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"322",291,"E57","LM0202",NA,"E57aGPW",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_1_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"323",292,"E57","LM0202",NA,"E57aCJK",NA,NA,NA,1,"Found","Found",NA,NA,NA,NA,NA,"Box_1_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"324",293,"E57","LM0202",NA,"E57aAPX",NA,NA,NA,2,"Found","Unknown",NA,NA,NA,NA,NA,"Box_1_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"325",294,"E57","LM0202",NA,"E57aGJT",NA,NA,NA,3,"Found","Found",NA,NA,NA,NA,"Available","Box_1_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"326",295,"E57","LM0202",NA,"E57aDEN",NA,NA,NA,4,"Empty","Found",NA,NA,NA,NA,"Available","Box_1_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"327",296,"E57","LM0202",NA,"E57aDFG",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,"Available","Box_1_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"328",297,"E57","LM0202",NA,"E57aBIK",NA,NA,NA,6,"Found","Found","0.0101","with_beads","with_beads",NA,NA,"Box_1_Row_4","21.03.2022","Alexa",NA,"3/21/2022 1:24:44 PM",60.5,"ng/µl",1.21,0.657,1.84,1.99,"DNA"
+"329",298,"E57","LM0202",NA,"E57aCQU",NA,NA,NA,7,"Empty","Unknown",NA,NA,NA,NA,NA,"Box_1_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"330",299,"E57","LM0202",NA,"E57aBEO","Diarrhea",NA,NA,8,"Empty","Unknown",NA,NA,NA,NA,NA,"Box_1_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"331",300,"E57","LM0202",NA,"E57aCMU",NA,NA,NA,9,"Found","Found","0.0129","with_beads","with_beads",NA,NA,"Box_1_Row_4","18.03.2022","Alexa",NA,"3/18/2022 12:53:50 PM",18.8,"ng/µl",0.376,0.174,2.17,-1.87,"DNA"
+"332",301,"E57","LM0202",NA,"E57aDMQ",NA,NA,NA,10,"Found","Found",NA,NA,NA,NA,NA,"Box_1_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"333",302,"E57","LM0202",NA,"E57aHJY",NA,NA,NA,11,"Found","Found",NA,NA,NA,NA,NA,"Box_1_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"334",303,"E57","LM0203",NA,"E57aCMO",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_1_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"335",304,"E57","LM0203",NA,"E57aGOP",NA,NA,NA,1,"Unknown","Found",NA,NA,NA,NA,NA,"Box_1_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"336",305,"E57","LM0203",NA,"E57aILR",NA,NA,NA,2,"Empty","Unknown",NA,NA,NA,NA,NA,"Box_1_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"337",306,"E57","LM0203",NA,"E57aQRV",NA,NA,NA,3,"Found","Unknown",NA,NA,NA,NA,NA,"Box_1_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"338",307,"E57","LM0203",NA,"E57aEGO",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,NA,"Box_1_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"339",308,"E57","LM0203",NA,"E57aHTU",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_1_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"340",309,"E57","LM0203",NA,"E57aCPT",NA,NA,NA,6,"Found","Found","0.0884","with_beads","with_beads",NA,NA,"Box_1_Row_3","11.03.2022_B2","Dileshi",NA,"3/11/2022 6:01:36 PM",120,"ng/µl",2.4,1.291,1.86,2.46,"DNA"
+"341",310,"E57","LM0203",NA,"E57aCHO",NA,NA,NA,7,"Found","Unknown","0.0808","with_beads","with_beads",NA,NA,"Box_1_Row_3","11.03.2022_B1","Dileshi",NA,"3/11/2022 6:14:11 PM",102.2,"ng/µl",2.044,1.121,1.82,1.69,"DNA"
+"342",311,"E57","LM0203",NA,"E57aBCO",NA,NA,NA,8,"Empty","Unknown",NA,NA,NA,NA,NA,"Box_1_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"343",312,"E57","LM0203",NA,"E57aLQR",NA,NA,NA,9,"Empty","Found",NA,NA,NA,NA,NA,"Box_1_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"344",313,"E57","LM0203",NA,"E57aLTY",NA,NA,NA,10,"Empty","Found",NA,NA,NA,NA,NA,"Box_1_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"345",314,"E57","LM0203",NA,"E57aGJX",NA,NA,NA,11,"Found","Found",NA,NA,NA,NA,NA,"Box_1_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"346",315,"E57","LM0227",NA,"E57aFGW",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_1&5_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"347",316,"E57","LM0227",NA,"E57aJMP",NA,NA,NA,1,"Found","Found","0.1047","no_beads","no_beads","4_minute_longer_fridge_incubation",NA,"Box_1&5_Row_2&5","09.03.2022_B1","Dileshi",NA,"3/9/2022 5:14:30 PM",211.6,"ng/µl",4.231,2.389,1.77,1.49,"DNA"
+"348",317,"E57","LM0227",NA,"E57aILO",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_1&5_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"349",318,"E57","LM0227",NA,"E57aACU",NA,NA,NA,3,"Found","Found","0.1250","with_beads","with_beads",NA,NA,"Box_1&5_Row_2&5","24.03.2022","Alexa",NA,"3/24/2022 3:32:45 PM",257.1,"ng/µl",5.143,2.754,1.87,2.79,"DNA"
+"350",319,"E57","LM0227",NA,"E57aPTU",NA,NA,NA,4,"Found","Found","0.1034","with_beads","with_beads",NA,NA,"Box_1&5_Row_2&5","24.03.2022","Alexa",NA,"3/24/2022 3:29:19 PM",157.9,"ng/µl",3.157,1.655,1.91,2.3,"DNA"
+"351",320,"E57","LM0227",NA,"E57aNXY",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_1&5_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"352",321,"E57","LM0227",NA,"E57aBEH",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_1&5_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"353",322,"E57","LM0227",NA,"E57aFKN",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,NA,"Box_1&5_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"354",323,"E57","LM0227",NA,"E57aKQR",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_1&5_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"355",324,"E57","LM0227",NA,"E57aBIR",NA,NA,NA,9,"Unknown","Found",NA,NA,NA,NA,NA,"Box_1&5_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"356",325,"E57","LM0227",NA,"E57aGPR",NA,NA,NA,10,"Unknown","Found",NA,NA,NA,NA,NA,"Box_1&5_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"357",326,"E57","LM0227",NA,"E57aKMO",NA,NA,NA,11,"Unknown","Found",NA,NA,NA,NA,NA,"Box_1&5_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"358",327,"E57","LM0228","XX","E57aFRW",NA,NA,NA,0,"Empty","Found","0.0566","with_beads","with_beads",NA,NA,"Box_6_Row_1","16.04.2022_B1","Dileshi",NA,"4/16/2022 5:21:03 PM",115,"ng/µl",2.3,1.25,1.84,2.11,"DNA"
+"359",328,"E57","LM0228","XX","E57aMWY",NA,NA,NA,1,"Found","Found","0.0452","with_beads","with_beads",NA,NA,"Box_6_Row_1","10.03.2022_B1","Dileshi",NA,"3/10/2022 3:30:49 PM",46,"ng/µl",0.92,0.515,1.79,0.93,"DNA"
+"360",329,"E57","LM0228","XX","E57aMWY2",NA,NA,"Yes",1,"Found","Found","0.0855","with_beads","with_beads",NA,NA,NA,"16.04.2022_B1","Dileshi",NA,"4/16/2022 5:23:00 PM",157.4,"ng/µl",3.148,1.712,1.84,1.82,"DNA"
+"361",330,"E57","LM0228","XX","E57aCKN",NA,NA,NA,2,"Found","Found","0.707","with_beads","with_beads",NA,NA,"Box_6_Row_1","16.04.2022_B1","Dileshi",NA,"4/16/2022 5:17:52 PM",238.1,"ng/µl",4.761,2.82,1.69,1.11,"DNA"
+"362",331,"E57","LM0228","XX","E57aISW",NA,NA,NA,3,"Found","Found","0.1172","with_beads","with_beads",NA,NA,"Box_6_Row_1","24.03.2022","Alexa",NA,"3/24/2022 11:52:15 AM",83.6,"ng/µl",1.673,0.901,1.86,1.94,"DNA"
+"363",331,"E57","LM0228","XX","E57aISW",NA,NA,NA,3,"Found","Found","0.1172","with_beads","with_beads",NA,NA,"Box_6_Row_1","24.03.2022","Alexa",NA,"4/26/2022 7:57:42 PM",83.3,"ng/µl",1.666,0.936,1.78,1.24,"DNA"
+"364",332,"E57","LM0228","XX","E57aBMX",NA,NA,NA,4,"Found","Found","0.0912","with_beads","with_beads",NA,NA,"Box_6_Row_1","16.04.2022_B1","Dileshi",NA,"4/16/2022 5:15:04 PM",134.7,"ng/µl",2.694,1.518,1.77,1.45,"DNA"
+"365",333,"E57","LM0228","XX","E57aCEH",NA,NA,NA,5,"Unknown","Found","0.0751","with_beads","with_beads",NA,NA,"Box_6_Row_1","16.04.2022_B1","Dileshi",NA,"4/16/2022 5:17:10 PM",51.2,"ng/µl",1.024,0.563,1.82,1.68,"DNA"
+"366",334,"E57","LM0228","XX","E57aEIY",NA,NA,NA,6,"Found","Found","0.0826","with_beads","with_beads",NA,NA,"Box_6_Row_1","16.04.2022_B1","Dileshi",NA,"4/16/2022 5:19:16 PM",120.7,"ng/µl",2.413,1.332,1.81,1.59,"DNA"
+"367",335,"E57","LM0228","XX","E57aFIY",NA,NA,NA,7,"Unknown","Found","0.0560","with_beads","with_beads",NA,NA,"Box_6_Row_1","16.04.2022_B1","Dileshi",NA,"4/16/2022 5:20:05 PM",72.9,"ng/µl",1.457,0.811,1.8,1.38,"DNA"
+"368",336,"E57","LM0228","XX","E57aATY",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_6_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"369",337,"E57","LM0228","XX","E57aIQU",NA,NA,NA,9,"Unknown","Found","0.0665","with_beads","with_beads",NA,NA,"Box_6_Row_1","16.04.2022_B1","Dileshi",NA,"4/16/2022 5:22:04 PM",280.8,"ng/µl",5.616,3.059,1.84,2.16,"DNA"
+"370",338,"E57","LM0228","XX","E57aANO",NA,NA,NA,10,"Unknown","Found","0.0614","with_beads","with_beads",NA,NA,"Box_6_Row_1","16.04.2022_B1","Dileshi",NA,"4/16/2022 5:13:35 PM",166.5,"ng/µl",3.33,1.83,1.82,1.8,"DNA"
+"371",339,"E57","LM0228","XX","E57aAIN",NA,NA,NA,11,"Unknown","Found","0.1199","with_beads","with_beads",NA,NA,"Box_6_Row_1","16.04.2022_B1","Dileshi",NA,"4/16/2022 5:12:19 PM",189.6,"ng/µl",3.792,2.06,1.84,2.16,"DNA"
+"372",340,"E57","LM0229","XX","E57aIJQ",NA,NA,NA,0,"Found","Found","0.0641","with_beads","with_beads",NA,NA,"Box_6_Row_2","16.04.2022_B2","Dileshi",NA,"4/16/2022 5:06:43 PM",24.1,"ng/µl",0.483,0.272,1.77,1.47,"DNA"
+"373",341,"E57","LM0229","XX","E57aIJQ2",NA,NA,"Yes",0,"Found","Found","0.0623","with_beads","with_beads",NA,NA,NA,"23.04.2022_B2","Dileshi",NA,"4/23/2022 8:26:57 PM",204.6,"ng/µl",4.093,2.292,1.79,1.61,"DNA"
+"374",342,"E57","LM0229","XX","E57aEKT",NA,NA,NA,1,"Found","Found","0.0428","with_beads","with_beads",NA,NA,"Box_6_Row_2","10.03.2022_B1","Dileshi",NA,"4/26/2022 8:14:55 PM",102,"ng/µl",2.04,1.086,1.88,1.84,"DNA"
+"375",343,"E57","LM0229","XX","E57aHQZ",NA,NA,NA,2,"Empty","Found","0.0686","with_beads","with_beads",NA,NA,"Box_6_Row_2","16.04.2022_B2","Dileshi",NA,"4/16/2022 5:04:49 PM",208.9,"ng/µl",4.177,2.336,1.79,1.51,"DNA"
+"376",344,"E57","LM0229","XX","E57aHMU",NA,NA,NA,3,"Found","Found","0.0982","with_beads","with_beads",NA,NA,"Box_6_Row_2","16.04.2022_B2","Dileshi",NA,"4/16/2022 5:03:56 PM",180.7,"ng/µl",3.614,1.958,1.85,1.91,"DNA"
+"377",345,"E57","LM0229","XX","E57aHKV",NA,NA,NA,4,"Found","Found","0.0840","with_beads","with_beads",NA,NA,"Box_6_Row_2","16.04.2022_B2","Dileshi",NA,"4/16/2022 5:03:07 PM",108.8,"ng/µl",2.176,1.18,1.84,1.89,"DNA"
+"378",346,"E57","LM0229","XX","E57aMNT",NA,NA,NA,5,"Found","Found","0.1062","with_beads","with_beads",NA,"Available","Box_6_Row_2","16.04.2022_B2","Dileshi",NA,"4/16/2022 5:08:42 PM",153.4,"ng/µl",3.069,1.675,1.83,1.87,"DNA"
+"379",347,"E57","LM0229","XX","E57aKOU",NA,NA,NA,6,"Unknown","Found","0.0569","with_beads","with_beads",NA,NA,"Box_6_Row_2","16.04.2022_B2","Dileshi",NA,"4/16/2022 5:07:22 PM",73.7,"ng/µl",1.475,0.82,1.8,1.6,"DNA"
+"380",348,"E57","LM0229","XX","E57aHIO",NA,NA,NA,7,"Unknown","Found","0.0373","with_beads","with_beads",NA,NA,"Box_6_Row_2","16.04.2022_B2","Dileshi",NA,"4/16/2022 5:00:51 PM",32.5,"ng/µl",0.65,0.358,1.82,1.49,"DNA"
+"381",349,"E57","LM0229","XX","E57aBHK",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_6_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"382",350,"E57","LM0229","XX","E57aLRZ",NA,NA,NA,9,"Unknown","Found","0.0608","with_beads","with_beads",NA,NA,"Box_6_Row_2","16.04.2022_B2","Dileshi",NA,"4/16/2022 5:08:10 PM",118.2,"ng/µl",2.364,1.329,1.78,1.43,"DNA"
+"383",351,"E57","LM0229","XX","E57aORU",NA,NA,NA,10,"Unknown","Found","0.0773","with_beads","with_beads",NA,NA,"Box_6_Row_2","16.04.2022_B2","Dileshi",NA,"4/16/2022 5:09:46 PM",50.9,"ng/µl",1.017,0.587,1.73,1.16,"DNA"
+"384",352,"E57","LM0229","XX","E57aHJK",NA,NA,NA,11,"Unknown","Found","0.0573","with_beads","with_beads",NA,NA,"Box_6_Row_2","16.04.2022_B2","Dileshi",NA,"4/16/2022 5:02:18 PM",231.4,"ng/µl",4.628,2.526,1.83,2.22,"DNA"
+"385",353,"E57","LM0230",NA,"E57aERW",NA,NA,NA,0,"Empty","Found",NA,NA,NA,NA,NA,"Box_6_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"386",354,"E57","LM0230",NA,"E57aDWX",NA,NA,NA,1,"Found","Found",NA,NA,NA,NA,NA,"Box_6_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"387",355,"E57","LM0230",NA,"E57aEWY",NA,NA,NA,2,"Unknown","Found",NA,NA,NA,NA,NA,"Box_6_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"388",356,"E57","LM0230",NA,"E57aWYZ",NA,NA,NA,3,"Found","Found",NA,NA,NA,NA,NA,"Box_6_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"389",357,"E57","LM0230",NA,"E57aHPX",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,"Available","Box_6_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"390",358,"E57","LM0230",NA,"E57aFJN",NA,NA,NA,5,"Unknown","Found",NA,NA,NA,NA,NA,"Box_6_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"391",359,"E57","LM0230",NA,"E57aGJS",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,"Available","Box_6_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"392",360,"E57","LM0230",NA,"E57aJTV",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,"Available","Box_6_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"393",361,"E57","LM0230",NA,"E57aSUV",NA,"Sacrificed",NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_6_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"394",362,"E57","LM0230",NA,"E57aFMP","Unavailable","Sacrificed",NA,9,"Unknown","Empty",NA,NA,NA,NA,NA,"Box_6_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"395",363,"E57","LM0230",NA,"E57aCKO","Unavailable","Sacrificed",NA,10,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_6_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"396",364,"E57","LM0230",NA,"E57aSUY","Unavailable","Sacrificed",NA,11,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_6_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"397",365,"E57","LM0231",NA,"E57aAFW",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_6_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"398",366,"E57","LM0231",NA,"E57aDRV",NA,NA,NA,1,"Found","Found","0.1182","no_beads","no_beads",NA,NA,"Box_6_Row_4","09.03.2022","Alexa",NA,"3/9/2022 3:20:15 PM",144.2,"ng/µl",2.884,1.481,1.95,7.03,"DNA"
+"399",367,"E57","LM0231",NA,"E57aDKZ",NA,NA,NA,2,"Found","Found","0.0523","with_beads","with_beads",NA,NA,"Box_6_Row_4","05.04.2022_B1","Dileshi",NA,"4/5/2022 3:46:09 PM",-94.8,"ng/µl",-1.897,1.227,-1.55,-1.68,"DNA"
+"400",368,"E57","LM0231",NA,"E57aLQX",NA,NA,NA,3,"Found","Found","0.1072","with_beads","with_beads",NA,NA,"Box_6_Row_4","23.03.2022","Alexa",NA,"3/23/2022 1:28:50 PM",150.3,"ng/µl",3.006,1.641,1.83,1.9,"DNA"
+"401",369,"E57","LM0231",NA,"E57aSXZ",NA,NA,NA,4,"Empty","Found",NA,NA,NA,NA,"Available","Box_6_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"402",370,"E57","LM0231",NA,"E57aBUY",NA,NA,NA,5,"Unknown","Found",NA,NA,NA,NA,"Available","Box_6_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"403",371,"E57","LM0231",NA,"E57aFMT",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,"Available","Box_6_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"404",372,"E57","LM0231",NA,"E57aBGQ",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,"Available","Box_6_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"405",373,"E57","LM0231",NA,"E57aNSW",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_6_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"406",374,"E57","LM0231",NA,"E57aIWY",NA,NA,NA,9,"Unknown","Found",NA,NA,NA,NA,"Available","Box_6_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"407",375,"E57","LM0231",NA,"E57aAOR",NA,NA,NA,10,"Unknown","Found",NA,NA,NA,NA,"Available","Box_6_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"408",376,"E57","LM0231",NA,"E57aFLR",NA,NA,NA,11,"Unknown","Found",NA,NA,NA,NA,NA,"Box_6_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"409",377,"E57","LM0232",NA,"E57aBGK",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_6_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"410",378,"E57","LM0232",NA,"E57aCQX",NA,NA,NA,1,"Found","Found","0.0713","no_beads","no_beads","4_minute_longer_fridge_incubation",NA,"Box_6_Row_5","09.03.2022_B1","Dileshi",NA,"3/9/2022 5:04:43 PM",125.4,"ng/µl",2.507,1.394,1.8,0.97,"DNA"
+"411",379,"E57","LM0232",NA,"E57aHNQ",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_6_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"412",380,"E57","LM0232",NA,"E57aCSY",NA,NA,NA,3,"Found","Found",NA,NA,NA,NA,NA,"Box_6_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"413",381,"E57","LM0232",NA,"E57aANW",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,NA,"Box_6_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"414",382,"E57","LM0232",NA,"E57aEMO",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,"Available","Box_6_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"415",383,"E57","LM0232",NA,"E57aEGZ",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,"Available","Box_6_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"416",384,"E57","LM0232",NA,"E57aHKN",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,NA,"Box_6_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"417",385,"E57","LM0232",NA,"E57aBDG",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_6_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"418",386,"E57","LM0232",NA,"E57aNOT",NA,NA,NA,9,"Unknown","Found",NA,NA,NA,NA,NA,"Box_6_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"419",387,"E57","LM0232",NA,"E57aKRU",NA,NA,NA,10,"Unknown","Found",NA,NA,NA,NA,NA,"Box_6_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"420",388,"E57","LM0232",NA,"E57aBDY",NA,NA,NA,11,"Unknown","Found",NA,NA,NA,NA,NA,"Box_6_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"421",389,"E57","LM0233",NA,"E57aAJW",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"422",390,"E57","LM0233",NA,"E57aBCL",NA,NA,NA,1,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"423",391,"E57","LM0233",NA,"E57aMQV",NA,NA,NA,2,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"424",392,"E57","LM0233",NA,"E57aCMZ",NA,NA,NA,3,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"425",393,"E57","LM0233",NA,"E57aOPV",NA,NA,NA,4,"Found","Found","0.0540","with_beads","with_beads",NA,NA,"Box_7_Row_1","24.03.2022","Alexa",NA,"3/24/2022 3:31:39 PM",149.4,"ng/µl",2.988,1.574,1.9,3.54,"DNA"
+"426",394,"E57","LM0233",NA,"E57aHKX",NA,NA,NA,5,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"427",395,"E57","LM0233",NA,"E57aDVW",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"428",396,"E57","LM0233",NA,"E57aCOR",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,"Available","Box_7_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"429",397,"E57","LM0233",NA,"E57aNSY",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_7_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"430",398,"E57","LM0233",NA,"E57aNPY",NA,NA,NA,9,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"431",399,"E57","LM0233",NA,"E57aOTX",NA,NA,NA,10,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"432",400,"E57","LM0233",NA,"E57aDHI",NA,NA,NA,11,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"433",401,"E57","LM0234",NA,"E57aDMN",NA,NA,NA,0,"Found","Unknown",NA,NA,NA,NA,NA,"Box_7_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"434",402,"E57","LM0234",NA,"E57aOQR",NA,NA,NA,1,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"435",403,"E57","LM0234",NA,"E57aBIX",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"436",404,"E57","LM0234",NA,"E57aQRS",NA,NA,NA,3,"Found","Found","0.0711","with_beads","with_beads",NA,NA,"Box_7_Row_2","23.03.2022","Alexa",NA,"3/23/2022 1:29:26 PM",225.4,"ng/µl",4.509,2.438,1.85,2.73,"DNA"
+"437",405,"E57","LM0234",NA,"E57aNUV",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"438",406,"E57","LM0234",NA,"E57aFJY",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"439",407,"E57","LM0234",NA,"E57aLNY",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"440",408,"E57","LM0234",NA,"E57aBIS",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"441",409,"E57","LM0234",NA,"E57aEQW",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_7_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"442",410,"E57","LM0234",NA,"E57aHLX",NA,NA,NA,9,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"443",411,"E57","LM0234",NA,"E57aCNW",NA,NA,NA,10,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"444",412,"E57","LM0234",NA,"E57aDNO",NA,NA,NA,11,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"445",413,"E57","LM0235",NA,"E57aMOY",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"446",414,"E57","LM0235",NA,"E57aJVX",NA,NA,NA,1,"Found","Found","0.1006","no_beads","no_beads",NA,NA,"Box_7_Row_4","07.03.2022_B1","Fay_Alexa_Dileshi",NA,NA,141.4,"ng/µl",2.828,1.375,2.06,-3.37,"DNA"
+"447",415,"E57","LM0235",NA,"E57aMOW",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"448",416,"E57","LM0235",NA,"E57aEIM",NA,NA,NA,3,"Found","Unknown","0.1153","with_beads","with_beads",NA,NA,"Box_7_Row_4","24.03.2022","Alexa",NA,"3/24/2022 3:24:27 PM",198.1,"ng/µl",3.961,2.171,1.82,1.75,"DNA"
+"449",417,"E57","LM0235",NA,"E57aFHL",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"450",418,"E57","LM0235",NA,"E57aAGI",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"451",419,"E57","LM0235",NA,"E57aEMZ",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"452",420,"E57","LM0235",NA,"E57aAJU",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"453",421,"E57","LM0235",NA,"E57aDQZ",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_7_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"454",422,"E57","LM0235",NA,"E57aBFG",NA,NA,NA,9,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_7_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"455",423,"E57","LM0235",NA,"E57aFJX",NA,NA,NA,10,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"456",424,"E57","LM0235",NA,"E57aGMV",NA,NA,NA,11,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"457",425,"E57","LM0236",NA,"E57aANT",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"458",426,"E57","LM0236",NA,"E57aRVW",NA,NA,NA,1,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"459",427,"E57","LM0236",NA,"E57aLOY",NA,NA,NA,2,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"460",428,"E57","LM0236",NA,"E57aDHR",NA,NA,NA,3,"Empty","Found",NA,NA,NA,NA,NA,"Box_7_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"461",429,"E57","LM0236",NA,"E57aAOX",NA,NA,NA,4,"Found","Found","0.0510","with_beads","with_beads",NA,NA,"Box_7_Row_3","10.03.2022_B1","Dileshi",NA,"3/10/2022 3:26:16 PM",258.5,"ng/µl",5.17,3.023,1.71,1.18,"DNA"
+"462",430,"E57","LM0236",NA,"E57aGOT",NA,NA,NA,5,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"463",431,"E57","LM0236",NA,"E57aKNZ",NA,NA,NA,6,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_7_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"464",432,"E57","LM0236",NA,"E57aDOP",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,"Available","Box_7_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"465",433,"E57","LM0236",NA,"E57aJTW",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_7_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"466",434,"E57","LM0236",NA,"E57aGPS",NA,NA,NA,9,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"467",435,"E57","LM0236",NA,"E57aDKN",NA,NA,NA,10,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"468",436,"E57","LM0236",NA,"E57aBKL",NA,NA,NA,11,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"469",437,"E57","LM0237",NA,"E57aBJN",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"470",438,"E57","LM0237",NA,"E57aDSX",NA,NA,NA,1,"Found","Found","0.0430","no_beads","no_beads","4_minute_longer_fridge_incubation",NA,"Box_7_Row_5","09.03.2022_B1","Dileshi",NA,"3/9/2022 5:10:44 PM",259.5,"ng/µl",5.191,2.956,1.76,1.46,"DNA"
+"471",439,"E57","LM0237",NA,"E57aGSZ",NA,NA,NA,2,"Found","Found","0.0056","with_beads","with_beads",NA,NA,"Box_7_Row_5","07.04.2022_B1","Dileshi",NA,"4/7/2022 2:22:52 PM",70.1,"ng/µl",1.401,0.991,1.41,0.51,"DNA"
+"472",440,"E57","LM0237",NA,"E57aHMY",NA,NA,NA,3,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"473",441,"E57","LM0237",NA,"E57aFLZ",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"474",442,"E57","LM0237",NA,"E57aEHK",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_7_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"475",443,"E57","LM0237",NA,"E57aBFL",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_7_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"476",444,"E57","LM0237",NA,"E57aCKV",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,"Available","Box_7_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"477",445,"E57","LM0237",NA,"E57aGMS",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_7_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"478",446,"E57","LM0237",NA,"E57aLOT",NA,NA,NA,9,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_7_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"479",447,"E57","LM0237",NA,"E57aCJT",NA,NA,NA,10,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_7_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"480",448,"E57","LM0237",NA,"E57aDKQ",NA,NA,NA,11,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_7_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"481",449,"E57","LM0238",NA,"E57aEUW",NA,NA,NA,0,"Found","Found","0.0737","with_beads","with_beads",NA,NA,"Box_8_Row_1","14.04.2022_B1","Dileshi",NA,"4/14/2022 6:47:37 PM",149.1,"ng/µl",2.982,1.604,1.86,1.23,"DNA"
+"482",450,"E57","LM0238",NA,"E57aFQV",NA,NA,NA,1,"Unknown","Found","0.0896","with_beads","with_beads",NA,NA,"Box_8_Row_1","14.04.2022_B1","Dileshi",NA,"4/14/2022 6:51:49 PM",40.9,"ng/µl",0.819,0.464,1.76,0.74,"DNA"
+"483",451,"E57","LM0238",NA,"E57aDXY",NA,NA,NA,2,"Found","Found","0.0752","with_beads","with_beads",NA,NA,"Box_8_Row_1","24.03.2022","Alexa",NA,"4/26/2022 7:57:09 PM",241.9,"ng/µl",4.838,2.679,1.81,1.97,"DNA"
+"484",452,"E57","LM0238",NA,"E57aDIS",NA,NA,NA,3,"Found","Found","0.1021","with_beads","with_beads",NA,NA,"Box_8_Row_1","23.03.2022","Alexa",NA,"4/26/2022 8:00:24 PM",189.3,"ng/µl",3.786,2.108,1.8,1.65,"DNA"
+"485",453,"E57","LM0238",NA,"E57aETZ",NA,NA,NA,4,"Found","Found","0.0507","with_beads","with_beads",NA,NA,"Box_8_Row_1","23.04.2022_B1","Dileshi",NA,"4/23/2022 4:41:40 PM",200.1,"ng/µl",4.002,2.189,1.83,1.42,"DNA"
+"486",454,"E57","LM0238",NA,"E57aENR",NA,NA,NA,5,"Unknown","Found","0.0609","with_beads","with_beads",NA,NA,"Box_8_Row_1","23.04.2022_B1","Dileshi",NA,"4/23/2022 4:40:56 PM",72.9,"ng/µl",1.458,0.792,1.84,1.55,"DNA"
+"487",455,"E57","LM0238",NA,"E57aIOY",NA,NA,NA,6,"Unknown","Found","0.0805","with_beads","with_beads",NA,NA,"Box_8_Row_1","14.04.2022_B1","Dileshi",NA,"4/14/2022 6:54:07 PM",210,"ng/µl",4.199,2.328,1.8,1.69,"DNA"
+"488",456,"E57","LM0238",NA,"E57aCJQ",NA,NA,NA,7,"Unknown","Found","0.0224","with_beads","with_beads",NA,NA,"Box_8_Row_1","14.04.2022_B1","Dileshi",NA,"4/14/2022 6:44:41 PM",147.7,"ng/µl",2.954,1.596,1.85,2.01,"DNA"
+"489",457,"E57","LM0238",NA,"E57aNQW",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_8_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"490",458,"E57","LM0238",NA,"E57aHOU",NA,NA,NA,9,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_8_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"491",459,"E57","LM0238",NA,"E57aIOX",NA,NA,NA,10,"Unknown","Found","0.0341","with_beads","with_beads",NA,NA,"Box_8_Row_1","14.04.2022_B1","Dileshi",NA,"4/14/2022 6:54:59 PM",199.1,"ng/µl",3.982,2.178,1.83,1.61,"DNA"
+"492",460,"E57","LM0238",NA,"E57aDMT",NA,NA,NA,11,"Unknown","Found","0.0628","with_beads","with_beads",NA,NA,"Box_8_Row_1","14.04.2022_B1","Dileshi",NA,"4/14/2022 6:46:53 PM",244.2,"ng/µl",4.884,2.648,1.84,1.98,"DNA"
+"493",461,"E57","LM0239","XX","E57aTXZ",NA,NA,NA,0,"Found","Found","0.0736","with_beads","with_beads",NA,NA,"Box_8_Row_2","07.04.2022_B1","Dileshi",NA,"4/7/2022 2:27:55 PM",255,"ng/µl",5.101,3.034,1.68,1.48,"DNA"
+"494",461,"E57","LM0239","XX","E57aTXZ",NA,NA,NA,0,"Found","Found","0.0736","with_beads","with_beads",NA,NA,"Box_8_Row_2","07.04.2022_B1","Dileshi",NA,"4/26/2022 8:12:59 PM",218.2,"ng/µl",4.363,2.387,1.83,1.81,"DNA"
+"495",462,"E57","LM0239","XX","E57aDEK",NA,NA,NA,1,"Found","Found","0.0662","no_beads","no_beads","4_minute_longer_fridge_incubation",NA,"Box_8_Row_2","09.03.2022_B1","Dileshi",NA,"3/9/2022 5:06:22 PM",60,"ng/µl",1.2,0.675,1.78,1.52,"DNA"
+"496",463,"E57","LM0239","XX","E57aDEK2",NA,NA,"Yes",1,"Found","Found","0.1330","with_beads","with_beads",NA,NA,NA,"14.04.2022_B1","Dileshi",NA,"4/14/2022 6:46:03 PM",127.7,"ng/µl",2.555,1.369,1.87,1.89,"DNA"
+"497",464,"E57","LM0239","XX","E57aGRV",NA,NA,NA,2,"Found","Found","0.0952","with_beads","with_beads",NA,NA,"Box_8_Row_2","14.04.2022_B2","Dileshi",NA,"4/14/2022 7:04:39 PM",197.4,"ng/µl",3.948,2.158,1.83,1.29,"DNA"
+"498",465,"E57","LM0239","XX","E57aHTZ",NA,NA,NA,3,"Found","Found","0.1138","with_beads","with_beads",NA,NA,"Box_8_Row_2","23.03.2022","Alexa",NA,"4/26/2022 7:42:35 PM",201.6,"ng/µl",4.032,2.204,1.83,1.94,"DNA"
+"499",466,"E57","LM0239","XX","E57aAEQ",NA,NA,NA,4,"Found","Found","0.1195","with_beads","with_beads",NA,NA,"Box_8_Row_2","24.03.2022","Alexa",NA,"3/24/2022 11:46:46 AM",145.4,"ng/µl",2.909,1.552,1.87,1.89,"DNA"
+"500",466,"E57","LM0239","XX","E57aAEQ",NA,NA,NA,4,"Found","Found","0.1195","with_beads","with_beads",NA,NA,"Box_8_Row_2","24.03.2022","Alexa",NA,"4/26/2022 8:08:57 PM",154,"ng/µl",3.08,1.665,1.85,1.54,"DNA"
+"501",467,"E57","LM0239","XX","E57aLRX",NA,NA,NA,5,"Found","Found","0.0599","with_beads","with_beads",NA,NA,"Box_8_Row_2","23.04.2022_B1","Dileshi",NA,"4/23/2022 4:46:20 PM",184.9,"ng/µl",3.698,2.01,1.84,2.08,"DNA"
+"502",468,"E57","LM0239","XX","E57aQVY",NA,NA,NA,6,"Unknown","Found","0.0525","with_beads","with_beads",NA,"Available","Box_8_Row_2","14.04.2022_B2","Dileshi",NA,"4/14/2022 7:06:17 PM",168.4,"ng/µl",3.368,1.835,1.84,1.18,"DNA"
+"503",469,"E57","LM0239","XX","E57aGNZ",NA,NA,NA,7,"Unknown","Found","0.0909","with_beads","with_beads","lost_50%_supernatant_step_12_round_2",NA,"Box_8_Row_2","14.04.2022_B1","Dileshi",NA,"4/14/2022 6:53:14 PM",157.9,"ng/µl",3.157,1.722,1.83,1.69,"DNA"
+"504",470,"E57","LM0239","XX","E57aMPT",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_8_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"505",471,"E57","LM0239","XX","E57aCFW",NA,NA,NA,9,"Unknown","Found","0.0620","with_beads","with_beads",NA,NA,"Box_8_Row_2","14.04.2022_B1","Dileshi",NA,"4/14/2022 6:42:41 PM",160.5,"ng/µl",3.21,1.723,1.86,1.89,"DNA"
+"506",472,"E57","LM0239","XX","E57aAJT",NA,NA,NA,10,"Unknown","Found","0.0647","with_beads","with_beads",NA,NA,"Box_8_Row_2","14.04.2022_B1","Dileshi",NA,"4/14/2022 6:43:14 PM",134.1,"ng/µl",2.682,1.433,1.87,2.02,"DNA"
+"507",473,"E57","LM0239","XX","E57aIJS",NA,NA,NA,11,"Unknown","Found","0.0564","with_beads","with_beads",NA,NA,"Box_8_Row_2","23.04.2022_B1","Dileshi",NA,"4/23/2022 4:44:53 PM",186.7,"ng/µl",3.734,2.035,1.84,2.19,"DNA"
+"508",474,"E57","LM0240","XX","E57aCSX",NA,NA,NA,0,"Found","Found","0.0901","with_beads","with_beads",NA,NA,"Box_8_Row_3","14.04.2022_B2","Dileshi",NA,"4/14/2022 7:02:48 PM",144.1,"ng/µl",2.883,1.58,1.82,1.26,"DNA"
+"509",475,"E57","LM0240","XX","E57aFLQ",NA,NA,NA,1,"Found","Found","0.0847","no_beads","no_beads","75µl_SX_instead_of_32.5µl_+_no_vortex_at_step_22",NA,"Box_8_Row_3","07.03.2022_B2","Dileshi",NA,"4/26/2022 8:10:24 PM",164.4,"ng/µl",3.288,1.778,1.85,0.98,"DNA"
+"510",476,"E57","LM0240","XX","E57aRWY",NA,NA,NA,2,"Found","Found","0.0767","with_beads","with_beads",NA,NA,"Box_8_Row_3","14.04.2022_B2","Dileshi",NA,"4/14/2022 7:06:42 PM",56.5,"ng/µl",1.129,0.629,1.79,0.78,"DNA"
+"511",477,"E57","LM0240","XX","E57aRWY2",NA,NA,"Yes",2,"Found","Found","0.0465","with_beads","with_beads",NA,NA,NA,"23.04.2022_B2","Dileshi",NA,"4/23/2022 8:28:45 PM",98.8,"ng/µl",1.977,1.079,1.83,1.85,"DNA"
+"512",478,"E57","LM0240","XX","E57aALU",NA,NA,NA,3,"Found","Found","0.0787","with_beads","with_beads",NA,NA,"Box_8_Row_3","23.03.2022","Alexa",NA,"4/26/2022 8:13:57 PM",163.4,"ng/µl",3.267,1.772,1.84,1.82,"DNA"
+"513",479,"E57","LM0240","XX","E57aUWY",NA,NA,NA,4,"Found","Found","0.0776","with_beads","with_beads",NA,NA,"Box_8_Row_3","14.04.2022_B2","Dileshi",NA,"4/14/2022 7:07:21 PM",178.3,"ng/µl",3.566,1.953,1.83,1.31,"DNA"
+"514",480,"E57","LM0240","XX","E57aHJR",NA,NA,NA,5,"Found","Found","0.0540","with_beads","with_beads",NA,"Available","Box_8_Row_3","23.04.2022_B1","Dileshi",NA,"4/23/2022 4:44:07 PM",135.3,"ng/µl",2.706,1.518,1.78,1.34,"DNA"
+"515",481,"E57","LM0240","XX","E57aCKZ",NA,NA,NA,6,"Unknown","Found","0.1074","with_beads","with_beads",NA,NA,"Box_8_Row_3","14.04.2022_B2","Dileshi",NA,"4/14/2022 7:02:10 PM",185.1,"ng/µl",3.701,2.029,1.82,1.32,"DNA"
+"516",482,"E57","LM0240","XX","E57aKMX",NA,NA,NA,7,"Unknown","Found","0.576","with_beads","with_beads",NA,NA,"Box_8_Row_3","14.04.2022_B2","Dileshi",NA,"4/14/2022 7:05:41 PM",109.2,"ng/µl",2.184,1.21,1.81,0.75,"DNA"
+"517",483,"E57","LM0240","XX","E57aAGU",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_8_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"518",484,"E57","LM0240","XX","E57aHJT",NA,NA,NA,9,"Unknown","Found","0.1391","with_beads","with_beads",NA,"Available","Box_8_Row_3","14.04.2022_B2","Dileshi",NA,"4/14/2022 7:05:10 PM",155.6,"ng/µl",3.112,1.7,1.83,1.35,"DNA"
+"519",485,"E57","LM0240","XX","E57aENX",NA,NA,NA,10,"Unknown","Found","0.0897","with_beads","with_beads",NA,"Available","Box_8_Row_3","14.04.2022_B2","Dileshi",NA,"4/14/2022 7:03:52 PM",221.7,"ng/µl",4.434,2.484,1.78,1.3,"DNA"
+"520",486,"E57","LM0240","XX","E57aABL",NA,NA,NA,11,"Unknown","Found","0.103","with_beads","with_beads",NA,NA,"Box_8_Row_3","14.04.2022_B2","Dileshi",NA,"4/14/2022 6:59:48 PM",203.3,"ng/µl",4.065,2.234,1.82,1.29,"DNA"
+"521",487,"E57","LM0241",NA,"E57aIVW",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_8_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"522",488,"E57","LM0241",NA,"E57aHOS",NA,NA,NA,1,"Unknown","Found",NA,NA,NA,NA,NA,"Box_8_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"523",489,"E57","LM0241",NA,"E57aCHP",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_8_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"524",490,"E57","LM0241",NA,"E57aHJZ",NA,NA,NA,3,"Found","Found","0.0363","with_beads","with_beads",NA,NA,"Box_8_Row_4","24.03.2022","Alexa",NA,"3/24/2022 11:50:06 AM",84.4,"ng/µl",1.687,0.896,1.88,3.63,"DNA"
+"525",491,"E57","LM0241",NA,"E57aPRS",NA,NA,NA,4,"Found","Found","0.1027","with_beads","with_beads",NA,"Available","Box_8_Row_4","24.03.2022","Alexa",NA,"3/24/2022 3:30:25 PM",203.8,"ng/µl",4.076,2.181,1.87,2.74,"DNA"
+"526",492,"E57","LM0241",NA,"E57aDFX",NA,NA,NA,5,"Unknown","Found",NA,NA,NA,NA,"Available","Box_8_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"527",493,"E57","LM0241",NA,"E57aEOZ",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,"Available","Box_8_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"528",494,"E57","LM0241",NA,"E57aADE",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,NA,"Box_8_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"529",495,"E57","LM0241",NA,"E57aIUZ",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_8_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"530",496,"E57","LM0241",NA,"E57aADF",NA,NA,NA,9,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_8_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"531",497,"E57","LM0241",NA,"E57aJNU",NA,NA,NA,10,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_8_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"532",498,"E57","LM0241",NA,"E57aDHW",NA,NA,NA,11,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_8_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"533",499,"E57","LM0242",NA,"E57aSUZ",NA,NA,NA,0,"Found","Found","0.0814","with_beads","with_beads",NA,"Available","Box_8_Row_5","07.04.2022_B1","Dileshi",NA,"4/7/2022 2:27:09 PM",220.2,"ng/µl",4.403,2.557,1.72,1.72,"DNA"
+"534",500,"E57","LM0242",NA,"E57aIMY",NA,NA,NA,1,"Found","Found","0.1001","with_beads","with_beads",NA,NA,"Box_8_Row_5","10.03.2022_B1","Dileshi",NA,"3/10/2022 3:29:46 PM",320.2,"ng/µl",6.405,3.536,1.81,2.02,"DNA"
+"535",501,"E57","LM0242",NA,"E57aCGR",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_8_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"536",502,"E57","LM0242",NA,"E57aGJY",NA,NA,NA,3,"Found","Unknown",NA,NA,NA,NA,NA,"Box_8_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"537",503,"E57","LM0242",NA,"E57aMOX",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,NA,"Box_8_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"538",504,"E57","LM0242",NA,"E57aOQV",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_8_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"539",505,"E57","LM0242",NA,"E57aKTX",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_8_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"540",506,"E57","LM0242",NA,"E57aAKX",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,"Available","Box_8_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"541",507,"E57","LM0242",NA,"E57aIMS",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_8_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"542",508,"E57","LM0242",NA,"E57aALN",NA,NA,NA,9,"Unknown","Found",NA,NA,NA,NA,NA,"Box_8_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"543",509,"E57","LM0242",NA,"E57aJLO",NA,"Died",NA,10,"Unknown","Found",NA,NA,NA,NA,"Available","Box_8_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"544",510,"E57","LM0242",NA,"E57aAHM",NA,"Died",NA,11,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_8_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"545",511,"E57","LM0243",NA,"E57aILY",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_1_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"546",512,"E57","LM0243",NA,"E57aRSZ",NA,NA,NA,1,"Unknown","Found","ALEXA","no_beads","no_beads",NA,"Available","Box_1_Row_1","04.03.2022","Alexa_Fay",NA,"3/4/2022 2:14:40 PM",202.7,"ng/µl",4.055,2.321,1.75,1.41,"DNA"
+"547",513,"E57","LM0243",NA,"E57aKTZ",NA,NA,NA,2,"Unknown","Found",NA,NA,NA,NA,"Available","Box_1_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"548",514,"E57","LM0243",NA,"E57aEMP",NA,NA,NA,3,"Unknown","Found",NA,NA,NA,NA,"Available","Box_1_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"549",515,"E57","LM0243",NA,"E57aJLT",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,"Available","Box_1_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"550",516,"E57","LM0243",NA,"E57aIPR",NA,NA,NA,5,"Unknown","Found",NA,NA,NA,NA,NA,"Box_1_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"551",517,"E57","LM0243",NA,"E57aMPY",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_1_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"552",518,"E57","LM0243",NA,"E57aQUW",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,"Available","Box_1_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"553",519,"E57","LM0243",NA,"E57aABH",NA,"Sacrificed",NA,8,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_1_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"554",520,"E57","LM0243",NA,"E57aHUZ",NA,"Sacrificed",NA,9,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_1_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"555",521,"E57","LM0243",NA,"E57aDQW",NA,"Sacrificed",NA,10,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_1_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"556",522,"E57","LM0243",NA,"E57aPUY",NA,"Sacrificed",NA,11,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_1_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"557",523,"E57","LM0244",NA,"E57aJMQ",NA,NA,NA,0,"Found","Found","0.0580","with_beads","with_beads",NA,NA,"Box_11_Row_2","07.04.2022_B1","Dileshi",NA,"4/7/2022 2:24:37 PM",292.6,"ng/µl",5.853,3.371,1.74,2.09,"DNA"
+"558",524,"E57","LM0244",NA,"E57aALY",NA,NA,NA,1,"Found","Found","0.0118","no_beads","no_beads","4_minute_longer_fridge_incubation",NA,"Box_11_Row_2","09.03.2022_B1","Dileshi",NA,"3/9/2022 5:00:51 PM",27.6,"ng/µl",0.552,0.303,1.82,0.88,"DNA"
+"559",525,"E57","LM0244",NA,"E57aCRY",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_11_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"560",526,"E57","LM0244",NA,"E57aBFI",NA,NA,NA,3,"Found","Found","0.0691","with_beads","with_beads",NA,NA,"Box_11_Row_2","23.03.2022","Alexa",NA,"3/23/2022 1:29:55 PM",91.7,"ng/µl",1.833,0.977,1.88,2.69,"DNA"
+"561",527,"E57","LM0244",NA,"E57aHJW",NA,NA,NA,4,"Found","Found","0.0616","with_beads","with_beads",NA,NA,"Box_11_Row_2","22.04.2022_B2","Dileshi",NA,"4/22/2022 8:24:57 PM",250.9,"ng/µl",5.018,2.731,1.84,1.91,"DNA"
+"562",528,"E57","LM0244",NA,"E57aMXZ",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_11_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"563",529,"E57","LM0244",NA,"E57aVWY",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_11_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"564",530,"E57","LM0244",NA,"E57aLNX",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,NA,"Box_11_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"565",531,"E57","LM0244",NA,"E57aJSU",NA,"Eye_infection",NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_11_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"566",532,"E57","LM0244",NA,"E57aBGL",NA,NA,NA,9,"Unknown","Empty",NA,NA,NA,NA,NA,"Box_11_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"567",533,"E57","LM0244",NA,"E57aBFV",NA,NA,NA,10,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_11_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"568",534,"E57","LM0244",NA,"E57aBNO",NA,NA,NA,11,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_11_Row_2",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"569",535,"E57","LM0245",NA,"E57aCFJ",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_9_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"570",536,"E57","LM0245",NA,"E57aBRZ",NA,NA,NA,1,"Found","Found","0.0638","no_beads","no_beads",NA,NA,"Box_9_Row_1","07.03.2022_B1","Fay_Alexa_Dileshi",NA,NA,213.3,"ng/µl",4.266,2.238,1.91,4.54,"DNA"
+"571",537,"E57","LM0245",NA,"E57aNRV",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_9_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"572",538,"E57","LM0245",NA,"E57aFTV",NA,NA,NA,3,"Found","Found",NA,NA,NA,NA,NA,"Box_9_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"573",539,"E57","LM0245",NA,"E57aARV",NA,NA,NA,4,"Found","Found","0.0788","with_beads","with_beads",NA,NA,"Box_9_Row_1","24.03.2022","Alexa",NA,"3/24/2022 11:49:22 AM",196.3,"ng/µl",3.926,2.129,1.84,2.25,"DNA"
+"574",540,"E57","LM0245",NA,"E57aHIK",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_9_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"575",541,"E57","LM0245",NA,"E57aJOP",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_9_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"576",542,"E57","LM0245",NA,"E57aOST",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,NA,"Box_9_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"577",543,"E57","LM0245",NA,"E57aDLX",NA,"Sacrificed",NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_9_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"578",544,"E57","LM0245",NA,"E57aBOV","Unavailable","Sacrificed",NA,9,"Unknown","Empty",NA,NA,NA,NA,NA,"Box_9_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"579",545,"E57","LM0245",NA,"E57aAOT","Unavailable","Sacrificed",NA,10,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_9_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"580",546,"E57","LM0245",NA,"E57aBLT","Unavailable","Sacrificed",NA,11,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_9_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"581",547,"E57","LM0246","XX","E57aAHJ",NA,NA,NA,0,"Found","Found","0.0910","no_beads","with_beads","vortex_step_21_skipped",NA,"Box_9_Row_3","15.04.2022_B1","Dileshi",NA,"4/15/2022 3:06:47 PM",164.7,"ng/µl",3.295,1.795,1.84,2.18,"DNA"
+"582",548,"E57","LM0246","XX","E57aAKO",NA,NA,NA,1,"Found","Found","0.0844","no_beads","with_beads","vortex_step_21_skipped",NA,"Box_9_Row_3","15.04.2022_B1","Dileshi",NA,"4/15/2022 3:07:43 PM",169.2,"ng/µl",3.384,1.913,1.77,1.18,"DNA"
+"583",549,"E57","LM0246","XX","E57aGHL",NA,NA,NA,2,"Unknown","Found","0.0866","no_beads","with_beads","vortex_step_21_skipped",NA,"Box_9_Row_3","15.04.2022_B1","Dileshi",NA,"4/15/2022 3:11:04 PM",147,"ng/µl",2.94,1.622,1.81,1.92,"DNA"
+"584",550,"E57","LM0246","XX","E57aBLN",NA,NA,NA,3,"Found","Found","0.0783","with_beads","with_beads",NA,NA,"Box_9_Row_3","24.03.2022","Alexa",NA,"4/26/2022 8:07:56 PM",164.2,"ng/µl",3.283,1.797,1.83,2.03,"DNA"
+"585",551,"E57","LM0246","XX","E57aRTV",NA,NA,NA,4,"Found","Found","0.1434","no_beads","with_beads","vortex_step_21_skipped",NA,"Box_9_Row_3","15.04.2022_B1","Dileshi",NA,"4/15/2022 3:15:18 PM",146.4,"ng/µl",2.929,1.643,1.78,1.4,"DNA"
+"586",552,"E57","LM0246","XX","E57aIKZ",NA,NA,NA,5,"Empty","Found","0.0542","no_beads","with_beads",NA,NA,"Box_9_Row_3","15.04.2022_B1","Dileshi",NA,"4/15/2022 3:12:35 PM",119,"ng/µl",2.379,1.284,1.85,2.16,"DNA"
+"587",553,"E57","LM0246","XX","E57aTUY",NA,NA,NA,6,"Unknown","Found","0.0613","no_beads","with_beads","vortex_step_21_skipped",NA,"Box_9_Row_3","15.04.2022_B1","Dileshi",NA,"4/15/2022 3:16:12 PM",100.3,"ng/µl",2.005,1.096,1.83,1.86,"DNA"
+"588",554,"E57","LM0246","XX","E57aBOY",NA,NA,NA,7,"Found","Empty",NA,NA,NA,NA,NA,"Box_9_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"589",555,"E57","LM0246","XX","E57aAMS",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_9_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"590",556,"E57","LM0246","XX","E57aACY",NA,NA,NA,9,"Unknown","Found","0.0726","no_beads","with_beads","vortex_step_21_skipped","Available","Box_9_Row_3","15.04.2022_B1","Dileshi",NA,"4/15/2022 3:05:33 PM",280,"ng/µl",5.6,3.075,1.82,2.09,"DNA"
+"591",557,"E57","LM0246","XX","E57aKUY",NA,NA,NA,10,"Unknown","Found","0.0441","no_beads","with_beads","vortex_step_21_skipped",NA,"Box_9_Row_3","15.04.2022_B1","Dileshi",NA,"4/15/2022 3:13:34 PM",207.2,"ng/µl",4.144,2.251,1.84,2.15,"DNA"
+"592",558,"E57","LM0246","XX","E57aBGU",NA,NA,NA,11,"Unknown","Found","0.0797","no_beads","with_beads","vortex_step_21_skipped",NA,"Box_9_Row_3","15.04.2022_B1","Dileshi",NA,"4/15/2022 3:08:38 PM",280.5,"ng/µl",5.609,3.094,1.81,2.06,"DNA"
+"593",559,"E57","LM0247","XX","E57aACP",NA,NA,NA,0,"Found","Found","0.0762","with_beads","with_beads",NA,NA,"Box_9_Row_4","15.04.2022_B2","Dileshi",NA,"4/15/2022 6:27:57 PM",192.1,"ng/µl",3.841,2.145,1.79,1.45,"DNA"
+"594",560,"E57","LM0247","XX","E57aGLM",NA,NA,NA,1,"Found","Found","0.0550","no_beads","no_beads","4_minute_longer_fridge_incubation",NA,"Box_9_Row_4","09.03.2022_B1","Dileshi",NA,"4/26/2022 7:59:48 PM",81.2,"ng/µl",1.625,0.906,1.79,1.41,"DNA"
+"595",561,"E57","LM0247","XX","E57aSUX",NA,NA,NA,2,"Found","Found","0.0967","with_beads","with_beads",NA,NA,"Box_9_Row_4","15.04.2022_B2",NA,NA,"4/15/2022 6:35:17 PM",294.7,"ng/µl",5.894,3.476,1.7,1.06,"DNA"
+"596",562,"E57","LM0247","XX","E57aHLY",NA,NA,NA,3,"Unknown","Found","0.0553","with_beads","with_beads",NA,NA,"Box_9_Row_4","15.04.2022_B2","Dileshi",NA,"4/15/2022 6:30:10 PM",141.8,"ng/µl",2.835,1.589,1.78,1.45,"DNA"
+"597",563,"E57","LM0247","XX","E57aKUX",NA,NA,NA,4,"Empty","Found","0.0625","with_beads","with_beads",NA,NA,"Box_9_Row_4","15.04.2022_B2","Dileshi",NA,"4/15/2022 6:31:31 PM",85.3,"ng/µl",1.706,0.976,1.75,0.96,"DNA"
+"598",564,"E57","LM0247","XX","E57aHOY",NA,NA,NA,5,"Unknown","Found","0.0757","with_beads","with_beads",NA,NA,"Box_9_Row_4","15.04.2022_B2","Dileshi",NA,"4/15/2022 6:30:48 PM",92.8,"ng/µl",1.855,1.075,1.73,0.35,"DNA"
+"599",565,"E57","LM0247","XX","E57aMNR",NA,NA,NA,6,"Unknown","Found","0.0873","with_beads","with_beads",NA,NA,"Box_9_Row_4","15.04.2022_B2","Dileshi",NA,"4/15/2022 6:33:56 PM",189.4,"ng/µl",3.787,2.237,1.69,0.52,"DNA"
+"600",566,"E57","LM0247","XX","E57aAIK",NA,NA,NA,7,"Unknown","Found","0.1158","with_beads","with_beads",NA,NA,"Box_9_Row_4","15.04.2022_B2","Dileshi",NA,"4/15/2022 6:28:34 PM",143.6,"ng/µl",2.871,1.563,1.84,1.36,"DNA"
+"601",567,"E57","LM0247","XX","E57aGQS",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_9_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"602",568,"E57","LM0247","XX","E57aCOW",NA,NA,NA,9,"Unknown","Found","0.0762","no_beads","with_beads","vortex_step_21_skipped","Available","Box_9_Row_4","15.04.2022_B1","Dileshi",NA,"4/15/2022 3:09:31 PM",305,"ng/µl",6.099,3.341,1.83,2.2,"DNA"
+"603",569,"E57","LM0247","XX","E57aOQY",NA,NA,NA,10,"Unknown","Found","0.0663","with_beads","with_beads",NA,NA,"Box_9_Row_4","15.04.2022_B2","Dileshi",NA,"4/15/2022 6:34:37 PM",234.4,"ng/µl",4.688,2.605,1.8,1.44,"DNA"
+"604",570,"E57","LM0247","XX","E57aLRS",NA,NA,NA,11,"Unknown","Found","0.0725","with_beads","with_beads",NA,NA,"Box_9_Row_4","15.04.2022_B2","Dileshi",NA,"4/15/2022 6:32:12 PM",173.4,"ng/µl",3.467,1.914,1.81,0.23,"DNA"
+"605",570,"E57","LM0247","XX","E57aLRS",NA,NA,NA,11,"Unknown","Found","0.0725","with_beads","with_beads",NA,NA,"Box_9_Row_4","15.04.2022_B2","Dileshi",NA,"4/15/2022 6:32:12 PM",173.4,"ng/µl",3.467,1.914,1.81,0.23,"DNA"
+"606",571,"E57","LM0248",NA,"E57aJOT",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_9_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"607",572,"E57","LM0248",NA,"E57aCMW",NA,NA,NA,1,"Found","Found","0.1083","no_beads","no_beads","4_minute_longer_fridge_incubation",NA,"Box_9_Row_5","09.03.2022_B1","Dileshi",NA,"3/9/2022 5:03:21 PM",250.1,"ng/µl",5.001,2.78,1.8,1.75,"DNA"
+"608",573,"E57","LM0248",NA,"E57aDQV",NA,NA,NA,2,"Unknown","Found",NA,NA,NA,NA,NA,"Box_9_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"609",574,"E57","LM0248",NA,"E57aAUZ",NA,NA,NA,3,"Empty","Found",NA,NA,NA,NA,NA,"Box_9_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"610",575,"E57","LM0248",NA,"E57aHJM",NA,NA,NA,4,"Found","Found","0.0302","with_beads","with_beads",NA,NA,"Box_9_Row_5","10.04.2022_B1","Dileshi",NA,"4/10/2022 5:16:47 PM",93,"ng/µl",1.859,1.053,1.77,1.43,"DNA"
+"611",576,"E57","LM0248",NA,"E57aDOU",NA,NA,NA,5,"Unknown","Found",NA,NA,NA,NA,NA,"Box_9_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"612",577,"E57","LM0248",NA,"E57aEFG",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_9_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"613",578,"E57","LM0248",NA,"E57aJLX",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,NA,"Box_9_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"614",579,"E57","LM0248",NA,"E57aAIV",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_9_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"615",580,"E57","LM0248",NA,"E57aDEW",NA,NA,NA,9,"Unknown","Found","0.0977","with_beads","with_beads","lost_50%_supernatant_step_5","Available","Box_9_Row_5","15.04.2022_B2","Dileshi",NA,"4/15/2022 6:29:25 PM",63,"ng/µl",1.26,0.702,1.79,1.52,"DNA"
+"616",581,"E57","LM0248",NA,"E57aCJO",NA,NA,NA,10,"Unknown","Found",NA,NA,NA,NA,"Available","Box_9_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"617",582,"E57","LM0248",NA,"E57aAHV",NA,NA,NA,11,"Unknown","Found",NA,NA,NA,NA,"Available","Box_9_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"618",583,"E57","LM0249",NA,"E57aFGZ",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_10_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"619",584,"E57","LM0249",NA,"E57aFVY",NA,NA,NA,1,"Unknown","Found",NA,NA,NA,NA,"Available","Box_10_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"620",585,"E57","LM0249",NA,"E57aART",NA,NA,NA,2,"Empty","Found",NA,NA,NA,NA,NA,"Box_10_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"621",586,"E57","LM0249",NA,"E57aKRZ",NA,NA,NA,3,"Unknown","Found",NA,NA,NA,NA,"Available","Box_10_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"622",587,"E57","LM0249",NA,"E57aAES",NA,NA,NA,4,"Empty","Found",NA,NA,NA,NA,NA,"Box_10_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"623",588,"E57","LM0249",NA,"E57aDOS",NA,NA,NA,5,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"624",589,"E57","LM0249",NA,"E57aHLW",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"625",590,"E57","LM0249",NA,"E57aMRS",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"626",591,"E57","LM0249",NA,"E57aSVX",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_10_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"627",592,"E57","LM0249",NA,"E57aRSX",NA,NA,NA,9,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"628",593,"E57","LM0249",NA,"E57aMPW",NA,NA,NA,10,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"629",594,"E57","LM0249",NA,"E57aAIP",NA,NA,NA,11,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"630",595,"E57","LM0250",NA,"E57aCQW",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,"Available","Box_11_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"631",596,"E57","LM0250",NA,"E57aDUZ",NA,NA,NA,1,"Found","Found","0.1007","no_beads","no_beads","4_minute_longer_fridge_incubation",NA,"Box_11_Row_3","09.03.2022_B1","Dileshi",NA,"3/9/2022 5:11:42 PM",162.7,"ng/µl",3.254,1.825,1.78,1.34,"DNA"
+"632",597,"E57","LM0250",NA,"E57aDOQ",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_11_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"633",598,"E57","LM0250",NA,"E57aPVY",NA,NA,NA,3,"Found","Unknown",NA,NA,NA,NA,NA,"Box_11_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"634",599,"E57","LM0250",NA,"E57aJOV",NA,NA,NA,4,"Found","Found","0.0579","with_beads","with_beads",NA,"Available","Box_11_Row_3","24.03.2022","Alexa",NA,"3/24/2022 11:51:41 AM",49.6,"ng/µl",0.993,0.531,1.87,0.67,"DNA"
+"635",600,"E57","LM0250",NA,"E57aDLM",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_11_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"636",601,"E57","LM0250",NA,"E57aKOS",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_11_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"637",602,"E57","LM0250",NA,"E57aAKN",NA,NA,NA,7,"Found","Found",NA,NA,NA,NA,"Available","Box_11_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"638",603,"E57","LM0250",NA,"E57aEKP",NA,"Died",NA,8,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_11_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"639",604,"E57","LM0250",NA,"E57aCMV","Unavailable","Died",NA,9,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_11_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"640",605,"E57","LM0250",NA,"E57aGNV","Unavailable","Died",NA,10,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_11_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"641",606,"E57","LM0250",NA,"E57aGOY","Unavailable","Died",NA,11,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_11_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"642",607,"E57","LM0251",NA,"E57aBCK",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_10&11_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"643",608,"E57","LM0251",NA,"E57aADK",NA,NA,NA,1,"Found","Found","0.0848","no_beads","no_beads",NA,NA,"Box_10&11_Row_2&5","07.03.2022_B1","Fay_Alexa_Dileshi",NA,NA,75,"ng/µl",1.499,0.656,2.29,-1.1,"DNA"
+"644",609,"E57","LM0251",NA,"E57aCTX",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_10&11_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"645",610,"E57","LM0251",NA,"E57aDIM",NA,NA,NA,3,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_10&11_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"646",611,"E57","LM0251",NA,"E57aBPR",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,NA,"Box_10&11_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"647",612,"E57","LM0251",NA,"E57aCJN",NA,NA,NA,5,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10&11_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"648",613,"E57","LM0251",NA,"E57aADS",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,"Available","Box_10&11_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"649",614,"E57","LM0251",NA,"E57aBDH",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10&11_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"650",615,"E57","LM0251",NA,"E57aISU",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_10&11_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"651",616,"E57","LM0251",NA,"E57aBQU",NA,NA,NA,9,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10&11_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"652",617,"E57","LM0251",NA,"E57aBEX",NA,NA,NA,10,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10&11_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"653",618,"E57","LM0251",NA,"E57aBMS",NA,NA,NA,11,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10&11_Row_2&5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"654",619,"E57","LM0252",NA,"E57aLQW",NA,NA,NA,0,"Empty","Found",NA,NA,NA,NA,NA,"Box_11_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"655",620,"E57","LM0252",NA,"E57aOWX",NA,NA,NA,1,"Found","Found","0.0215","no_beads","no_beads","4_minute_longer_fridge_incubation",NA,"Box_11_Row_4","09.03.2022_B1","Dileshi",NA,"3/9/2022 5:15:19 PM",130,"ng/µl",2.6,1.547,1.68,0.97,"DNA"
+"656",621,"E57","LM0252",NA,"E57aGKN",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_11_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"657",622,"E57","LM0252",NA,"E57aBHR",NA,NA,NA,3,"Found","Unknown","0.0560","with_beads","with_beads",NA,NA,"Box_11_Row_4","23.03.2022","Dileshi",NA,"3/23/2022 1:31:38 PM",196.1,"ng/µl",3.923,2.157,1.82,2.63,"DNA"
+"658",623,"E57","LM0252",NA,"E57aHPY",NA,NA,NA,4,"Found","Found","0.0645","with_beads","with_beads",NA,NA,"Box_11_Row_4","24.03.2022","Alexa",NA,"3/24/2022 3:33:46 PM",230.6,"ng/µl",4.612,2.469,1.87,2.66,"DNA"
+"659",624,"E57","LM0252",NA,"E57aHIR",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_11_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"660",625,"E57","LM0252",NA,"E57aDQY",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_11_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"661",626,"E57","LM0252",NA,"E57aMNY",NA,NA,NA,7,"Found","Found",NA,NA,NA,NA,NA,"Box_11_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"662",627,"E57","LM0252",NA,"E57aFHO",NA,"Died",NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_11_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"663",628,"E57","LM0252",NA,"E57aGQW","Unavailable","Died",NA,9,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_11_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"664",629,"E57","LM0252",NA,"E57aCDX","Unavailable","Died",NA,10,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_11_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"665",630,"E57","LM0252",NA,"E57aCDQ","Unavailable","Died",NA,11,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_11_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"666",631,"E57","LM0253",NA,"E57aLMX",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_11_Row_6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"667",632,"E57","LM0253",NA,"E57aDEJ",NA,NA,NA,1,"Unknown","Found",NA,NA,NA,NA,NA,"Box_11_Row_6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"668",633,"E57","LM0253",NA,"E57aISX",NA,NA,NA,2,"Empty","Found",NA,NA,NA,NA,NA,"Box_11_Row_6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"669",634,"E57","LM0253",NA,"E57aEUZ",NA,NA,NA,3,"Found","Found",NA,NA,NA,NA,NA,"Box_11_Row_6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"670",635,"E57","LM0253",NA,"E57aCIY",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,NA,"Box_11_Row_6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"671",636,"E57","LM0253",NA,"E57aINS",NA,NA,NA,5,"Unknown","Found",NA,NA,NA,NA,NA,"Box_11_Row_6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"672",637,"E57","LM0253",NA,"E57aKWZ",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_11_Row_6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"673",638,"E57","LM0253",NA,"E57aBEW",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,NA,"Box_11_Row_6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"674",639,"E57","LM0253",NA,"E57aDKS",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_11_Row_6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"675",640,"E57","LM0253",NA,"E57aDFZ",NA,NA,NA,9,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_11_Row_6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"676",641,"E57","LM0253",NA,"E57aNUW",NA,NA,NA,10,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_11_Row_6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"677",642,"E57","LM0253",NA,"E57aBFS",NA,NA,NA,11,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_11_Row_6",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"678",643,"E57","LM0254","XX","E57aACN",NA,NA,NA,0,"Found","Found","0.0549","with_beads","with_beads",NA,NA,"Box_10_Row_3","23.04.2022_B2","Dileshi",NA,"4/23/2022 8:19:14 PM",236.9,"ng/µl",4.738,2.566,1.85,2.21,"DNA"
+"679",644,"E57","LM0254","XX","E57aATW",NA,NA,NA,1,"Found","Found","0.1006","no_beads","no_beads","75µl_SX_instead_of_32.5µl_+_no_vortex_at_step_22",NA,"Box_10_Row_3","07.03.2022_B2","Dileshi",NA,"4/26/2022 8:00:49 PM",210.6,"ng/µl",4.213,2.373,1.78,1.54,"DNA"
+"680",645,"E57","LM0254","XX","E57aBTZ",NA,NA,NA,2,"Found","Found","0.1075","with_beads","with_beads",NA,NA,"Box_10_Row_3","24.04.2022_B1","Dileshi",NA,"4/24/2022 4:07:58 PM",83.3,"ng/µl",1.665,0.942,1.77,1.42,"DNA"
+"681",646,"E57","LM0254","XX","E57aFLV",NA,NA,NA,3,"Empty","Found","0.0536","with_beads","with_beads",NA,NA,"Box_10_Row_3","23.04.2022_B2","Dileshi",NA,"4/23/2022 8:25:20 PM",32,"ng/µl",0.64,0.341,1.88,0.82,"DNA"
+"682",647,"E57","LM0254","XX","E57aFLV2",NA,NA,"Yes",3,"Empty","Found","0.0825","with_beads","with_beads",NA,NA,NA,"24.04.2022_B1","Dileshi",NA,"4/24/2022 4:09:26 PM",52.2,"ng/µl",1.043,0.6,1.74,1.11,"DNA"
+"683",648,"E57","LM0254","XX","E57aJKL",NA,NA,NA,4,"Found","Found","0.0692","with_beads","with_beads",NA,NA,"Box_10_Row_3","24.04.2022_B1","Dileshi",NA,"4/24/2022 4:10:53 PM",15.8,"ng/µl",0.316,0.193,1.64,0.66,"DNA"
+"684",649,"E57","LM0254","XX","E57aBNX",NA,NA,NA,5,"Unknown","Found","0.0622","with_beads","with_beads",NA,NA,"Box_10_Row_3","24.04.2022_B1","Dileshi",NA,"4/24/2022 4:07:06 PM",117,"ng/µl",2.341,1.312,1.78,1.5,"DNA"
+"685",650,"E57","LM0254","XX","E57aGMQ",NA,NA,NA,6,"Unknown","Found","0.0668","with_beads","with_beads",NA,NA,"Box_10_Row_3","23.04.2022_B2","Dileshi",NA,"4/23/2022 8:26:13 PM",171.3,"ng/µl",3.426,1.857,1.84,2.04,"DNA"
+"686",651,"E57","LM0254","XX","E57aBKZ",NA,NA,NA,7,"Unknown","Found","0.0771","with_beads","with_beads",NA,NA,"Box_10_Row_3","24.04.2022_B1","Dileshi",NA,"4/24/2022 4:05:47 PM",86.5,"ng/µl",1.73,0.962,1.8,1.92,"DNA"
+"687",652,"E57","LM0254","XX","E57aEFT",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_10_Row_3",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"688",653,"E57","LM0254","XX","E57aMNW",NA,NA,NA,9,"Unknown","Found","0.0870","with_beads","with_beads",NA,NA,"Box_10_Row_3","24.04.2022_B1","Dileshi",NA,"4/24/2022 4:11:46 PM",181.7,"ng/µl",3.634,2.008,1.81,1.8,"DNA"
+"689",654,"E57","LM0254","XX","E57aBCM",NA,NA,NA,10,"Unknown","Found","0.0697","with_beads","with_beads",NA,NA,"Box_10_Row_3","24.04.2022_B1","Dileshi",NA,"4/24/2022 4:04:19 PM",205.1,"ng/µl",4.102,2.253,1.82,2.06,"DNA"
+"690",655,"E57","LM0254","XX","E57aADG",NA,NA,NA,11,"Unknown","Found","0.0661","with_beads","with_beads",NA,NA,"Box_10_Row_3","24.04.2022_B1","Dileshi",NA,"4/24/2022 4:03:19 PM",212.1,"ng/µl",4.241,2.323,1.83,2.11,"DNA"
+"691",656,"E57","LM0255","XX","E57aAKT",NA,NA,NA,0,"Found","Found","0.0157","with_beads","with_beads",NA,NA,"Box_10_Row_4","07.04.2022_B1","Dileshi",NA,"4/7/2022 2:18:10 PM",123.4,"ng/µl",2.469,1.505,1.64,0.97,"DNA"
+"692",657,"E57","LM0255","XX","E57aGMY",NA,NA,NA,1,"Found","Found","0.0375","no_beads","no_beads","4_minute_longer_fridge_incubation",NA,"Box_10_Row_4","09.03.2022_B1","Dileshi",NA,"3/9/2022 5:13:39 PM",224.3,"ng/µl",4.486,2.559,1.75,1.44,"DNA"
+"693",658,"E57","LM0255",NA,"E57aDFM",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_10_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"694",659,"E57","LM0255",NA,"E57aJWY",NA,NA,NA,3,"Found","Found","0.0777","with_beads","with_beads",NA,NA,"Box_10_Row_4","24.03.2022","Alexa",NA,"3/24/2022 11:48:39 AM",188.4,"ng/µl",3.767,2.062,1.83,1.9,"DNA"
+"695",660,"E57","LM0255",NA,"E57aCMS",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,NA,"Box_10_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"696",661,"E57","LM0255",NA,"E57aIMX",NA,NA,NA,5,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"697",662,"E57","LM0255","XX","E57aBNV",NA,NA,NA,6,"Unknown","Found","0.0667","with_beads","with_beads",NA,NA,"Box_10_Row_4","24.04.2022_B1","Dileshi",NA,"4/24/2022 4:06:24 PM",266.2,"ng/µl",5.324,2.912,1.83,2.01,"DNA"
+"698",663,"E57","LM0255","XX","E57aEIR",NA,NA,NA,7,"Unknown","Found","0.0544","with_beads","with_beads",NA,NA,"Box_10_Row_4","24.04.2022_B1","Dileshi",NA,"4/24/2022 4:08:39 PM",309.9,"ng/µl",6.198,3.406,1.82,2.13,"DNA"
+"699",664,"E57","LM0255",NA,"E57aGXY",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,NA,"Box_10_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"700",665,"E57","LM0255",NA,"E57aOQS",NA,NA,NA,9,"Unknown","Empty",NA,NA,NA,NA,NA,"Box_10_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"701",666,"E57","LM0255","XX","E57aDGJ",NA,NA,NA,10,"Unknown","Found","0.0253","with_beads","with_beads",NA,NA,"Box_10_Row_4","01.05.2022_B1","Dileshi",NA,"5/1/2022 3:43:50 PM",284,"ng/µl",5.681,3.109,1.83,2.26,"DNA"
+"702",667,"E57","LM0255",NA,"E57aHXY",NA,NA,NA,11,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_4",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"703",668,"E57","LM0256",NA,"E57aFIM",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,NA,"Box_10_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"704",669,"E57","LM0256",NA,"E57aGLZ",NA,NA,NA,1,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"705",670,"E57","LM0256",NA,"E57aDSZ",NA,NA,NA,2,"Found","Found",NA,NA,NA,NA,NA,"Box_10_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"706",671,"E57","LM0256",NA,"E57aFTY",NA,NA,NA,3,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"707",672,"E57","LM0256",NA,"E57aKLZ",NA,NA,NA,4,"Empty","Found",NA,NA,NA,NA,NA,"Box_10_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"708",673,"E57","LM0256",NA,"E57aBKQ",NA,NA,NA,5,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"709",674,"E57","LM0256",NA,"E57aLPS",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"710",675,"E57","LM0256",NA,"E57aLRU",NA,NA,NA,7,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"711",676,"E57","LM0256",NA,"E57aABE",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_10_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"712",677,"E57","LM0256",NA,"E57aEFY",NA,NA,NA,9,"Unknown","Found",NA,NA,NA,NA,NA,"Box_10_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"713",678,"E57","LM0256",NA,"E57aHIU",NA,NA,NA,10,"Unknown","Found",NA,NA,NA,NA,"Available","Box_10_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"714",679,"E57","LM0256",NA,"E57aILS",NA,NA,NA,11,"Unknown","Found",NA,NA,NA,NA,"Available","Box_10_Row_5",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"715",680,"E57","LM0257",NA,"E57aCEN",NA,NA,NA,0,"Found","Found",NA,NA,NA,NA,"Available","Box_11_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"716",681,"E57","LM0257",NA,"E57aCLV",NA,NA,NA,1,"Found","Found","0.0648","no_beads","no_beads","75µl_SX_instead_of_32.5µl_+_no_vortex_at_step_22","Available","Box_11_Row_1","07.03.2022_B2","Dileshi",NA,NA,209.8,"ng/µl",4.197,2.395,1.75,1.39,"DNA"
+"717",682,"E57","LM0257",NA,"E57aFOY",NA,NA,NA,2,"Empty","Found",NA,NA,NA,NA,"Available","Box_11_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"718",683,"E57","LM0257",NA,"E57aDIN",NA,NA,NA,3,"Found","Found","0.0147","with_beads","with_beads",NA,"Available","Box_11_Row_1","23.03.2022","Alexa",NA,"3/23/2022 1:31:00 PM",167.2,"ng/µl",3.344,1.81,1.85,2.28,"DNA"
+"719",684,"E57","LM0257",NA,"E57aELP",NA,NA,NA,4,"Found","Found",NA,NA,NA,NA,"Available","Box_11_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"720",685,"E57","LM0257",NA,"E57aJOQ",NA,NA,NA,5,"Found","Found",NA,NA,NA,NA,NA,"Box_11_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"721",686,"E57","LM0257",NA,"E57aBKN",NA,NA,NA,6,"Unknown","Found",NA,NA,NA,NA,"Available","Box_11_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"722",687,"E57","LM0257",NA,"E57aDIW",NA,NA,NA,7,"Found","Found",NA,NA,NA,NA,"Available","Box_11_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"723",688,"E57","LM0257",NA,"E57aJKN",NA,NA,NA,8,"Unknown","Unknown",NA,NA,NA,NA,"Available","Box_11_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"724",689,"E57","LM0257",NA,"E57aLNW",NA,NA,NA,9,"Unknown","Found",NA,NA,NA,NA,NA,"Box_11_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"725",690,"E57","LM0257",NA,"E57aFHI",NA,NA,NA,10,"Unknown","Found",NA,NA,NA,NA,NA,"Box_11_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"726",691,"E57","LM0257",NA,"E57aIOU",NA,NA,NA,11,"Unknown","Found",NA,NA,NA,NA,NA,"Box_11_Row_1",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
