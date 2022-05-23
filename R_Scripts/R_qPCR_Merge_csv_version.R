@@ -3,9 +3,13 @@ library(dplyr)
 library(janitor)
 library(readr)
 
+<<<<<<< HEAD
 ##DO HOMEWORK WRITE STUFF
 
 setwd("/Users/vinuri/Documents/GitHub/Eimeria_Lab/data/Experiment_results/Quant_Eimeria/qPCR_faeces/Results/Results_files/qPCR_csv")
+=======
+setwd("/Users/vinuri/Documents/csv/")
+>>>>>>> ca16411df0c1d810d6bfc03d5afb047cf100e299
 list_faeces <- as.list(list.files())
 list_names <- as.vector(unlist(list_faeces))
 
@@ -22,11 +26,21 @@ read_qPCR_file <- function(x) {
 list_results <- lapply(list_names, read_qPCR_file)
 df_results <- Reduce(rbind, list_results)
 df_results <- unique(df_results)  
+<<<<<<< HEAD
 
 setwd("/Users/vinuri/Documents/GitHub/Eimeria_Lab/data/Experiment_results/Quant_Eimeria/qPCR_faeces/Results/Results_files/")
+=======
+>>>>>>> ca16411df0c1d810d6bfc03d5afb047cf100e299
 write.csv(df_results, "qPCR_faeces_lab_merged.csv", row.names=FALSE)
 
 
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> ca16411df0c1d810d6bfc03d5afb047cf100e299
