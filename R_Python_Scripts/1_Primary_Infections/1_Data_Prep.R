@@ -50,7 +50,7 @@ sample.data$fecweight_DNA<-sapply(sample.data$fecweight_DNA, as.numeric)
 ###Use function from Alice Balard to calculate OPG
     #volume of each large square (1mm x 1mm x 0.1mm height = 0.1mm3)
     #0.1mm3 = 0.1µl (x10000 when converted into ml)
-
+    #https://www.emsdiasum.com/microscopy/technical/datasheet/68052-14.aspx <- explanation 
 calculateOPG <- function(sample.data){
   sample.data$mean_Neubauer <- 
     (sample.data$oocyst_sq1 + sample.data$oocyst_sq2 + sample.data$oocyst_sq3 + sample.data$oocyst_sq4) / 4

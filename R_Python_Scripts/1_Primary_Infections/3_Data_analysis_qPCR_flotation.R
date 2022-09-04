@@ -1,4 +1,4 @@
-## RUN SCRIPTS FROM THE ROOT OF THE REPOSITORY: Eimeria_Lab
+## RUN SCRIPTS FROM THE ROOT OF THE REPOSITORY: Eimeria_Quant2
 ## Script adapted from Victor's 3_Data_analysis_qPCR_flotation
 
 
@@ -9,13 +9,13 @@
 library(dplyr)
 library(wesanderson)
 
-##if(!exists("sample.data")){
-  ##########source("R_Scripts/1_Data_Preparation.R")
-####}
+if(!exists("sample.data")){
+  source("R_Python_Scripts/1_Primary_Infections/1_Data_Prep.R")
+  }
 
 if(!exists("sdt")){
-    source("R_Scripts/copy 2_qPCR_Data_Prep.R")
-}
+    source("R_Python_Scripts/1_Primary_Infections/2_qPCR_Data_Prep.R")
+  }
 
 ##select the completed 22 mice 
 sdt <- sdt[sdt$EH_ID %in% c("LM0180", "LM0182","LM0184","LM0185","LM0186","LM0195","LM0228","LM0229","LM0238", "LM0191",
@@ -39,7 +39,8 @@ sdt%>%
 ##Save statistical analysis
 x <- stats.test
 x$groups<- NULL
-#write.csv(x, "Genome_copies_gFaeces_DPI_Comparison.csv")
+#write.csv(x, "Tables/Genome_copies_gFaeces_DPI_Comparison.csv")
+
 stats.test%>%
   dplyr::mutate(y.position = log10(y.position))%>%
   dplyr::mutate(dpi = c("1","2","3","4", "5","6", "7", "8", "9", "10","11"))-> stats.test
@@ -67,12 +68,10 @@ sdt%>%
   guides(fill=FALSE)+
   stat_pvalue_manual(stats.test, label= "p.adj.signif", x= "dpi", y.position = 100000000000)-> A
 
-##Significant mean difference from DPI 2!!!!! not all samples but some sowed signal!!!!
-
 ## Oocysts
 ##Wilcoxon test (Compare mean per DPI with DPI 0 as reference)
  sdt%>%
-   filter(dpi%in%c("0","1", "2", "3","4", "5","6", "7", "8", "9", "10"))%>%
+   filter(dpi%in%c("0","1", "2", "3","4", "5","6", "7", "8", "9", "10","11"))%>%
    dplyr::select(EH_ID, dpi,OPG)%>%
    dplyr::arrange(EH_ID)%>%
    dplyr::arrange(dpi)%>% ##for comparison 
@@ -115,8 +114,16 @@ sdt%>%
 ##Significant mean difference from day 4 and on... Basically DPI 0 to 3 No OPG and DPI 4 equal to 10!
 
 ####calculate relative weight loss using function
-weightloss <- function(sdt)
-sdt <- weightloss(sdt)
+#weightloss <- function(sdt)
+####calculate relative weight loss using function
+#weightloss <- function(sdt){
+ # sdt$weightloss <-
+#    (sdt$weight_dpi0 - sdt$weight)
+ # return(sdt)
+#}
+#sdt <- weightloss(sdt)
+
+sdt$weightloss <- (sdt$weight_dpi0 - sdt$weight)
 
 ##Weight loss 
 ##Wilcoxon test (Compare mean per DPI with DPI 0 as reference)
@@ -153,10 +160,10 @@ sdt%>%
   stat_compare_means(label= "p.signif", method = "wilcox.test", ref.group = "0", paired = F, na.rm = TRUE)-> C
 
 ##Figure 2: Course of Eimeria Infection in genome copies, OPG, and weight loss
-pdf(file = "Figures/Figure_2.pdf", width = 10, height = 15)
-grid.arrange(A,B,C)
-dev.off()
-#rm(A,B,C, x, stats.test)
+#pdf(file = "Figures/Figure_2.pdf", width = 10, height = 15)
+#grid.arrange(A,B,C)
+#dev.off()
+rm(A,B,C, x, stats.test)
 
 
 ### 2) Correlation among Eimeria quantification methods
@@ -179,7 +186,7 @@ sdt.nozero$residualsM1 <- residuals(DNAbyOPG) # Save the residual values
 
 ##Plot model
 ##Assign the colors for dpi and keep consistency with previous plots
-colores<- c("4"="#B7A034", "5"= "#00BD5C", "6"= "#00C1A7", "7"= "#00BADE", 
+colores<- c("0"="#B7A034", "1"= "#00BD5C", "6"= "#00C1A7", "7"= "#00BADE", 
             "8" = "#00A6FF", "9"= "#B385FF", "10" = "#EF67EB", "11" = "#FF63B6")
 
 ####Genome copies modeled by OPGs 
@@ -243,10 +250,10 @@ summary(DNAbyOPGxdpi)
 
 ### Plot and extract estimates
 sjPlot:: tab_model(DNAbyOPGxdpi, 
-                   terms = c("log10(OPG):dpi5", "log10(OPG):dpi6", "log10(OPG):dpi7", 
+                   terms = c("log10(OPG):dpi0","log10(OPG):dpi1", "log10(OPG):dpi6", "log10(OPG):dpi7", 
                              "log10(OPG):dpi8", "log10(OPG):dpi9", "log10(OPG):dpi10", "log10(OPG):dpi11"))
 
-plot_model(DNAbyOPGxdpi, terms = c("log10(OPG):dpi5", "log10(OPG):dpi6", "log10(OPG):dpi7", 
+plot_model(DNAbyOPGxdpi, terms = c("log10(OPG):dpi0","log10(OPG):dpi1", "log10(OPG):dpi6", "log10(OPG):dpi7", 
                                    "log10(OPG):dpi8", "log10(OPG):dpi9", "log10(OPG):dpi10", "log10(OPG):dpi11"))-> tmp.fig.1
 
 #ggsave(filename = "Rplots.pdf", tmp.fig.1)
@@ -309,7 +316,7 @@ x%>%
   arrange(dpi)%>%
   filter(term != "(Intercept)")-> fitted_models_dpi
 
-write.csv(fitted_models_dpi, "data/Experiment_results/Quant_Eimeria/Tables/Q1_OPG_DNA_estimates_DPI.csv",  row.names = F)
+#write.csv(fitted_models_dpi, "data/Experiment_results/Quant_Eimeria/Tables/Q1_OPG_DNA_estimates_DPI.csv",  row.names = F)
 
 sdt.nozero%>% 
   nest(-dpi)%>% 

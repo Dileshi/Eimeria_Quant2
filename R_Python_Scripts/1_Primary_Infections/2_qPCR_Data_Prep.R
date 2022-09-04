@@ -79,11 +79,11 @@ rm(x,y)
 
 ##Load data
 if(!exists("sample.data")){
-  source("R_Scripts/1_Data_Prep.R")
+  source("R_Python_Scripts/1_Data_Prep.R")
 }
 
 ##Infection experiment: load qPCR data (lab_fecal) and clean 
-data.inf.exp<-read.csv("Data/qPCR_fecal_lab_merged.csv")
+data.inf.exp<-read.csv("Output_Data/qPCR_fecal_lab_merged.csv")
 
 data.inf.exp <- rename (data.inf.exp, Cq_mean = Cq.Mean)  
 lm.data.std<- lm(log10(Genome_copies)~Cq_mean, data.std, na.action = na.exclude)
