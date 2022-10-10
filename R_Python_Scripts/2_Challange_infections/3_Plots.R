@@ -1,18 +1,67 @@
+##Run scripts on Root of Repo (Eimeria_Quant2)
 ##Plot challenge infection graph 
 
-library(RColorBrewer)
+library(tidyverse)
 
-if(!exists("challenge")){
-  source("R_Python_Scripts/2_Challange_infections/2_Data_Prep_chal.R")
+##BEGIN with qPCR Data
+if(!exists("challenge.DNA")){
+  source("R_Python_Scripts/2_Challange_infections/2_qPCR_Data_Prep.R")
+}
+if(!exists("challenge.DNA")){
+  source("R_Python_Scripts/2_Challange_infections/2_qPCR_Data_Prep.R")
 }
 
-challenge$dpi<-sapply(challenge$dpi, as.factor)
-challenge$EH_ID<-sapply(challenge$EH_ID, as.factor)
-#challenge <- challenge%>%dplyr::mutate(OPG= OPG+1)
+##Genome copies/g of faeces
+##Wilcoxon test (Compare mean per DPI with DPI 0 as reference)
+challenge.DNA%>%
+  filter(dpi%in%c("0","1","2","3","4", "5","6", "7", "8"))%>%
+  dplyr::select(EH_ID, dpi, Genome_copies_gFaeces)%>%
+  dplyr::arrange(EH_ID)%>%
+  dplyr::arrange(dpi)%>% ##for comparison 
+  filter(!is.na(Genome_copies_gFaeces))%>%
+  wilcox_test(Genome_copies_gFaeces ~ dpi, alternative = "two.sided", ref.group = "0")%>%
+  adjust_pvalue(method = "bonferroni") %>%
+  add_significance()%>%
+  add_xy_position(x = "dpi")-> stats.test
+
+##Save statistical analysis
+x <- stats.test
+x$groups<- NULL
+#write.csv(x, "Tables/Secondary Infections/Genome_copies_gFaeces_DPI_Comparison_challanged.csv")
+
+stats.test%>%
+  dplyr::mutate(y.position = log10(y.position))%>%
+  dplyr::mutate(dpi = c("1","2","3","4", "5","6", "7", "8"))-> stats.test
+
+
+#Let me try my own plot 
+challenge.DNA%>%
+  dplyr::select(EH_ID, dpi, Genome_copies_gFaeces, Infection)%>%
+  filter(dpi%in%c("0","1","2","3","4", "5","6", "7", "8"))%>%
+  filter(!is.na(Genome_copies_gFaeces))%>%
+  filter(!is.na(Infection))%>%
+  ggplot(aes(factor(dpi), Genome_copies_gFaeces+1, colour = factor(dpi),group = Infection))+
+  geom_point(aes(shape=factor(Infection)), position=position_jitter(0.05), size=2.5,) + 
+  geom_boxplot(fill = "transparent")+
+  scale_color_manual(values=c("#f66d9b", "#9561e2", "#6574cd","#3490dc","#4dc0b5","#38c172","#ffed4a","#f6993f","#e3342f"))+
+  labs(title="qPCR results of challenge infection", x="Day Post Infection", y="log10 (Genome copies/g Faeces + 1) (qPCR)")+
+  scale_y_log10(breaks = scales::trans_breaks("log10", function(x) 10^x),
+                labels = scales::trans_format("log10", scales::math_format(10^.x)))+
+  geom_line(aes(group = EH_ID), color= "gray", alpha= 0.6)+
+  #scale_x_discrete()+
+  stat_pvalue_manual(stats.test, label= "p.adj.signif", x= "dpi", y.position = 100000000000) ->A
+
+#stat_compare_means(label= "p.signif", method = "wilcox.test", ref.group = "0", paired = F, na.rm = TRUE)-> A
+
+
+#pdf(file = "Figure_secondary_DNA_Test.pdf")
+#print(A)
+#dev.off()
+
 
 ## Oocysts
 ##Wilcoxon test (Compare mean per DPI with DPI 0 as reference)
-challenge%>%
+challenge.DNA%>%
   filter(dpi%in%c("0","1","2","3","4","5","6","7","8"))%>%
   dplyr::select(EH_ID, dpi, OPG)%>%
   dplyr::arrange(EH_ID)%>%
@@ -23,62 +72,66 @@ challenge%>%
   adjust_pvalue(method = "bonferroni") %>%
   add_significance()%>%
   add_xy_position(x = "dpi")-> stats.test
-  
-  
+
 ##Save statistical analysis
 x <- stats.test
 x$groups<- NULL
-write.csv(x, "Tables/Challenge_OPG_DPI_Comparison.csv")
+write.csv(x, "Tables/Secondary Infections//Challenge_OPG_DPI_Comparison.csv")
 
-
-challenge%>%
+challenge.DNA%>%
+  dplyr::select(EH_ID, dpi, OPG)%>%
   filter(dpi%in%c("0","1","2","3","4", "5","6", "7", "8"))%>%
-  dplyr::select(EH_ID, dpi,OPG, challenge_infection)%>%
-  dplyr::arrange(EH_ID)%>%
-  dplyr::arrange(dpi)%>% ##for comparison 
-  ggplot(aes(x= dpi, y= OPG+1, color=dpi))+
-  scale_y_log10("log10 (Oocysts/g Faeces + 1) (Flotation)", 
-                breaks = scales::trans_breaks("log10", function(x) 10^x),
+  filter(!is.na(OPG))%>%
+  ggplot(aes(factor(dpi), OPG+1, colour = factor(dpi)))+
+  geom_point(position=position_jitter(0.2), size=2.5,) + 
+  geom_boxplot(fill = "transparent")+
+  scale_color_manual(values=c("#f66d9b", "#9561e2", "#6574cd","#3490dc","#4dc0b5","#38c172","#ffed4a","#f6993f","#e3342f"))+
+  labs(title="Flotation results of challenge infection", x="Day Post Infection", y="log10 (OPG/g Faeces + 1)")+
+  scale_y_log10(breaks = scales::trans_breaks("log10", function(x) 10^x),
                 labels = scales::trans_format("log10", scales::math_format(10^.x)))+
-  geom_boxplot()+
-  geom_point(shape=21, position=position_jitter(0.2), size=2.5, aes(shape= challenge_infection, fill=dpi))+
-  xlab("Day post infection")+
   geom_line(aes(group = EH_ID), color= "gray", alpha= 0.5)+
-  labs(tag= "b")+
-  theme_bw()+
-  theme(text = element_text(size=16), axis.title.x = element_blank(), legend.position = "none")+
-  annotation_logticks(sides = "l")+
+  #scale_x_discrete()+
   stat_compare_means(label= "p.signif", method = "wilcox.test", ref.group = "0", paired = F, na.rm = TRUE)-> B
 
 
-cbbPalette <- c("#000000", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 
-challenge%>%
+
+
+##Weight loss 
+##Wilcoxon test (Compare mean per DPI with DPI 0 as reference)
+challenge.DNA%>%
   filter(dpi%in%c("0","1","2","3","4", "5","6", "7", "8"))%>%
-  dplyr::select(EH_ID, dpi,OPG, challenge_infection)%>%
+  dplyr::select(EH_ID, dpi, relative_weight)%>%
   dplyr::arrange(EH_ID)%>%
   dplyr::arrange(dpi)%>% ##for comparison 
-  filter(!is.na(OPG))%>% 
-  ggplot(aes(x= dpi, y= OPG+1, color=dpi))+
-  scale_y_log10("log10 (Oocysts/g Faeces + 1) (Flotation)", 
-                breaks = scales::trans_breaks("log10", function(x) 10^x),
-                labels = scales::trans_format("log10", scales::math_format(10^.x)))+
-  geom_boxplot()+
-  geom_point(position=position_jitter(0.2), size=5.5, aes(shape= challenge_infection, fill=dpi))+
-  scale_fill_manual(values=cbbPalette)+
-  scale_shape_manual(values = c(21, 24))+
-  xlab("Day post infection")+
+  wilcox_test(relative_weight ~ dpi, alternative = "two.sided", ref.group = "0")%>%
+  adjust_pvalue(method = "bonferroni") %>%
+  add_significance()%>%
+  add_xy_position(x = "dpi")-> stats.test
+
+##Save statistical analysis
+x <- stats.test
+x$groups<- NULL
+write.csv(x, "Tables/Secondary Infections/Weightloss_DPI_Comparison_challenge.csv")
+
+challenge.DNA%>%
+  dplyr::select(EH_ID, dpi, relative_weight)%>%
+  filter(dpi%in%c("0","1","2","3","4", "5","6", "7", "8"))%>%
+  #filter(!is.na(relative_weight))%>%
+  ggplot(aes(factor(dpi), relative_weight, colour = factor(dpi)))+
+  geom_point(position=position_jitter(0.2), size=2.5,) + 
+  geom_boxplot(fill = "transparent")+
+  scale_color_manual(values=c("#f66d9b", "#9561e2", "#6574cd","#3490dc","#4dc0b5","#38c172","#ffed4a","#f6993f","#e3342f"))+
+  labs(title="Weight loss of challenge infection", x="Day Post Infection", y="Weight loss (%)")+
   geom_line(aes(group = EH_ID), color= "gray", alpha= 0.5)+
-  labs(tag= "a", shape= "infection status")+
-  theme_bw()+
-  theme(text = element_text(size=16), axis.title.x = element_blank(), legend.position = "top")+
-  annotation_logticks(sides = "l")+
-  guides(scale="none")-> A
+  #scale_x_continuous(labels = as.character(dpi),breaks = dpi)+
+  stat_compare_means(label= "p.signif", method = "wilcox.test", ref.group = "0", paired = F, na.rm = TRUE)-> C
 
-
-pdf(file = "Figures/Figure_secondary.pdf")
-print(A)
+##Figure 4: Course of Eimeria Infection in genome copies, OPG, and weight loss
+pdf(file = "Figures/Figure_4_challenge2.pdf", width = 10, height = 15)
+grid.arrange(A,B,C)
 dev.off()
+#rm(A,B,C, x, stats.test)
 
 
 
