@@ -79,11 +79,11 @@ rm(x,y)
 
 ##Load data
 if(!exists("sample.data")){
-  source("R_Python_Scripts/1_Data_Prep.R")
+  source("R_Python_Scripts/1_Primary_Infections/1_Data_Prep.R")
 }
 
 ##Infection experiment: load qPCR data (lab_fecal) and clean 
-data.inf.exp<-read.csv("Output_Data/qPCR_fecal_lab_merged.csv")
+data.inf.exp<-read.csv("Output_Data/qPCR_fecal_lab_E88_primary_merged.csv")
 
 data.inf.exp <- rename (data.inf.exp, Cq_mean = Cq.Mean)  
 lm.data.std<- lm(log10(Genome_copies)~Cq_mean, data.std, na.action = na.exclude)
@@ -96,8 +96,13 @@ rm(lm.data.std,data.std)
 data.inf.exp <- data.inf.exp %>% 
   rename(labels = Sample)
 
+#remove NA rows 
+data.inf.exp <- data.inf.exp %>% drop_na(labels) 
+
 #entries under column require the characters 'E57a' to allow cohesive merge
-data.inf.exp$labels[239:415] <- paste0('E57a', data.inf.exp$labels[239:415])
+data.inf.exp$labels[223:399] <- paste0('E57a', data.inf.exp$labels[223:399])
+data.inf.exp$labels[880:936] <- paste0('E57a', data.inf.exp$labels[880:936])
+data.inf.exp$labels[1225:1263] <- paste0('E57a', data.inf.exp$labels[1225:1263])
 data.inf.exp <- data.inf.exp %>%
   dplyr::mutate(labels = case_when(
     labels == "E57INR" ~ "E57aINR",
@@ -112,6 +117,8 @@ data.inf.exp <- data.inf.exp %>%
     labels == "E57aIJQ2" ~ "E57aIJQ",
     labels == "E57aRWY2" ~ "E57aRWY",
     labels == "NTC" ~ "E57aNTC",
+    labels == "NTC1" ~ "E57aNTC",
+    labels == "NTC2" ~ "E57aNTC",
     TRUE ~ labels
   ))
 
@@ -319,7 +326,7 @@ sdt$OPG[sdt$dpi==1] <- 0
 sdt$OPG[sdt$dpi==2] <- 0  
 sdt$OPG[sdt$dpi==3] <- 0
 
-
+#write.csv(sdt,"Output_Data/All_Parameters_Fecal_Lab_E88_primary.csv")
 
 
 

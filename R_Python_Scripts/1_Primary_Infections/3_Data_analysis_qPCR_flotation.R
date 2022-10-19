@@ -17,9 +17,12 @@ if(!exists("sdt")){
     source("R_Python_Scripts/1_Primary_Infections/2_qPCR_Data_Prep.R")
   }
 
-##select the completed 22 mice 
-sdt <- sdt[sdt$EH_ID %in% c("LM0180", "LM0182","LM0184","LM0185","LM0186","LM0195","LM0228","LM0229","LM0238", "LM0191",
-                     "LM0240","LM0246","LM0247","LM0194","LM0190","LM0199","LM0197","LM0198","LM0188","LM0254","LM0192"),]
+##select the completed 26 mice 
+sdt <- sdt[sdt$EH_ID %in% c("LM0179","LM0180","LM0181", "LM0182","LM0184","LM0185","LM0186","LM0195","LM0228","LM0229",
+                             "LM0238", "LM0191","LM0240","LM0244","LM0246","LM0247","LM0248","LM0194","LM0190","LM0199",
+                             "LM0197","LM0198","LM0188","LM0254","LM0255","LM0192"),]
+
+#sdt_breif <- sdt[c(1,3,7,8,9,10,50,57,63,64,65,66,67,68,69,70,71,72)]
 
 ###Let's start plotting and analysing the data!
 ### 1) Course of infection 
@@ -27,7 +30,7 @@ sdt <- sdt[sdt$EH_ID %in% c("LM0180", "LM0182","LM0184","LM0185","LM0186","LM019
 ##Wilcoxon test (Compare mean per DPI with DPI 0 as reference)
 sdt%>%
   filter(dpi%in%c("0","1","2","3","4", "5","6", "7", "8", "9", "10","11"))%>%
-  dplyr::select(EH_ID, dpi,OPG, Genome_copies_gFaeces)%>%
+  dplyr::select(EH_ID, dpi, Genome_copies_gFaeces)%>%
   dplyr::arrange(EH_ID)%>%
   dplyr::arrange(dpi)%>% ##for comparison 
   filter(!is.na(Genome_copies_gFaeces))%>%
@@ -39,91 +42,87 @@ sdt%>%
 ##Save statistical analysis
 x <- stats.test
 x$groups<- NULL
-#write.csv(x, "Tables/Genome_copies_gFaeces_DPI_Comparison.csv")
+#write.csv(x, "Tables/Primary_Infection/Genome_copies_gFaeces_DPI_Primary_Comparison.csv")
 
 stats.test%>%
   dplyr::mutate(y.position = log10(y.position))%>%
   dplyr::mutate(dpi = c("1","2","3","4", "5","6", "7", "8", "9", "10","11"))-> stats.test
 
 sdt%>%
-  filter(dpi%in%c("0","1","2","3","4", "5","6", "7", "8", "9", "10","11"))%>%
-  dplyr::select(EH_ID, dpi,OPG, Genome_copies_gFaeces, Infection)%>%
-  dplyr::arrange(EH_ID)%>%
-  dplyr::arrange(dpi)%>% ##for comparison 
-  filter(!is.na(Genome_copies_gFaeces))%>% 
-  #filter(Genome_copies_gFaeces!=0)%>% 
-  ggplot(aes(x= dpi, y= Genome_copies_gFaeces+1, color=dpi))+
-  scale_y_log10("log10 (Genome copies/g Faeces + 1) (qPCR)", 
-                breaks = scales::trans_breaks("log10", function(x) 10^x),
+  dplyr::select(EH_ID, dpi, Genome_copies_gFaeces, Infection)%>%
+  filter(!is.na(Genome_copies_gFaeces))%>%
+  filter(!is.na(Infection))%>%
+  ggplot(aes(dpi, Genome_copies_gFaeces+1))+ #remove colour=dpi to get black outline boxplot #replace fill with colour for no balck outline and coloured boxplot
+  geom_boxplot(fill = "white")+
+  scale_fill_manual(values=c("#6CB4EE", "#0066B2", "#89CFF0","#318CE7","#1E90FF","#4D4DFF","#3457D5","#00BFFF","#2A52BE","#0CAFFF","#6495ED","#1F75FE")) +
+  geom_point(aes(shape=Infection,fill = factor(dpi)), position=position_jitter(0.05), size=3.0,)+
+  scale_color_manual(values=c("#6CB4EE", "#0066B2", "#89CFF0","#318CE7","#1E90FF","#4D4DFF","#3457D5","#00BFFF","#2A52BE","#0CAFFF","#6495ED","#1F75FE"))+
+  scale_shape_manual(values = c(24, 21))+
+  labs(x="Day Post Infection", y="log10 (Genome copies/g Faeces + 1) (qPCR)")+
+  labs(tag= "a", shape= "qPCR results of Primary Infection")+
+  scale_y_log10(breaks = scales::trans_breaks("log10", function(x) 10^x),
                 labels = scales::trans_format("log10", scales::math_format(10^.x)))+
-  geom_boxplot()+
-  geom_point(position=position_jitter(0.2), size=2.5, aes(shape= Infection, fill=dpi))+
-  scale_shape_manual(values = c(21, 24))+
-  xlab("Day post infection")+
-  geom_line(aes(group = EH_ID), color= "gray", alpha= 0.5)+
-  labs(tag= "a", shape= "qPCR status (Melting curve)")+
+  geom_line(aes(group = EH_ID), color= "gray", alpha= 0.6)+
   theme_bw()+
-  theme(text = element_text(size=16), axis.title.x = element_blank(), legend.position = "top")+
+  guides(colour="none")+
+  guides(fill="none")+
+  theme(text = element_text(size=13), axis.title.x = element_blank(), legend.position = "top")+
   annotation_logticks(sides = "l")+
-  guides(fill=FALSE)+
-  stat_pvalue_manual(stats.test, label= "p.adj.signif", x= "dpi", y.position = 100000000000)-> A
+  stat_pvalue_manual(stats.test, label= "p.adj.signif", x= "dpi", y.position = 100000000000) ->A
+
+#pdf(file = "E88_Prim_test_1.pdf")
+#print(A)
+#dev.off()
+
+
 
 ## Oocysts
 ##Wilcoxon test (Compare mean per DPI with DPI 0 as reference)
- sdt%>%
-   filter(dpi%in%c("0","1", "2", "3","4", "5","6", "7", "8", "9", "10","11"))%>%
-   dplyr::select(EH_ID, dpi,OPG)%>%
-   dplyr::arrange(EH_ID)%>%
-   dplyr::arrange(dpi)%>% ##for comparison 
-   dplyr::mutate(OPG= OPG+1)%>% ##To check
-   filter(!is.na(OPG))->#%>% 
-   wilcox_test(OPG ~ dpi, alternative = "two.sided", ref.group = "0")%>%
-   adjust_pvalue(method = "bonferroni") %>%
-   add_significance()%>%
-   add_xy_position(x = "dpi")#-> stats.test
+sdt%>%
+  filter(dpi%in%c("0","1", "2", "3","4", "5","6", "7", "8", "9", "10","11"))%>%
+  dplyr::select(EH_ID, dpi,OPG)%>%
+  dplyr::arrange(EH_ID)%>%
+  dplyr::arrange(dpi)%>% ##for comparison 
+  dplyr::mutate(OPG= OPG+1)%>% ##To check
+  filter(!is.na(OPG))->#%>% 
+  wilcox_test(OPG ~ dpi, alternative = "two.sided", ref.group = "0")%>%
+  adjust_pvalue(method = "bonferroni") %>%
+  add_significance()%>%
+  add_xy_position(x = "dpi")#-> stats.test
 
 ##Save statistical analysis
 x <- stats.test
 x$groups<- NULL
-#write.csv(x, "Tables/OPG_DPI_Comparison.csv")
-
-#G<-"#56afd7","#46a2ce","#3d9ccb","#3191c3","#2a85b9","#2380b6","#177bb1","#0170a7","#13679f","#18629a","#195d96","#1c4d80"
-##  scale_color_manual(values=c("#56afd7","#46a2ce","#3d9ccb","#3191c3","#2a85b9","#2380b6","#177bb1","#0170a7","#13679f","#18629a","#195d96","#1c4d80"))+
+#write.csv(x, "Tables/Primary_Infection/OPG_DPI_Primary_Comparison.csv")
 
 sdt%>%
-  filter(dpi%in%c("0","1","2","3","4", "5","6", "7", "8", "9", "10","11"))%>%
-  dplyr::select(EH_ID, dpi,OPG, Genome_copies_gFaeces)%>%
-  dplyr::arrange(EH_ID)%>%
-  dplyr::arrange(dpi)%>% ##for comparison 
-  ggplot(aes(x= dpi, y= OPG+1, color=dpi))+
-  scale_y_log10("log10 (Oocysts/g Faeces + 1) (Flotation)", 
-                breaks = scales::trans_breaks("log10", function(x) 10^x),
+  dplyr::select(EH_ID, dpi, OPG)%>%
+  filter(!is.na(OPG))%>%
+  ggplot(aes(dpi, OPG+1, colour = dpi))+ #remove colour=dpi to get black outline boxplot
+  geom_boxplot(fill = "white")+
+  scale_fill_manual(values=c("#73F440", "#67DC38", "#439323","#76BA31","#A4DE3F","#D4FB41","#96B83D","#A7DB42","#77B430","#73F440","#00D2A9","#38D279")) +
+  geom_point(aes(fill = factor(dpi)), position=position_jitter(0.05), size=3.0,)+
+  scale_color_manual(values=c("#73F440", "#67DC38", "#439323","#76BA31","#A4DE3F","#D4FB41","#96B83D","#A7DB42","#77B430","#73F440","#00D2A9","#38D279"))+
+  scale_shape_manual(values = c(24))+
+  labs(x="Day Post Infection", y="log10 (Oocysts/g Faeces + 1) (qPCR)")+
+  labs(tag= "a", shape= "Flotation results of Primary Infection")+
+  scale_y_log10(breaks = scales::trans_breaks("log10", function(x) 10^x),
                 labels = scales::trans_format("log10", scales::math_format(10^.x)))+
-  geom_boxplot()+
-  geom_point(shape=21, position=position_jitter(0.2), size=2.5, aes(fill=dpi))+
-  xlab("Day post infection")+
-  geom_line(aes(group = EH_ID), color= "gray", alpha= 0.5)+
-  labs(tag= "b")+
+  geom_line(aes(group = EH_ID), color= "gray", alpha= 0.6)+
   theme_bw()+
-  theme(text = element_text(size=16), axis.title.x = element_blank(), legend.position = "none")+
+  guides(colour="none")+
+  guides(fill="none")+
+  theme(text = element_text(size=13), axis.title.x = element_blank(), legend.position = "top")+
   annotation_logticks(sides = "l")+
   stat_compare_means(label= "p.signif", method = "wilcox.test", ref.group = "0", paired = F, na.rm = TRUE)-> B
 
+#pdf(file = "E88_Prim_test_2.pdf", width = 10, height = 15)
+#grid.arrange(A,B)
+#dev.off()
 
-###  scale_color_manual(values=c("#56afd7","#46a2ce","#3d9ccb","#3191c3","#2a85b9","#2380b6","#177bb1","#0170a7","#13679f","#18629a","#195d96","#1c4d80")) +
-##Significant mean difference from day 4 and on... Basically DPI 0 to 3 No OPG and DPI 4 equal to 10!
 
 ####calculate relative weight loss using function
-#weightloss <- function(sdt)
-####calculate relative weight loss using function
-#weightloss <- function(sdt){
- # sdt$weightloss <-
-#    (sdt$weight_dpi0 - sdt$weight)
- # return(sdt)
-#}
-#sdt <- weightloss(sdt)
-
-sdt$weightloss <- (sdt$weight_dpi0 - sdt$weight)
+sdt$weightloss <- ((sdt$weight_dpi0 - sdt$weight)/sdt$weight_dpi0)*100
 
 ##Weight loss 
 ##Wilcoxon test (Compare mean per DPI with DPI 0 as reference)
@@ -138,32 +137,62 @@ sdt%>%
   add_xy_position(x = "dpi")-> stats.test
 
 ##Save statistical analysis
-x <- stats.test
-x$groups<- NULL
-#write.csv(x, "Tables/Weightloss_DPI_Comparison.csv")
+#x <- stats.test
+#x$groups<- NULL
+#write.csv(x, "Tables/Primary_Infection/Weightloss_DPI_Primary_Comparison.csv")
 
 sdt%>%
-  filter(dpi%in%c("0","1","2","3","4", "5","6", "7", "8", "9", "10","11"))%>%
-  dplyr::select(EH_ID, dpi,weightloss)%>%
-  dplyr::arrange(EH_ID)%>%
-  dplyr::arrange(dpi)%>% ##for comparison 
-  ggplot(aes(x= dpi, y= weightloss))+
-  geom_boxplot()+
-  geom_point(shape=21, position=position_jitter(0.2), size=2.5, aes(fill= dpi), color= "black")+
-  xlab("Day post infection")+
-  ylab("Weight loss (%)")+
-  geom_line(aes(group = EH_ID), color= "gray", alpha= 0.5)+
-  scale_color_brewer(palette = "Paired")+
-  labs(tag= "c", caption = get_pwc_label(stats.test))+
+  dplyr::select(EH_ID, dpi, weightloss)%>%
+  filter(!is.na(weightloss))%>%
+  ggplot(aes(dpi, weightloss, colour =dpi))+ #remove colour=dpi to get black outline boxplot #replace fill with colour for no balck outline and coloured boxplot
+  geom_boxplot(fill = "white")+
+  scale_fill_manual(values=c("#E63A5F", "#ED5487", "#E03B72","#EF6668","#F6C0D2","#F6C0D2","#EC49B2","#F195C6","#F080AA","#EC4395","#EC47A8","#EC407E")) +
+  geom_point(aes(colour = factor(dpi)), position=position_jitter(0.05), size=3.0,)+
+  scale_color_manual(values=c("#E63A5F", "#ED5487", "#E03B72","#EF6668","#F6C0D2","#F6C0D2","#EC49B2","#F195C6","#F080AA","#EC4395","#EC47A8","#EC407E"))+
+  scale_shape_manual(values = c(24))+
+  labs(x="Day Post Infection", y=" Weightloss")+
+  labs(tag= "a", shape= "Percentage of Weightloss of Primary Infections")+
+  geom_line(aes(group = EH_ID), color= "gray", alpha= 0.6)+
   theme_bw()+
-  theme(text = element_text(size=16), legend.position = "none")+
+  guides(colour="none")+
+  guides(fill="none")+
+  theme(text = element_text(size=13), axis.title.x = element_blank(), legend.position = "top")+
   stat_compare_means(label= "p.signif", method = "wilcox.test", ref.group = "0", paired = F, na.rm = TRUE)-> C
 
+
 ##Figure 2: Course of Eimeria Infection in genome copies, OPG, and weight loss
-#pdf(file = "Figures/Figure_2.pdf", width = 10, height = 15)
-#grid.arrange(A,B,C)
-#dev.off()
-rm(A,B,C, x, stats.test)
+pdf(file = "Figures/Figure_2A_test_3.pdf", width = 10, height = 15)
+grid.arrange(A,B,C)
+dev.off()
+###rm(A,B,C, x, stats.test)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ### 2) Correlation among Eimeria quantification methods

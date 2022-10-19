@@ -23,24 +23,33 @@ fecweight <- read.csv ("Raw_Data/E88_primary_fecweight.csv", header=T, na.string
 sample.data <- sample.data %>% 
   dplyr::filter(!primary_infection == "E64")
 
-##rename the entries under the column 'Sample_ID' in file Nanodrop_2.0 to 
-##E57aXXX to allow merge with file Quant2_E57
-Nanodrop$labels = paste('E57a',Nanodrop$Sample_ID, sep = '')
-
 ##rename column 'DNA_conc' of Nanadrop_2.0 to Conc_Data to allow cohesion with Victor's data
 Nanodrop <- Nanodrop %>% 
-  rename(Conc_DNA = DNA_Conc)
+  rename(
+    Conc_DNA = DNA_Conc,
+    R260.280 = X260.280,
+    R260.230 = X260.230
+    )
+
+##rename the entries under the column 'Sample_ID' in file Nanodrop to 
+##E57aXXX to allow merge with file Quant2_E57
+Nanodrop$labels = paste('E57a',Nanodrop$Sample_ID, sep = '')
+##remove Nanodrop duplicates based on 260/280 ratio
+Nanodrop$Sample_ID[duplicated(Nanodrop$Sample_ID)]
+Nanodrop <- Nanodrop %>% distinct(Sample_ID, .keep_all = TRUE)
+#remove column Sample_ID
+Nanodrop = subset(Nanodrop, select = -c(Sample_ID, Unit) )
 
 ##rename column 'feces_weight' of Quant2_E57 to 'fecweight_flot' to allow cohesion with Victor's data
 sample.data <- sample.data %>% 
   rename(fecweight_flot = feces_weight)
 
-##merge files Quant2_E57, Nanadrop_2.0 and fecweight
+##merge files Quant2_E57, Nanadrop and fecweight
 sample.data = left_join(sample.data, Nanodrop) %>%
   left_join(., fecweight)
 
 ##remove column 'Sample_ID' from merged file
-sample.data = subset(sample.data, select = -c(Sample_ID) )
+#sample.data = subset(sample.data, select = -c(Sample_ID) )
 
 
 ##R identifies the entries under column fecweight_DNA as 'NULL'
@@ -82,16 +91,16 @@ sample.data %>%
 sample.data$labels<- as.vector(sample.data$labels)
 rownames(sample.data) <- make.unique(sample.data$labels)
 
-rm(Nanodrop,fecweight)
+rm(Nanodrop,fecweight, calculateOPG)
 
 ##Merge qPCR data 
 #Ms. Fay Webster's function was adpated to merge all qPCR files into one
-#setwd("Raw_Data/qPCR/")
+#setwd("Raw_Data/qPCR/qPCR_Primary/")
 
 #all individual qPCR.csv files form a list
 #list_faeces <- as.list(list.files())
 
-#to all a function to perform itself on the list, it is transformed into a vector
+#to perform a function to a list, it is transformed into a vector
 #list_names <- as.vector(unlist(list_faeces))
 
 #function set by Fay Webster to deleted rows 1 to 24 and set a new column that 
@@ -116,8 +125,8 @@ rm(Nanodrop,fecweight)
 
 #rm(list_results, list_faeces,list_names, calculateOPG, read_qPCR_file)
 
-#setwd("/Users/vinuri/Documents/GitHub/Eimeria_Quant2")
-#write.csv(df_results, "Data/qPCR_fecal_lab_merged.csv", row.names=FALSE)
+#setwd("/Users/vinuri/Documents/GitHub/Eimeria_Quant2/Output_Data/")
+#write.csv(df_results, "qPCR_E88_primary_merged.csv", row.names=FALSE)
 #rm(df_results)
 
 
