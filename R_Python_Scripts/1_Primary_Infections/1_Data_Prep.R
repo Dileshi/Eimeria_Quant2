@@ -9,7 +9,7 @@ library(readr)
 
 
 ## Quant2_E57 includes both genotype and flotation data merged unlike in Victor's case
-##Hence, Victor's R script is adapted accordingly 
+#Hence, Victor's R script is adapted accordingly 
 
 ##Load data
 #Quant2_E57 data has flotation and genotype data

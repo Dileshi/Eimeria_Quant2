@@ -309,7 +309,7 @@ sample.data <- sample.data[ , ! names(sample.data) %in% "infection"]
 
 ###Join all the data in the same dataframe
 sdt<- left_join(sample.data, data.inf.exp, by="labels") ## Add qPCR data
-###Tiny adjustment  
+### adjustment  
 sdt$dpi<- as.factor(sdt$dpi)
 
 rm(data.inf.exp, sample.data)
