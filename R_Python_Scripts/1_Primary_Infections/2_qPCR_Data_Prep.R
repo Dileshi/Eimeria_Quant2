@@ -295,7 +295,7 @@ data.inf.exp %>%
 data.inf.exp%>%
   dplyr::mutate(Genome_copies = case_when((Infection=="Negative")~ 0,
                                           TRUE~ Genome_copies))%>% ## Make Negative zero
-  dplyr::select(labels, Genome_copies, Tm, Infection)%>%
+  dplyr::select(labels, Genome_copies, Tm, Infection,Cq_mean,)%>%
   dplyr::filter(!labels%in%c("Pos_Ctrl","Neg_Ctrl"))%>% ## Replace NAs in real negative samples to 0 
   dplyr::mutate(Genome_copies= replace_na(Genome_copies, 0))%>%
   dplyr::mutate(Tm= replace_na(Tm, 0))%>%

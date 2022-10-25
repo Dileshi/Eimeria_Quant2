@@ -1,3 +1,4 @@
+###script for secondary infection (E64)
 ##Run scripts on Root of Repo (Eimeria_Quant2)
 
 library(dplyr)
@@ -49,8 +50,6 @@ rm(Nanodrop, fecweight,data)
 #OPG calculations
 ####################################################
 
-
-
 challenge$oocyst_sq1 <- as.numeric(as.character(challenge$oocyst_sq1))
 challenge$oocyst_sq2 <- as.numeric(as.character(challenge$oocyst_sq2)) 
 challenge$oocyst_sq3 <- as.numeric(as.character(challenge$oocyst_sq3)) 
@@ -95,12 +94,12 @@ challenge$labels<- as.vector(challenge$labels)
 rownames(challenge) <- make.unique(challenge$labels)
 
 ##Transform to zero OPGs for DPI 1 and 2 and 3
-sdt$OPG[sdt$dpi==1] <- 0
-sdt$OPG[sdt$dpi==2] <- 0  
-sdt$OPG[sdt$dpi==3] <- 0
+#challenge$OPG[challenge$dpi==1] <- 0
+#challenge$OPG[challenge$dpi==2] <- 0  
+#challenge$OPG[challenge$dpi==3] <- 0
 
-
-write.csv(challenge, "Output_Data/All_parameters_merged_challenge.csv", row.names = FALSE)
+rm(calculateOPG)
+#write.csv(challenge, "Output_Data/All_parameters_merged_challenge.csv", row.names = FALSE)
 
 
 ####################################################
@@ -122,7 +121,7 @@ write.csv(challenge, "Output_Data/All_parameters_merged_challenge.csv", row.name
 #function set by Fay Webster to deleted rows 1 to 24 and set a new column that 
 #includes the file name i.e. date of qPCR experiment
 #read_qPCR_file <- function(x) {
-  df1 = read_csv(x, col_names = FALSE)
+  df1 = read_csv(x)
   filename <- colnames(df1[2])
   df1 <- df1 %>%
     filter(!row_number() %in% c(1:24))
@@ -141,7 +140,7 @@ write.csv(challenge, "Output_Data/All_parameters_merged_challenge.csv", row.name
 
 #rm(list_results, list_faeces,list_names, read_qPCR_file)
 
-#write.csv(df_results, "qPCR_fecal_lab_challenge_merged.csv", row.names=FALSE)
+#write.csv(df_results, "qPCR_fecal_lab_E64_challenge_merged.csv", row.names=FALSE)
 ##moved to "\Eimeria_Quant2\Output_Data"
 #rm(df_results)
 

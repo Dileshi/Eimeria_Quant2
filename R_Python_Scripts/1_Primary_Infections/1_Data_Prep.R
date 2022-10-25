@@ -15,13 +15,15 @@ library(readr)
 #Quant2_E57 data has flotation and genotype data
 #Nanadrop_2.0 has the DNA concentration data of our extractions
 ##E88_fecweight has the weight of fecal matter used in the DNA extraction
-sample.data <- read.csv("Raw_Data/Quant2_E57.csv")
+sample.data <- read.csv("https://raw.githubusercontent.com/derele/Eimeria_Lab/master/data_products/Quant2_E57.csv")
 Nanodrop <- read.csv ("Raw_Data/E88_primary_Nanodrop.csv")
 fecweight <- read.csv ("Raw_Data/E88_primary_fecweight.csv", header=T, na.strings=c("","NA"))
 
 ## Filter out the E64 (E. ferrisi) mice in Quant2_E57 file
 sample.data <- sample.data %>% 
   dplyr::filter(!primary_infection == "E64")
+#remove first row
+sample.data <- subset( sample.data, select = -1 )
 
 ##rename column 'DNA_conc' of Nanadrop_2.0 to Conc_Data to allow cohesion with Victor's data
 Nanodrop <- Nanodrop %>% 

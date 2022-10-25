@@ -17,10 +17,12 @@ if(!exists("sdt")){
     source("R_Python_Scripts/1_Primary_Infections/2_qPCR_Data_Prep.R")
   }
 
-##select the completed 26 mice 
-sdt <- sdt[sdt$EH_ID %in% c("LM0179","LM0180","LM0181", "LM0182","LM0184","LM0185","LM0186","LM0195","LM0228","LM0229",
-                             "LM0238", "LM0191","LM0240","LM0244","LM0246","LM0247","LM0248","LM0194","LM0190","LM0199",
-                             "LM0197","LM0198","LM0188","LM0254","LM0255","LM0192"),]
+##select the completed 26 mice <- correction 18 mice not 26 mice 
+sdt <- sdt[sdt$EH_ID %in% c("LM0179","LM0180","LM0181", "LM0182","LM0184","LM0185","LM0186","LM0188","LM0190","LM0191",
+                            "LM0192", "LM0194","LM0195","LM0197","LM0198","LM0199","LM0244","LM0246"),]
+##sdt <- sdt[sdt$EH_ID %in% c("LM0179","LM0180","LM0181", "LM0182","LM0184","LM0185","LM0186","LM0195","LM0228","LM0229",
+                             ##"LM0238", "LM0191","LM0240","LM0244","LM0246","LM0247","LM0248","LM0194","LM0190","LM0199",
+                             ##"LM0197","LM0198","LM0188","LM0254","LM0255","LM0192"),]
 
 #sdt_breif <- sdt[c(1,3,7,8,9,10,50,57,63,64,65,66,67,68,69,70,71,72)]
 

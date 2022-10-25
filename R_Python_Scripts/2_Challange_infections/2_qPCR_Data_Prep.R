@@ -10,23 +10,42 @@ library(tidyr)
 if(!exists("data.std")){
   source("R_Python_Scripts/1_Primary_Infections/2_qPCR_Data_Prep.R")
   }
-
+rm(sample.data)
 #load qPCR data challenge infection and clean
-DNA.data <- read.csv("Output_Data/qPCR_fecal_lab_challenge_merged.csv")
+DNA.data <- read.csv("Output_Data/qPCR_fecal_lab_E64_challenge_merged.csv")
 DNA.data <- rename (DNA.data, Cq_mean = Cq.Mean)
+
+DNA.data.brief <- DNA.data[c(2,4,13,22,26)]
+#remove old replicates (use new plate 11.10 plate)
+DNA.data<-DNA.data[-c(271:273,43:48,280:282,55:57,286:288,64:66,223:225,13:15,70:72,187:189,88:93,199:201,130:132,235:237), ]
+#remove NTC and NA
+DNA.data <- DNA.data[DNA.data$Sample != "NTC", ] 
+DNA.data <- DNA.data[DNA.data$Sample != "NTC1", ] 
+DNA.data <- DNA.data[DNA.data$Sample != "NTC2", ]
+DNA.data <- DNA.data[DNA.data$Sample != "NTC3", ]
+DNA.data <- DNA.data[!is.na(DNA.data$Sample),]
+rm(DNA.data.brief)
+
+#double check for dublicates
+Freq_list <- data.frame(table(DNA.data$Sample))
+Freq_list = Freq_list[Freq_list$Freq > 3,]
+rm(Freq_list)
 
 #create new column in dataframe in challenge to allow merge with DNA.data dataframe
 #challenge dataframe new column named sample will contain labels without E57x or E57y to allow merge
 challenge <- read.csv("Output_Data/All_parameters_merged_challenge.csv")
+#remove "E57bx" & "E57by" in DNA.data dataframe
+DNA.data$Sample<-gsub("E57bx","",as.character(DNA.data$Sample))
+DNA.data$Sample<-gsub("E57by","",as.character(DNA.data$Sample))
 #subset required info
 challenge %>%
-  select(labels, EH_ID, dpi,Conc_DNA,fecweight_DNA,OPG,relative_weight) -> challenge.DNA
+  select(labels, EH_ID, dpi,Conc_DNA,fecweight_DNA,OPG,relative_weight,weight_dpi0,weight) -> challenge.DNA
 #introduce new column named Sample containing 3-letter code
 challenge.DNA$Sample = challenge.DNA$labels
 challenge.DNA$Sample<-gsub("E57bx","",as.character(challenge.DNA$Sample))
 challenge.DNA$Sample<-gsub("E57by","",as.character(challenge.DNA$Sample))
 #merge qPCR data and sample data 
-challenge.DNA = left_join(DNA.data,challenge.DNA)
+challenge.DNA = left_join(challenge.DNA,DNA.data)
 rm(DNA.data,challenge)
 
 #rename: cohesive with other scripts
@@ -74,7 +93,7 @@ challenge.DNA %>%
 challenge.DNA%>%
   dplyr::mutate(Genome_copies = case_when((Infection=="Negative")~ 0,
                                           TRUE~ Genome_copies))%>% ## Make Negative zero
-  dplyr::select(labels, Genome_copies, Tm, Infection,EH_ID,dpi,Cq_mean, Conc_DNA,fecweight_DNA,OPG,relative_weight)%>%
+  dplyr::select(labels, Genome_copies, Tm, Infection,EH_ID,dpi,Cq_mean, Conc_DNA,fecweight_DNA,OPG,relative_weight,weight_dpi0,weight)%>%
   dplyr::filter(!labels%in%c("Pos_Ctrl","Neg_Ctrl"))%>% ## Replace NAs in real negative samples to 0 
   dplyr::mutate(Genome_copies= replace_na(Genome_copies, 0))%>%
   dplyr::mutate(Tm= replace_na(Tm, 0))%>%
@@ -88,8 +107,9 @@ challenge.DNA%>%
                 ## Transform it to ng fecal DNA by g of faeces
                 Genome_copies_gFaeces= Genome_copies_ngDNA*DNA_g_feces) -> challenge.DNA ## Estimate genome copies by g of faeces
 
-#####NOTE: Out 0f 73 samples 68 are calculated -> check 5 missing samples 
-
+#set NA to zero 
+challenge.DNA$Genome_copies_gFaeces[challenge.DNA$labels=="E57byOSY"] <- 0
+challenge.DNA$Genome_copies_gFaeces[challenge.DNA$labels=="E57bxOPZ"] <- 0  
 
 
 
