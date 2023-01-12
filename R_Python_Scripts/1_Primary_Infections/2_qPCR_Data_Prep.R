@@ -51,7 +51,7 @@ data.std%>%
 data.std$Cq_mean = as.numeric(data.std$Cq_mean)
                 
 data.std%>%
-  dplyr::mutate(Genome_copies= Oocyst_count*8)-> data.std  ###Not multiplyimg by 8
+  dplyr::mutate(Genome_copies= Oocyst_count*8)-> data.std  ###Not multiplying by 8
 ###unknown if sporulated or unsporulated 
 
 data.std%>%
@@ -316,7 +316,7 @@ rm(data.inf.exp, sample.data)
 
 sdt%>%
   dplyr::mutate(Genome_copies_ngDNA= Genome_copies/50, ## copies by ng of fecal DNA considering 1uL from 50 ng/uL DNA
-                DNA_sample= Conc_DNA*40, ## Estimate total gDNA of sample considering 30uL of elution buffer
+                DNA_sample= Conc_DNA*40, ## Estimate total gDNA of sample considering 40uL of elution buffer
                 DNA_g_feces= DNA_sample/fecweight_DNA,
                 ## Transform it to ng fecal DNA by g of faeces
                 Genome_copies_gFaeces= Genome_copies_ngDNA*DNA_g_feces) -> sdt ## Estimate genome copies by g of faeces

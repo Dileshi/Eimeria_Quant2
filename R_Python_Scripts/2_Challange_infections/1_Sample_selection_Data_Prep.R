@@ -8,11 +8,11 @@ library(readr)
 
 data = read.csv("https://raw.githubusercontent.com/derele/Eimeria_Lab/master/data_products/Challenge_infections.csv")
 
-challenge <- data[data$EH_ID %in% c("LM0258", "LM0259","LM0260","LM0262",
-                                    "LM0265","LM0269","LM0270","LM0279","LM0280", "LM0284"),]
-challenge <- challenge %>% 
-  dplyr::filter(infection == "challenge")
-##write.csv(challenge,"E64_challenged.csv")
+#challenge <- data[data$EH_ID %in% c("LM0258", "LM0259","LM0260","LM0262",
+ #                                   "LM0265","LM0269","LM0270","LM0279","LM0280", "LM0284"),]
+challenge <- data %>% 
+  dplyr::filter(infection == "challenge") %>%
+  dplyr::filter(primary_infection == "E64" & challenge_infection == "E64" & experiment == "E57")
 
 #load fecal_weight and Nanodrop data 
 fecweight <- read.csv("Raw_Data/E64_challenged_fecweight.csv")

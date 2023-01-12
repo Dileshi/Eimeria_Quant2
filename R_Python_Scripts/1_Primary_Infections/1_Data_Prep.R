@@ -80,18 +80,21 @@ sample.data <- calculateOPG(sample.data = sample.data)
 ##Check for spaces
 sample.data$EH_ID <- gsub(pattern = " ", replacement = "", x = sample.data$EH_ID)
 
+
+
+##remove?
 ###Estimate microbiota density (MD) from Contijoch et al. 2019
 ### MD = total DNA per sample (µg)/ mg of fresh feces
 ##considering 40µL of elution volume 
-#Conc_DNA is in ng/µl, hence, x0.001 
-sample.data %>%
-  mutate(Total_DNA = (sample.data$Conc_DNA*40)*0.001) -> sample.data ### Add a new variable that will contain total DNA extracted per sample in µg
+#Conc_DNA is in ng/µl, hence, x0.001 (fecal mass measured in grams)
+#sample.data %>%
+  #mutate(Total_DNA = (sample.data$Conc_DNA*40)*0.001) -> sample.data ### Add a new variable that will contain total DNA extracted per sample in µg
 
-sample.data %>%
-  mutate(Microbial_density = sample.data$Total_DNA/(sample.data$fecweight_DNA*1000)) -> sample.data ### Total DNA extracted per sample in µg by feces weight in mg
+#sample.data %>%
+  #mutate(Microbial_density = sample.data$Total_DNA/(sample.data$fecweight_DNA*1000)) -> sample.data ### Total DNA extracted per sample in µg by feces weight in mg
 
-sample.data$labels<- as.vector(sample.data$labels)
-rownames(sample.data) <- make.unique(sample.data$labels)
+#sample.data$labels<- as.vector(sample.data$labels)
+#rownames(sample.data) <- make.unique(sample.data$labels)
 
 rm(Nanodrop,fecweight, calculateOPG)
 

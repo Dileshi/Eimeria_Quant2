@@ -33,10 +33,11 @@ rm(Freq_list)
 
 #create new column in dataframe in challenge to allow merge with DNA.data dataframe
 #challenge dataframe new column named sample will contain labels without E57x or E57y to allow merge
-challenge <- read.csv("Output_Data/All_parameters_merged_challenge.csv")
+    #challenge <- read.csv("Output_Data/All_parameters_merged_challenge.csv")
 #remove "E57bx" & "E57by" in DNA.data dataframe
 DNA.data$Sample<-gsub("E57bx","",as.character(DNA.data$Sample))
 DNA.data$Sample<-gsub("E57by","",as.character(DNA.data$Sample))
+
 #subset required info
 challenge %>%
   select(labels, EH_ID, dpi,Conc_DNA,fecweight_DNA,OPG,relative_weight,weight_dpi0,weight) -> challenge.DNA
@@ -51,6 +52,8 @@ rm(DNA.data,challenge)
 #rename: cohesive with other scripts
 challenge.DNA <- rename (challenge.DNA, c(Ct = Cq, Tm = Tm1))
 data.std <- rename (data.std, c(Tm = Tm1))
+
+challenge.DNA$fecweight_DNA<- as.numeric(challenge.DNA$fecweight_DNA)
 
 ##PREDICT GENOME COPIES USING STANDARD
 lm.data.std<- lm(log10(Genome_copies)~Cq_mean, data.std, na.action = na.exclude)
