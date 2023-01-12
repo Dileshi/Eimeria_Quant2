@@ -1,3 +1,5 @@
+<meta name="google-site-verification" content="HQKl6JFuo8FXNd1-yonAnFe1CSwPDG1axo4pJHQDNc0" />
+
 # My first repository 
 # Master Thesis titled "DNA-based quantification of parasite load compared to oocyst count in Eimeria falciformis infected mice"
 Thesis supervised by Professor Emanuel Heitlinger and conducted at the Humboldt University in Berlin (March 2022 - December 2022)
@@ -14,4 +16,4 @@ Output figures displayed in the thesis and others
 Repository closed on 12 January 2022 post Thesis submission. 
 Note: The R scripts require more polishing. Figures in repository are not finalized. 
 
-<meta name="google-site-verification" content="HQKl6JFuo8FXNd1-yonAnFe1CSwPDG1axo4pJHQDNc0" />
+
