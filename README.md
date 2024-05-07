@@ -14,6 +14,6 @@ Folder contains cleaned and summarized data
 Output figures displayed in the thesis and others
 
 Repository closed on 12 January 2022 post Thesis submission. 
-Note: The R scripts require more polishing. Figures in repository are not finalized. 
+Note: The R scripts require more polishing. Figures in repository are not finalized.
 
 
